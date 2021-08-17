@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+        
+    </head>
+    <body>
+
+        {% include header.html %}
+
+        {% include navigation.html %}
+       
+        {{ content }}
+
+        {% include footer.html %}
+        {% include analytics.html %}
+        
+        <!-- Scripts -->
+
+        <script src="{{site.baseurl}}/assets/js/production.min.js"></script>
+        <script src="//localhost:35729/livereload.js"></script>
+    
+    </body>
+
+
+</html>

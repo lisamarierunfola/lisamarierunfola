@@ -1,0 +1,140 @@
+$font--heading: serif;
+$font--body: sans-serif;
+$font--caption: sans-serif;
+$font--monospace: monospace;
+
+// Colors
+
+$small-width: 600px;
+$medium-width: 768px;
+$large-width: 1024px;
+$x-large-width: 1400px;
+
+@mixin small {
+  @media (min-width: #{$small-width}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: #{$medium-width}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$large-width}) {
+    @content;
+  }
+}
+
+@mixin x-large {
+  @media (min-width: #{$x-large-width}) {
+    @content;
+  }
+}
+
+.center { text-align: center; margin: 0 auto; }
+
+// Animations
+
+@import "https://raw.githubusercontent.com/daneden/animate.css/master/animate.min.css";
+
+%full-bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    // background-attachment: fixed;
+}
+
+%word-break {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+::selection {
+  background: rgba(black, 0.7);
+	color: white;
+}
+
+::-moz-selection {
+  background: rgba(black, 0.7);
+	color: white;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:focus {
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+b { font-weight: normal; }
+
+s { text-decoration: line-through; }
+
+i { font-style: normal; }
+
+strong { font-weight: bold; }
+
+em { font-style: italic; }
+
+u { text-decoration: underline; }
+
+img { max-width: 100%; }
+
+small {
+    font-size: 90%;
+}
+
+// Form Reset
+
+input[placeholder],
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="submit"],
+	textarea,
+	select,
+	option {
+	  // color: white;
+	  // padding: 1rem;
+	  // border-radius: 0;
+	  // background: rgba(white, 0);
+	  // outline-offset: 0;
+	  // max-width: 100%;
+	  // font: {
+	  // 	family: $font--body;
+	  // }
+}
+
+input[type="submit"] {
+	// font: {
+	// 	family: $font--body;
+	// 	weight: bold;
+	// }
+	// text-transform: uppercase;
+	// -webkit-appearance: none;
+	// appearance: none;
+	// border-radius: 0;
+}

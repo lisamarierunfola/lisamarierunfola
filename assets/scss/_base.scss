@@ -1,0 +1,65 @@
+body {
+	font: {
+		family: $font--body;
+		size: 100%;
+	}
+}
+
+// $padding--horizontal: 7.5vw;
+// $padding--vertical: 4rem;
+
+// .section {
+//   padding: $padding--vertical $padding--horizontal;
+//   max-width: 1600px;
+//   margin: 0 auto;
+// }
+
+* {
+	transition: 0.25s;
+}
+
+h1 {
+	font: {
+		family: $font--heading;
+		size: 1.95rem;
+	}
+	line-height: 1.15;
+	margin-bottom: 1.25rem;
+}
+
+h2 {
+	font: {
+		family: $font--heading;
+		size: 1.65rem;
+	}
+	line-height: 1.15;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font: {
+		family: $font--body;
+		size: 1.35rem;
+	}
+	margin-bottom: 2rem;
+}
+
+p, ul, ol, dl {
+	font-size: 1rem;
+	margin-bottom: 1.25rem;
+	line-height: 1.8;
+
+	@include medium {
+		font-size: 1.125rem;	
+	}
+
+	a {
+		text-decoration: underline;
+
+		&:hover, &:focus {
+			text-decoration: none;
+		}
+	}
+	
+}
+
