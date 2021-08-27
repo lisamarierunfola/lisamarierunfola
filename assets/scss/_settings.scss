@@ -51,8 +51,11 @@ $cream: #F7F4EE;
 $pink: #D15380;
 $yellow: #DBBB66;
 $teal: #809BA8;
+$olive: #809E92;
+$green: #0F3820;
 
 $white: #F7F5F0;
+$off-white: #E5E5E0;
 
 @function strip-unit($value) {
   @return $value / ($value * 0 + 1);
@@ -132,6 +135,7 @@ $font--cursive: 'printed moments';
 @mixin text--medium-heading {
 	font-family: $font--heading;
   @include fluid-type($min_width, $max_width, 40px, 145px);
+  line-height: 105%;
 	
   @include large {
     line-height: 105%;
@@ -150,7 +154,7 @@ $font--cursive: 'printed moments';
 	line-height: 28px;
 
   @include large {  
-	  line-height: 60px;
+	  line-height: 133%;
   }
 }
 

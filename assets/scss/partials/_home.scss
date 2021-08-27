@@ -283,6 +283,9 @@ section.home__hero {
     background-size: 55%;
     background-repeat: no-repeat;
 
+    padding-top: 48px;
+    padding-bottom: 48px;
+
     @include large {
         padding-top: 108px;
         padding-bottom: 108px;
@@ -312,5 +315,118 @@ section.home__hero {
 
     p {
         width: 65%;
+    }
+}
+
+.home__steps {
+    padding-left: 0;
+    padding-right: 0;
+    grid-gap: 0;
+
+    .module {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(6, 1fr);
+        padding-left: 32px;
+        padding-right: 32px;
+
+        @include large {
+            grid-column: span 6;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        &:nth-of-type(1) {
+            background: $teal;
+        }
+        &:nth-of-type(2) {
+            background: $peach;
+        }
+        &:nth-of-type(3) {
+            background: $off-white;
+            h3 { color: $olive; }
+        }
+        &:nth-of-type(4) {
+            background: $yellow;
+        }
+
+        img {
+            grid-column: 1/1;
+            width: 40px;
+
+            @include large {
+                width: 100px;
+                grid-column: 2/2;
+            }
+        }
+
+        article {
+            grid-column: 2/6;
+            padding: 42px 0 32px;
+
+            @include large {
+                padding: 96px 0 138px;
+                margin-left: 2rem;
+                grid-column: 3/6;
+            }
+
+            h3 {
+                @include text--small-heading;
+                color: $white;
+                margin-bottom: 10px;
+
+                @include large {
+                    margin-bottom: 40px;
+                }
+            }
+
+            p {
+                @include text--lead;
+            }
+        }
+    }
+}
+
+.home__call {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    @include large {
+        padding-top: 112px;
+        padding-bottom: 160px;
+    }
+
+    article {
+        @include large {
+            grid-column: 2/12;
+        }
+    }
+
+    h1 {
+        @include text--medium-heading;
+
+        @include large {
+            display: inline;
+        }
+    }
+
+    .circle-arrow {
+        width: 54px;
+        display: block;
+
+        @include large {
+            display: inline;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            width: 10vw;
+        }
+    }
+}
+
+.home__quote {
+    background: $green;
+
+    p {
+        color: $white;
     }
 }

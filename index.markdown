@@ -236,3 +236,74 @@ dark-header: true
         </p>
     </main>
 </section>
+
+<section class="section home__steps">
+  <div class="module">
+    <img src="{{ site.baseurl }}/assets/img/step1.svg" alt="">
+    <article>
+      <h3>Make a <br class="hide--mobile"> decision</h3>
+      <p>
+        You don’t have to wait for exactly the right moment to transform your life. Your moment is now!
+      </p>
+    </article>
+  </div>
+  <div class="module">
+    <img src="{{ site.baseurl }}/assets/img/step2.svg" alt="">
+    <article>
+      <h3>Schedule a <br class="hide--mobile">
+        Discovery Call</h3>
+      <p>
+        Jump into action with a FREE 45-minute Kindling Call that will have you motivated and excited about life!
+      </p>
+    </article>
+  </div>
+  <div class="module">
+    <img src="{{ site.baseurl }}/assets/img/step3.svg" alt="">
+    <article>
+      <h3>Show <br class="hide--mobile"> Commitment</h3>
+      <p>
+        Honor your whole self by creating the healthy boundaries that will help you live the life you’re waiting for.
+      </p>
+    </article>
+  </div>
+  <div class="module">
+    <img src="{{ site.baseurl }}/assets/img/step4.svg" alt="">
+    <article>
+      <h3>Transformation <br class="hide--mobile"> Completed</h3>
+      <p>
+        By learning how to break through your blocks, face your fears, and set clear and loving boundaries, you’ll end up finding your happiness.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section class="section home__call">
+  <article>
+    <h1>Book a <br class=""> Discovery Call
+    </h1>
+    <img class="circle-arrow" src="{{ site.baseurl }}/assets/img/circle-arrow.svg" alt="">
+
+  </article>
+</section>
+
+<section class="section quote home__quote">
+  <header>
+      <h1>Some <br class="hide--mobile">
+          <span class="shift">Good</span><br class="hide--mobile">
+          Words
+      </h1>
+      <div class="cursive">From the Reignited</div>
+  </header>
+
+  <main>
+      <div class="quote">&ldquo;</div>
+      <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      </p>
+      <cite>
+          <p class="person">Lauren Higgins</p>
+          <p class="title">CLIENT</p>
+      </cite>
+      <img src="{{ site.baseurl }}/assets/img/arrow-mobile.svg" alt="" class="arrow">
+  </main>
+</section>

@@ -385,10 +385,13 @@
     }
 }
 
-.ignite__quote {
+.quote {
     padding-top: 64px;
     padding-bottom: 64px;
-    background: $yellow;
+
+    &.ignite__quote {
+        background: $yellow;
+    }
 
     @include large {
 
@@ -422,7 +425,7 @@
             color: $white;
             // font-size: 20px;
 
-            @include fluid-type($min_width, $max_width, 20px, 60px);
+            @include fluid-type($min_width, $max_width, 20px, 45px);
 
             @include large {
                 // font-size: 60px;
@@ -448,7 +451,7 @@
         }
 
         > p {
-            @include text--lead;
+            @include text--body;
             margin-bottom: 24px;
         }
 
@@ -467,6 +470,7 @@
 
             .role {
                 font-size: 14px;
+                font-weight: bold;
 
                 @include large {
                     font-size: 18px;

@@ -242,7 +242,7 @@ title: Let's Ignite
     </a>
 </section>
 
-<section class="section ignite__quote">
+<section class="section quote ignite__quote">
     <header>
         <h1>Some <br class="hide--mobile">
             <span class="shift">Good</span><br class="hide--mobile">
