@@ -1,0 +1,276 @@
+.about__hero {
+    background-image: url('../img/about-bg.png');
+    align-items: end;
+
+    background-position-x: 30% !important;
+
+    @include large {
+        align-items: center;
+    }
+
+    h1 {
+        color: $white;
+        text-align: center;
+        padding-bottom: 50px;
+
+        @include text--large-heading;
+
+        @include large {
+            text-align: left;
+            grid-column: 6/13;
+            // font-size: 200px;
+            padding-bottom: 0;
+        }
+
+        .shift {
+            @include large {
+                position: relative;
+                left: 5rem;
+            }
+        }
+    }
+}
+
+.about__intro {
+    background: $cream url('../img/whitewave.svg') center bottom no-repeat;
+    @extend %full-bg;
+    padding-top: 60px;
+
+    // background-position: 0% 90%;
+
+    @include max-large {
+        background-position: 0% 90%;
+    }
+
+    @include large {
+        padding-top: 200px;
+        padding-bottom: 145px;
+    }
+
+    main {
+        margin-bottom: 2rem;
+
+        @include large {
+            grid-column: 6/12;
+            margin-bottom: 0;
+        }
+
+        figure {
+            position: relative;
+            width: 85%;
+            margin: 0 auto;
+
+            @include large {
+                width: 100%;
+            }
+
+            .badge {
+                position: absolute;
+                top: 0;
+                right: 5%;
+                width: 35%;
+
+                @include large {
+                    width: 35%;
+                }
+            }
+        }
+    }
+
+    aside {
+        @include large {
+            grid-row: 1;
+            grid-column: 2/6;
+        }
+
+        h1 {
+            margin: 0 auto 60px;
+            width: 150px;
+
+            @include large {
+                margin-bottom: 2rem;
+                display: block;
+                width: 100%;
+            }
+
+            .shift {
+                position: relative;
+                left: 24px;
+
+                @include large {
+                    left: 64px;
+                }
+            }
+        }
+
+        .caption {
+            text-align: center;
+            margin-bottom: 6px;
+
+            @include large {
+                text-align: left;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .feature {
+
+        @include large {
+            grid-column: 2/6;
+            grid-row: 2;
+            margin-top: 122px;
+        }
+
+        h3 {
+            @include text--small-heading;
+            color: $navy;
+            margin: 30px 0;
+
+            @include large {
+                margin: 0;
+            }
+        }
+
+        figure {
+            display: flex;
+            justify-content: space-evenly;
+            @include large {
+                margin-top: 66px;
+            }
+        }
+    }
+
+    .info {
+        @include large {
+            grid-column: span 3;
+            margin-top: 122px;
+        }
+
+        figure.hide--desktop {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            img {
+                width: 125px;
+
+                &:first-child {
+                    margin-bottom: 2rem;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
+
+.about__cta {
+    background: $peach;
+    padding-top: 29px;
+
+    @include large {
+        padding-top: 112px;
+        padding-bottom: 128px;
+    }
+
+    @include max-large {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    h3 {
+        @include text--small-heading;
+        color: $navy;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $navy;
+        padding-left: 0;
+        padding-right: 0;
+        // width: 150%;
+
+        @include large {
+
+        }
+    }
+
+    .module {
+        padding-left: 36px;
+        padding-right: 36px;
+        
+        &:first-of-type {
+            margin-bottom: 2rem;
+
+            @include large {
+                margin-bottom: 0;
+            }
+        }
+
+        @include large {
+            // display: grid;
+            // grid-template-columns: repeat(6, 1fr);
+            // grid-gap: 1rem;
+            border: 1px solid $navy;
+            position: relative;
+            grid-column: span 6;
+            // overflow: hidden;
+        }
+
+        h3 {
+            transform: rotate(90deg);
+            transform-origin: bottom left;
+            display: inline-block;
+            border: 0;
+            position: absolute;
+            top: 1rem;
+            line-height: 0;
+        }
+
+        @include large {
+            p, img, .button {
+                margin-left: 4rem;
+            }
+        }
+
+        
+
+        > *:not(.button) {
+            // padding-left: 36px;
+            // padding-right: 36px;
+        }
+
+        
+
+        p {
+            margin-top: 26px;
+            margin-bottom: 22px;
+            @include text--lead;
+
+            @include large {
+                width: 80%;
+            }
+        }
+
+        img {
+            width: 100%;
+
+            @include large {
+                width: 80%;
+            }
+        }
+
+        .button {
+            // padding-left: 0;
+            // padding-right: 0;
+
+            margin-top: 1rem;
+            margin-bottom: 26px;
+            // margin-right: 32px;
+            // margin-left: 32px;
+
+            @include large {
+                width: 80%;
+            }
+        }
+    }
+}
+

@@ -1,44 +1,221 @@
-$font--heading: serif;
-$font--body: sans-serif;
-$font--caption: sans-serif;
-$font--monospace: monospace;
-
-// Colors
+// Media Queries
 
 $small-width: 600px;
 $medium-width: 768px;
 $large-width: 1024px;
 $x-large-width: 1400px;
+$xx-large-width: 1600px;
 
 @mixin small {
-  @media (min-width: #{$small-width}) {
-    @content;
+    @media (min-width: #{$small-width}) {
+      @content;
+    }
+  }
+  
+  @mixin medium {
+    @media (min-width: #{$medium-width}) {
+      @content;
+    }
+  }
+  
+  @mixin max-large {
+    @media (max-width: #{$large-width}) {
+      @content;
+    }
+  }
+
+  @mixin large {
+    @media (min-width: #{$large-width}) {
+      @content;
+    }
+  }
+  
+  @mixin x-large {
+    @media (min-width: #{$x-large-width}) {
+      @content;
+    }
+  }
+  
+  @mixin xx-large {
+    @media (min-width: #{$xx-large-width}) {
+      @content;
+    }
+  }
+
+// Colors
+
+$navy: #1D2C60;
+$light-navy: #263361;
+$peach: #DEB0AC;
+$cream: #F7F4EE;
+$pink: #D15380;
+$yellow: #DBBB66;
+$teal: #809BA8;
+
+$white: #F7F5F0;
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
   }
 }
 
-@mixin medium {
-  @media (min-width: #{$medium-width}) {
-    @content;
+// $min_width: 320px;
+$min_width: $medium-width;
+$max_width: $x-large-width;
+
+// Type
+
+@font-face {
+    font-family: 'Mogan';
+    src: url('fonts/Mogan-Regular.woff2') format('woff2'),
+        url('fonts/Mogan-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'printed moments';
+    src: url('fonts/printedmoments.woff2') format('woff2'),
+        url('fonts/printedmoments.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
+        url('fonts/BrandonGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('fonts/BrandonGrotesque-Bold.woff2') format('woff2'),
+        url('fonts/BrandonGrotesque-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+$font--heading: 'Mogan';
+$font--body: 'Brandon Grotesque';
+$font--cursive: 'printed moments';
+
+@mixin text--large-heading {
+	font-family: $font--heading;
+  @include fluid-type($min_width, $max_width, 40px, 160px);
+	line-height: 100%;
+}
+
+@mixin text--medium-heading {
+	font-family: $font--heading;
+  @include fluid-type($min_width, $max_width, 40px, 145px);
+	
+  @include large {
+    line-height: 105%;
   }
 }
 
-@mixin large {
-  @media (min-width: #{$large-width}) {
-    @content;
+@mixin text--heading {
+	font-family: $font--heading;
+  @include fluid-type($min_width, $max_width, 40px, 100px);
+	line-height: 100%;
+}
+
+@mixin text--small-heading {
+	font-family: $font--heading;
+  @include fluid-type($min_width, $max_width, 22px, 45px);
+	line-height: 28px;
+
+  @include large {  
+	  line-height: 60px;
   }
 }
 
-@mixin x-large {
-  @media (min-width: #{$x-large-width}) {
-    @content;
-  }
+h1 {
+	@include text--heading;
+  color: $navy;
 }
+
+@mixin text--body {
+	font-family: $font--body;
+	font-size: 1rem;
+	line-height: 1.3125rem;
+	
+	@include large {
+		font-size: 1.25rem;
+		line-height: 2rem;
+	}
+}
+
+@mixin text--lead {
+	font-family: $font--body;
+	font-size: 1rem;
+	line-height: 1.3125rem;
+	
+	@include large {
+		font-size: 1.5625rem;
+		line-height: 2.375rem;
+	}
+}
+
+@mixin text--caption {
+	font-family: $font--body;
+  font-weight: bold;
+	font-size: 1rem;
+  text-transform: uppercase;
+	
+	@include large {
+		font-size: 1.5625rem;
+	}
+}
+
+p, ul, ol, dl {
+	@include text--body;
+  color: $light-navy;
+}
+
+.lead {
+  @include text--lead;
+}
+
+.caption {
+  @include text--caption;
+}
+
+.cursive {
+	font-family: $font--cursive;
+}
+
+
 
 .center { text-align: center; margin: 0 auto; }
 
 // Animations
 
-@import "https://raw.githubusercontent.com/daneden/animate.css/master/animate.min.css";
+// @import "https://raw.githubusercontent.com/daneden/animate.css/master/animate.min.css";
 
 %full-bg {
 	background-size: cover;
@@ -109,32 +286,36 @@ small {
 // Form Reset
 
 input[placeholder],
-	input[type="text"],
-	input[type="email"],
-	input[type="tel"],
-	input[type="url"],
-	input[type="submit"],
-	textarea,
-	select,
-	option {
-	  // color: white;
-	  // padding: 1rem;
-	  // border-radius: 0;
-	  // background: rgba(white, 0);
-	  // outline-offset: 0;
-	  // max-width: 100%;
-	  // font: {
-	  // 	family: $font--body;
-	  // }
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="submit"],
+textarea,
+select,
+option {
+	  font-size: 100%;
 }
 
 input[type="submit"] {
-	// font: {
-	// 	family: $font--body;
-	// 	weight: bold;
-	// }
-	// text-transform: uppercase;
-	// -webkit-appearance: none;
-	// appearance: none;
-	// border-radius: 0;
+	font-size: 100%;
+}
+
+
+* {
+	transition: 0.25s;
+}
+
+.hide--desktop {
+  @include large {
+    display: none !important;
+  }
+}
+
+.hide--mobile {
+  display: none !important;
+
+  @include large {
+    display: initial !important;
+  }
 }

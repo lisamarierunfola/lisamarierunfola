@@ -71,14 +71,15 @@ module.exports = function(grunt) {
         options: {
           spawn: false,
         },
-      },
-      images: {
-        files: ['assets/img/*.{png,jpg,jpeg,gif,svg}'],
-        tasks: ['imagemin', "shell:jekyllBuild"],
-        options: {
-          spawn: false,
-        },
-      },
+      }
+      // ,
+      // images: {
+      //   files: ['assets/img/*.{png,jpg,jpeg,gif,svg}'],
+      //   tasks: ['imagemin', "shell:jekyllBuild"],
+      //   options: {
+      //     spawn: false,
+      //   },
+      // },
     },
     sass: {
       dist: {
