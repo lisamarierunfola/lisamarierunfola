@@ -164,13 +164,16 @@
     }
 }
 
-.about__cta {
-    background: $peach;
+.cta {
     padding-top: 29px;
 
     @include large {
         padding-top: 112px;
         padding-bottom: 128px;
+    }
+
+    &.about__cta {
+        background: $peach;
     }
 
     @include max-large {

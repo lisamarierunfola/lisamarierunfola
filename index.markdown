@@ -307,3 +307,27 @@ dark-header: true
       <img src="{{ site.baseurl }}/assets/img/arrow-mobile.svg" alt="" class="arrow">
   </main>
 </section>
+
+<section class="section cta home__cta">
+  <h3 class="hide--desktop">Work with Me</h3>
+
+  <div class="module">
+      <h3 class="hide--mobile">Work with Me</h3>
+      <p>
+        Whether you need help setting up boundaries in your life or escaping the rut you’ve found yourself in, one-on-one coaching can provide a lot of insight.
+      </p>
+      <img src="{{ site.baseurl }}/assets/img/cta-face.png" alt="">
+      <a href="#" class="button">CTA</a>
+  </div>
+  
+  <h3 class="hide--desktop">Books &amp; Speaking</h3>
+  <div class="module">
+      <h3 class="hide--mobile">Books &amp; Speaking</h3>
+      <p>
+        Hear more about my experiences, my point of view on breaking through life’s walls, and more in my books and past speaking engagements.
+      </p>
+      <img src="{{ site.baseurl }}/assets/img/cta-book.png" alt="">
+      <a href="#" class="button">CTA</a>
+  </div>
+  
+</section>
