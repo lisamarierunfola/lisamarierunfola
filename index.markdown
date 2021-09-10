@@ -161,7 +161,7 @@ dark-header: true
 <section class="section home__about">
     <main>
         <figure>
-            <img class="photo" src="{{ site.baseurl }}/assets/img/lmr-arch.png" alt="">
+            <img class="photo" src="{{ site.baseurl }}/assets/img/lmr-arch2.png" alt="">
             <img class="badge" src="{{ site.baseurl }}/assets/img/badge-lmr.png" alt="">
         </figure>
     </main>
@@ -306,6 +306,29 @@ dark-header: true
       </cite>
       <img src="{{ site.baseurl }}/assets/img/arrow-mobile.svg" alt="" class="arrow">
   </main>
+</section>
+
+<section class="section home__podcast">
+  <aside>
+    <img src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="Podcast cover art">
+  </aside>
+
+  <main>
+    <p class="caption">
+      Take a Listen
+    </p>
+
+    <h3>
+      What’s Not Being 
+      Said Podcast
+    </h3>
+
+    <p>
+      What’s Not Being Said is a podcast by Lisa Marie Runfola. As a certified coach, author, and self-described Life Ignitor, Lisa Marie will help you “Flip The Switch and Turn Your Life Back On” during this illuminating conversation series. Join her as she speaks with authors, healers, coaches, and brave souls as they explore ways to help people feel more alive in every area of their lives.
+    </p>
+
+    <a href="#" class="button">Go the Latest Episode</a>
+  </main> 
 </section>
 
 <section class="section cta home__cta">

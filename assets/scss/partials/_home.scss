@@ -1,5 +1,6 @@
 section.home__hero {
     // align-items: start;
+    @extend %full-bg;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -212,7 +213,7 @@ section.home__hero {
         margin-bottom: 2rem;
 
         @include large {
-            grid-column: 6/12;
+            grid-column: 7/12;
             margin-bottom: 0;
         }
 
@@ -227,8 +228,8 @@ section.home__hero {
 
             .badge {
                 position: absolute;
-                top: 0;
-                right: 5%;
+                top: 2%;
+                right: -5%;
                 width: 35%;
 
                 @include large {
@@ -338,16 +339,28 @@ section.home__hero {
 
         &:nth-of-type(1) {
             background: $teal;
+            @include large {
+                box-shadow: -400px 0 0 0px $teal;
+            }
         }
         &:nth-of-type(2) {
             background: $peach;
+            @include large {
+                box-shadow: 400px 0 0 0px $peach;
+            }
         }
         &:nth-of-type(3) {
             background: $off-white;
+            @include large {
+                box-shadow: -400px 0 0 0px $off-white;
+            }
             h3 { color: $olive; }
         }
         &:nth-of-type(4) {
             background: $yellow;
+            @include large {
+                box-shadow: 400px 0 0 0px $yellow;                
+            }
         }
 
         img {
@@ -428,5 +441,65 @@ section.home__hero {
 
     p {
         color: $white;
+    }
+}
+
+.home__podcast {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    aside {
+        text-align: center;
+        margin-bottom: 42px;
+        @include large {
+            grid-column: 2/6;
+            text-align: left;
+            margin-bottom: 0;
+        }
+
+        img {
+            @include large {
+                box-shadow: 10px 20px 20px rgba(#76817B, 0.4);
+            }
+        }
+    }
+
+    main {
+        @include large {
+            grid-column: 7/12;
+        }
+
+        .caption {
+            margin-bottom: 6px;
+            text-align: center;
+
+            @include large {
+                margin-bottom: 21px;
+                text-align: left;
+            }
+        }
+
+        h3 {
+            @include text--lead-heading;
+            color: $navy;
+
+            margin-bottom: 17px;
+            text-align: center;
+
+            @include large {
+                margin-bottom: 35px;
+                text-align: left;
+            }
+        }
+
+        p {
+            margin-bottom: 28px;
+
+            @include large {
+                margin-bottom: 53px;
+            }
+        }
+
+        
     }
 }

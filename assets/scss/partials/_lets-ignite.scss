@@ -14,11 +14,15 @@
         color: $white;
 
         @include large {
-            grid-column: 2/12;
+            grid-column: 2/10;
             padding-bottom: 0;
         }
-        @include large {
-            grid-column: 2/8;
+
+        span {
+            @include large {
+                margin-top: 7.5rem;
+                display: block;
+            }
         }
     }
 }
@@ -352,6 +356,10 @@
     }
 
     &.two {
+        
+    }
+
+    &.three {
         header {
             @include large {
                 grid-column: 3/7;
@@ -369,9 +377,7 @@
                 grid-column: 1/2;
             }
         }
-    }
 
-    &.three {
         background: $yellow;
 
         header h1, header .caption {
@@ -385,7 +391,7 @@
     }
 }
 
-.quote {
+section.quote {
     padding-top: 64px;
     padding-bottom: 64px;
 

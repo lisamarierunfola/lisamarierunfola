@@ -5,8 +5,10 @@ title: Let's Ignite
 <section class="section hero ignite__hero">
     <h1>
         Amplify Your Life. Set Clear Goals.
-        <br><br>
-        Create Strong Boundaries.
+        <!-- <br><br> -->
+        <span>
+            Create Strong Boundaries.
+        </span>
     </h1>
 </section>
 
@@ -173,12 +175,12 @@ title: Let's Ignite
     <header>
         <p class="caption">45 Minute Discovery Call</p>
         <h1>
-            Ignition <br class="hide--mobile">
+            Discovery <br class="hide--mobile">
             <span class="shift">Session</span>
         </h1>
         <p class="description hide--mobile">
             Jump into action with FREE 45-minute Ignition Session that will have you motivated and excited about life!
-            <br><br>
+            <br>
             You’d be surprised to find out just how much we can change your life in 45 minutes. During this complementary call, we’ll look at some of the factors in your life that have you feeling stuck and tapped out. We’ll get clear on your desires and goals. Then we’ll create an achievable plan so that you can take action immediately.
         </p>
         <a href="#" class="button">
@@ -188,34 +190,11 @@ title: Let's Ignite
     <img class="feature" src="{{ site.baseurl }}/assets/img/1.png" alt="">
     <p class="description hide--desktop">
         Jump into action with FREE 45-minute Ignition Session that will have you motivated and excited about life!
-        <br><br>
+        <br>
         You’d be surprised to find out just how much we can change your life in 45 minutes. During this complementary call, we’ll look at some of the factors in your life that have you feeling stuck and tapped out. We’ll get clear on your desires and goals. Then we’ll create an achievable plan so that you can take action immediately.
     </p>
     <a href="#" class="button hide--desktop">
         Book Your Free Call Now
-    </a>
-</section>
-
-<section class="section ignite__offering two">
-    <img class="badge" src="{{ site.baseurl }}/assets/img/badge2.png" alt="">
-    <header>
-        <p class="caption">8 Week Session</p>
-        <h1>
-            Unstuck!
-        </h1>
-        <p class="description hide--mobile">
-            Ignited By Boundaries is specifically designed to help over-giving, over-achieving people pleasers create lives that feel vibrant, energized, and alive. We’ll spend 12 sessions exploring what freedom means to you, designing a life with you at the center, and breaking through your fears and discomfort. Based on the work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week program will help you cultivate the confidence and courage you need to step into the life you desire!
-        </p>
-        <a href="#" class="button">
-            Sign Up Now
-        </a>
-    </header>
-    <img class="feature" src="{{ site.baseurl }}/assets/img/2.png" alt="">
-    <p class="description hide--desktop">
-        Ignited By Boundaries is specifically designed to help over-giving, over-achieving people pleasers create lives that feel vibrant, energized, and alive. We’ll spend 12 sessions exploring what freedom means to you, designing a life with you at the center, and breaking through your fears and discomfort. Based on the work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week program will help you cultivate the confidence and courage you need to step into the life you desire!
-    </p>
-    <a href="#" class="button hide--desktop">
-        Sign Up Now
     </a>
 </section>
 
@@ -227,7 +206,7 @@ title: Let's Ignite
             Ignited By Boundaries
         </h1>
         <p class="description hide--mobile">
-            If you close your eyes and take a few long, slow breaths and tune into your inner world, do you feel as though you’re stuck or frustrated in some way with your life? Are you struggling to find your way forward? Since I’ve re-engaged in certain steps to release the “old” and embrace the “new”, I’ve been bowled over with much more positive energy. I achieved this through Reinvention Coaching – an eye-opening & empowering experience I gained from the wonderful Levin Life Coaching Academy.
+            Ignited By Boundaries is specifically designed to help over-giving, over-achieving people pleasers create lives that feel vibrant, energized, and alive. We’ll spend 12 sessions exploring what freedom means to you, designing a life with you at the center, and breaking through your fears and discomfort. Based on the work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week program will help you cultivate the confidence and courage you need to step into the life you desire!
         </p>
         <a href="#" class="button">
             Sign Up Now
@@ -235,12 +214,38 @@ title: Let's Ignite
     </header>
     <img class="feature" src="{{ site.baseurl }}/assets/img/3.png" alt="">
     <p class="description hide--desktop">
+        Ignited By Boundaries is specifically designed to help over-giving, over-achieving people pleasers create lives that feel vibrant, energized, and alive. We’ll spend 12 sessions exploring what freedom means to you, designing a life with you at the center, and breaking through your fears and discomfort. Based on the work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week program will help you cultivate the confidence and courage you need to step into the life you desire!
+    </p>
+    <a href="#" class="button hide--desktop">
+        Sign Up Now
+    </a>
+</section>
+
+
+<section class="section ignite__offering two">
+    <img class="badge" src="{{ site.baseurl }}/assets/img/badge2.png" alt="">
+    <header>
+        <p class="caption">8 Week Session</p>
+        <h1>
+            Reinvention
+            <span class="shift">Coaching</span>
+        </h1>
+        <p class="description hide--mobile">
+            If you close your eyes and take a few long, slow breaths and tune into your inner world, do you feel as though you’re stuck or frustrated in some way with your life? Are you struggling to find your way forward? Since I’ve re-engaged in certain steps to release the “old” and embrace the “new”, I’ve been bowled over with much more positive energy. I achieved this through Reinvention Coaching – an eye-opening & empowering experience I gained from the wonderful Levin Life Coaching Academy.
+        </p>
+        <a href="#" class="button">
+            Sign Up Now
+        </a>
+    </header>
+    <img class="feature" src="{{ site.baseurl }}/assets/img/2.png" alt="">
+    <p class="description hide--desktop">
         If you close your eyes and take a few long, slow breaths and tune into your inner world, do you feel as though you’re stuck or frustrated in some way with your life? Are you struggling to find your way forward? Since I’ve re-engaged in certain steps to release the “old” and embrace the “new”, I’ve been bowled over with much more positive energy. I achieved this through Reinvention Coaching – an eye-opening & empowering experience I gained from the wonderful Levin Life Coaching Academy.
     </p>
     <a href="#" class="button hide--desktop">
         Sign Up Now
     </a>
 </section>
+
 
 <section class="section quote ignite__quote">
     <header>

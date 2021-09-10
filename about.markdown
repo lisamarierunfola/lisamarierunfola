@@ -14,7 +14,7 @@ title: About
 <section class="section about__intro">
     <main>
         <figure>
-            <img class="photo" src="{{ site.baseurl }}/assets/img/lmr-arch.png" alt="">
+            <img class="photo" src="{{ site.baseurl }}/assets/img/lmr-arch2.png" alt="">
             <img class="badge" src="{{ site.baseurl }}/assets/img/badge-lmr.png" alt="">
         </figure>
     </main>

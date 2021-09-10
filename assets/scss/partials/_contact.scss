@@ -1,0 +1,114 @@
+section.contact__hero {
+    background-color: $yellow;
+    // background-image: url('../img/contact-hero-bg.png');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-size: contain;
+    height: initial;
+    overflow-y: hidden;
+
+    @include large {
+        background-image: url('../img/contact-hero-bg.png');
+        background-position-x: right;
+        background-size: 60%;
+        align-items: center;
+        height: 100vh;
+    }
+
+    main {
+        @include large {
+            grid-column: 2/12;
+        }
+
+        h1 {
+            @include text--large-heading;
+            margin-top: 6rem;
+            margin-bottom: 1rem;
+            text-align: center;
+
+            @include large {
+                text-align: left;
+
+                .shift {
+                    position: relative;
+                    left: 7.5%;
+                }
+            }
+
+            .shift:after {
+                content: '';
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+                background-image: url('../img/staricon.svg');
+                @extend %full-bg;
+                margin-left: -5px;
+
+                @include large {
+                    width: 50px;
+                    height: 50px;
+                    margin-left: -25px;
+                }
+            }
+        }
+
+        p.lead {
+            text-align: center;
+
+            @include large {
+                text-align: left;
+                width: 40%;
+            }
+        }
+    }
+
+    .background {
+        @include large {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+            transform: translateY(2%);
+        }
+    }
+}
+
+.contact__form {
+    padding-top: 34px;
+    padding-bottom: 85px;
+
+    @include large {
+        padding-top: 128px;
+        padding-bottom: 140px;
+    }
+
+    form {
+        @include large {
+            grid-column: 3/11;
+        }
+
+        > * {
+            display: block;
+            width: 100%;
+            margin-bottom: 22px;
+            padding: 0.75rem;
+            border: 1px solid $navy;
+            outline: none;
+        }
+
+        textarea {
+            height: 170px;
+            margin-bottom: 2rem;
+        }
+
+        .button {
+            background: $navy;
+            color: $white;
+            max-width: 568px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

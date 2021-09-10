@@ -1,0 +1,288 @@
+section.podcast__hero {
+    background: $green;
+    align-items: center;
+    height: auto;
+
+    @include large {
+        min-height: 100vh;
+    }
+
+    main {
+        margin: 5.5rem 0 3rem;
+        @include large {
+            grid-column: 2/8;
+            margin: 0;
+        }
+
+        h1 {
+            @include text--heading;
+            color: $white;
+            text-align: center;
+            margin-bottom: 1rem;
+
+            @include large {
+                margin-bottom: 5rem;
+                text-align: left;
+            }
+        }
+
+        .cursive {
+            @include fluid-type($min_width, $max_width, 25px, 76px);
+            font-family: $font--cursive;
+            color: $white;
+            text-align: center;
+            margin-bottom: 4rem;
+
+            @include large {
+                margin-bottom: 8rem;
+                text-align: left;
+            }
+        }
+
+        p.lead {
+            @include text--lead;
+            color: $white;
+            text-align: center;
+
+            @include large {
+                text-align: left;
+            }
+        }
+    }
+
+    aside {
+        padding-bottom: 51px;
+
+        @include large {
+            grid-column: 8/12;
+            padding-bottom: 0;
+        }
+
+        img.cover {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+
+            @include large {
+                box-shadow: 0px 0px 74px 15px rgba(0, 0, 0, 0.25);
+                margin-bottom: 3rem;
+            }
+        }
+
+        nav {
+            text-align: center;
+            display: none;
+
+            @include large {
+                display: block;
+            }
+
+            img {
+                width: 50px;
+                margin: 0 1rem;
+            }
+        }
+    }
+}
+
+.podcast__intro {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    @include large {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    header {
+        @include large {
+            grid-column: 2/7;
+        }
+
+        h3 {
+            @include text--lead-heading;
+            @include fluid-type($min_width, $max_width, 40px, 60px);
+            color: $navy;
+            text-align: center;
+            margin-bottom: 1rem;
+
+            @include large {
+                text-align: left;
+                margin-bottom: 2rem;
+            }
+
+            .shift {
+                @include large {
+                    position: relative;
+                    left: 5.5%;
+                }
+            }
+        }
+
+        .cursive {
+            text-align: center;
+            color: $navy;
+            @include fluid-type($min_width, $max_width, 20px, 45px);
+            margin-bottom: 3rem;
+
+            @include large {
+                text-align: left;
+            }
+        }
+
+
+    }
+
+    main {
+        @include large {
+            grid-column: 7/12;
+        }
+    }
+}
+
+.podcast__latest {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    @include large {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .caption {
+        text-align: center;
+        margin-bottom: 2rem;
+
+        @include large {
+            margin-bottom: 3rem;
+        }
+    }
+
+    .episode {
+        margin-bottom: 2rem;
+
+        @include large {
+            grid-column: 3/11;
+            margin-bottom: 3rem;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            // align-items: center;
+            margin-bottom: 1rem;
+
+            @include large {
+                align-items: center;
+                margin-bottom: 2rem;
+            }
+
+            h3 {
+                @include text--lead-heading;
+                color: $navy;
+            }
+
+            time {
+                @include text--caption;
+                color: $navy;
+            }
+        }
+
+        p {
+            @include text--lead;
+        }
+    }
+
+    .embed {
+        @include large {
+            grid-column: 2/12;
+        }
+    }
+}
+
+.podcast__featured {
+    background: $peach;
+    padding-top: 43px;
+    padding-bottom: 121px;
+
+    @include large {
+        padding-top: 92px;
+        padding-bottom: 169px;
+    }
+
+    h1 {
+        margin-bottom: 27px;
+
+        @include large {
+            grid-column: 2/12;
+            margin-bottom: 83px;
+        }
+
+        .shift {
+            @include large {
+                position: relative;
+                left: 7.5%;
+            }
+        }
+    }
+
+    main {
+        @include large {
+            grid-column: 2/12;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .module {
+            margin-bottom: 57px;
+
+            @include large {
+                width: 29.1788856305%;
+                margin-bottom: 0;
+            }
+
+            figure {
+                margin-bottom: 27px;
+
+                @include large {
+                    margin-bottom: 1rem;
+                }
+            }
+
+            h2 {
+                font: {
+                    family: $font--heading;
+                    size: 22px;
+                }
+                color: $navy;
+                margin-bottom: 1rem;
+
+                @include large {
+                    font-size: 25px;
+                }
+            }
+
+            .caption {
+                margin-top: 1rem;
+                font-weight: normal;
+            }
+        }
+    }
+
+    .button-wrapper {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+        @include large {
+            grid-column: 2/12;
+            margin-top: 83px;
+        }
+
+        .button {
+            background: $navy;
+            color: $white;
+        }
+    }
+
+}

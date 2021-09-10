@@ -148,6 +148,12 @@ $font--cursive: 'printed moments';
 	line-height: 100%;
 }
 
+@mixin text--lead-heading {
+	font-family: $font--heading;
+  @include fluid-type($min_width, $max_width, 22px, 60px);
+	line-height: 100%;
+}
+
 @mixin text--small-heading {
 	font-family: $font--heading;
   @include fluid-type($min_width, $max_width, 22px, 45px);

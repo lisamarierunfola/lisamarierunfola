@@ -1,0 +1,175 @@
+.blog__intro {
+    padding-top: 83px;
+    padding-bottom: 64px;
+
+    @include large {
+        padding-top: 204px;
+        padding-bottom: 113px;
+    }
+
+    main {
+        @include large {
+            grid-column: 7/11;
+        }
+
+        .caption {
+            margin-bottom: 11px;
+
+            @include large {
+                font-size: 25px;
+                margin-bottom: 19px;
+            }
+        }
+
+        h2 {
+            @include text--lead-heading;
+            margin-bottom: 10px;
+            color: $navy;
+
+            @include large {
+                margin-bottom: 30px;
+            }
+
+        }
+    }
+
+    aside {
+        margin-top: 50px;
+
+        @include large {
+            grid-column: 2/6;
+            grid-row: 1;
+            margin-top: 0;
+        }
+    }
+}
+
+.blog__embed {
+    padding-bottom: 3rem;
+
+    @include large {
+        padding-bottom: 113px;
+    }
+
+    iframe {
+        
+        @include large {
+            grid-column: 2/12;
+        }
+    }
+}
+
+.blog__content {
+    padding-bottom: 80px;
+
+    @include large {
+        padding-bottom: 144px;
+    }
+
+    main {
+        @include large {
+            grid-column: 2/8;
+        }
+
+        h3 {
+            @include text--heading;
+            color: $navy;
+            margin-bottom: 46px;
+
+            @include large {
+                .shift {
+                    position: relative;
+                    left: 7.5%;
+                }   
+            }
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+    }
+
+    aside {
+        @include large {
+            grid-column: 9/12;
+        }
+
+        .profile {
+            background-color: $navy;
+            background-image: url('../img/tri.svg');
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+            background-size: 100%;
+
+            padding: 70px 1rem 127px;
+            margin-bottom: 37px;
+
+            @include large {
+                padding: 78px 45px 145px;
+                margin-bottom: 60px;
+            }
+
+            * {
+                color: $white;
+            }
+
+            img {
+                margin-bottom: 31px;
+
+                @include large {
+                    margin-bottom: 34px;
+                }
+            }
+
+            .caption {
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 25px;
+
+                @include large {
+                    font-size: 25px;
+                }
+            }
+
+        }
+
+        .links {
+            .button {
+                width: auto;
+                margin-bottom: 20px;
+
+                @include large {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+}
+
+.blog__platforms {
+    background: $green;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    @include large {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-evenly;
+
+        @include large {
+            grid-column: 3/11;
+
+            img {
+                width: 60px;
+            }
+        }
+
+        a {
+
+        }
+    }
+}
