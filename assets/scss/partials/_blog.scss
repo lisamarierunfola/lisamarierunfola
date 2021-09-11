@@ -115,6 +115,7 @@
 
             img {
                 margin-bottom: 31px;
+                filter: grayscale(1);
 
                 @include large {
                     margin-bottom: 34px;

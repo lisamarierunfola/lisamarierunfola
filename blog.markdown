@@ -5,14 +5,14 @@ dark-header: true
 
 <section class="section blog__intro">
     <main>
-        <p class="caption">Podcast Episode 4</p>
+        <p class="caption">Podcast Episode 1</p>
         <h2>
-            Ready to reclaim your boundary?
+            Creating Space and Opening Doors with Angelica Rosas McDaniel
         </h2>
 
-        <p>
+        <!-- <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta iure explicabo numquam sunt nisi? Placeat repudiandae cupiditate esse, iusto saepe ex rerum velit eveniet soluta pariatur nisi quibusdam voluptas vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta iure explicabo numquam sunt nisi? Placeat repudiandae cupiditate esse, iusto saepe ex rerum velit eveniet soluta pariatur nisi quibusdam voluptas vel.
-        </p>
+        </p> -->
     </main>
 
     <aside>
@@ -26,11 +26,14 @@ dark-header: true
 
 <section class="section blog__content">
     <main>
-        <h3>Podcast Blog <br class="hide--mobile">
+        <h3>
+            <!-- Podcast Blog <br class="hide--mobile">
             <span class="shift">
                 Headline Title
             </span><br class="hide--mobile">
-            Styled Like This.
+            Styled Like This. -->
+
+            &ldquo;Lorem Ipsum dolor sit&rdquo;
         </h3>
 
         <p>
@@ -46,14 +49,14 @@ dark-header: true
 
     <aside>
         <div class="profile">
-            <img src="{{ site.baseurl }}/assets/img/lmrarch-bw.png" alt="Lisa Marie Runfola">
+            <img src="{{ site.baseurl }}/assets/img/lmr-arch2.png" alt="Lisa Marie Runfola">
 
             <p class="caption">
                 Meet your podcast host!
             </p>
 
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod, distinctio, fugiat dicta temporibus id dolore consectetur non sed ipsa nulla iusto dolorem, minus quam et commodi expedita aperiam eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod, distinctio, fugiat dicta temporibus id dolore consectetur non sed ipsa nulla iusto dolorem, minus quam et commodi expedita aperiam eum.
+                Lisa Marie is your life ignitor and podcast host. She’s a woman with a degree in CS (common sense, not computer science) who has experienced euphoric highs and agonizing lows on her journey. Grand leaps of faith have led her to the full life she leads today, and one of her missions is to share with others how she was able to pull herself out. If she can do it, so can you.
             </p>
         </div>
 

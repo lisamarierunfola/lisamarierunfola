@@ -1,6 +1,7 @@
 .ignite__hero {
     background-image: url(../img/letsignite-bg--mobile.png);
-    // display: flex;
+    // background-repeat: no-repeat;
+    @extend %full-bg;
     align-items: end;
 
     @include large {
@@ -353,13 +354,7 @@
 
     &.one {
         background: $peach;
-    }
 
-    &.two {
-        
-    }
-
-    &.three {
         header {
             @include large {
                 grid-column: 3/7;
@@ -375,6 +370,34 @@
         img.badge {
             @include large {
                 grid-column: 1/2;
+            }
+        }
+    }
+
+    &.two {
+        header {
+            @include large {
+                grid-column: 3/7;
+            }
+        }
+
+        img.feature {
+            @include large {
+                grid-column: 8/12;
+            }
+        }
+
+        img.badge {
+            @include large {
+                grid-column: 1/2;
+            }
+        }
+    }
+
+    &.three {
+        header h1 {
+            @include large {
+                width: 103%;
             }
         }
 
@@ -396,12 +419,67 @@ section.quote {
     padding-bottom: 64px;
 
     &.ignite__quote {
-        background: $yellow;
+        // background: $yellow;
+        @include large {
+            padding-top: 120px;
+            padding-bottom: 240px;
+        }
+
+        h1 {
+            color: $navy;
+        }
+
+        .cursive {
+            color: $pink;
+        }
+
+        // .quote {
+        //     margin-bottom: 1rem;
+
+        //     @include large {
+        //         margin-bottom: 2rem;
+        //     }
+        // }
+
+        .quote, cite p {
+            color: $navy;
+        }
+
+        // cite {
+        //     display: block;
+        //     margin-bottom: 2rem;
+        // }
+
+
     }
 
-    @include large {
-
+    cite {
+        display: block;
+        margin-bottom: 2rem;
     }
+    .quote {
+        margin-bottom: 1rem;
+
+        @include large {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .quote-carousel {
+        .carousel-cell {
+            width: 100%;
+
+            > p {
+                margin-bottom: 24px;
+
+                @include large {
+                    margin-bottom: 76px;
+                }
+            }
+        }
+    }
+
+    
 
     header {
         @include large {
@@ -417,7 +495,7 @@ section.quote {
 
             @include large {
                 // font-size: 200px;
-                margin-bottom: 2rem;
+                margin-bottom: 4rem;
             }
 
             .shift {
@@ -482,6 +560,10 @@ section.quote {
                     font-size: 18px;
                 }
             }
+        }
+
+        .arrow {
+            cursor: pointer;
         }
     }
 }

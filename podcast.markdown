@@ -8,7 +8,7 @@ title: Podcast
         <div class="cursive">Being Said</div>
 
         <p class="lead">
-            A podcast that isn't afriad to go there.
+            A podcast that isn't afraid to go there.
         </p>
     </main>
 
@@ -55,7 +55,9 @@ title: Podcast
 
     <div class="episode">
         <header>
-            <h3>A guide to ignite your life</h3>
+            <a href="/blog">
+                <h3>Creating Space and Opening Doors with Angelica Rosas McDaniel</h3>
+            </a>
             <time>07.29.2021</time>
         </header>
         
@@ -88,7 +90,7 @@ title: Podcast
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus quis quos sequi illo aliquam magnam architecto impedit fugit reiciendis tenetur corporis dolor, in accusantium. Similique aperiam dolorum explicabo corporis!
             </p>
             <p class="caption">
-                <a href="/blog">Learn More...</a>
+                <a href="/blog">Learn More</a>
             </p>
         </div>
         <div class="module">
@@ -102,7 +104,7 @@ title: Podcast
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus quis quos sequi illo aliquam magnam architecto impedit fugit reiciendis tenetur corporis dolor, in accusantium. Similique aperiam dolorum explicabo corporis!
             </p>
             <p class="caption">
-                <a href="/blog">Learn More...</a>
+                <a href="/blog">Learn More</a>
             </p>
         </div>
         <div class="module">
@@ -116,7 +118,7 @@ title: Podcast
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus quis quos sequi illo aliquam magnam architecto impedit fugit reiciendis tenetur corporis dolor, in accusantium. Similique aperiam dolorum explicabo corporis!
             </p>
             <p class="caption">
-                <a href="/blog">Learn More...</a>
+                <a href="/blog">Learn More</a>
             </p>
         </div>
     </main>

@@ -1,10 +1,18 @@
 section.podcast__hero {
-    background: $green;
+    background-color: $green;
     align-items: center;
     height: auto;
 
+    background-image: url('../img/podcast-hero-curve.svg');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 101%;
+
+    padding-bottom: 3rem;
+
     @include large {
         min-height: 100vh;
+        padding-bottom: 0;
     }
 
     main {
@@ -265,6 +273,9 @@ section.podcast__hero {
             .caption {
                 margin-top: 1rem;
                 font-weight: normal;
+                padding-bottom: 6px;
+                border-bottom: 1px solid $navy;
+                display: inline-block;
             }
         }
     }

@@ -18,11 +18,53 @@
         <script src="//localhost:35729/livereload.js"></script>
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <script>
-            $('.main-carousel').flickity({
+            var quoteCarousel = $('.quote-carousel').flickity({
                 // options
                 cellAlign: 'left',
                 contain: true,
-                prevNextButtons: false
+                prevNextButtons: false,
+                pageDots: false,
+                adaptiveHeight: true
+                // wrapAround: true
+            });
+            $('.arrow').on( 'click', function() {
+                quoteCarousel.flickity('next');
+            });
+
+
+
+
+            var carousel = document.querySelector(".main-carousel");
+            var flkty = new Flickity(carousel, {
+                // options
+                cellAlign: 'left',
+                contain: true,
+                prevNextButtons: false,
+                adaptiveHeight: true
+            });
+
+            flkty.on("change", function() {
+            console.log("Flickity active slide: " + flkty.selectedIndex);
+
+            flkty.cells.forEach(function(cell, i) {
+                if (cell.element == flkty.selectedElement) {
+                // play video if active slide contains one
+                // use <video playsinline ..> in your html to assure it works on ios devices
+                var video = cell.element.querySelector("video");
+                if (video) {
+                    console.log("playing video " + i);
+                    video.play();
+                }
+                return;
+                }
+
+                // pause all other videos
+                var video = cell.element.querySelector("video");
+                if (video) {
+                console.log("pausing video " + i);
+                video.pause();
+                }
+            });
             });
         </script>
     

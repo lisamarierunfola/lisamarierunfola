@@ -171,8 +171,10 @@ section.books-speaking__hero {
             @include text--small-heading;
             color: $navy;
             margin-bottom: 1rem;
+            text-align: center;
             @include large {
                 margin-bottom: 3rem;
+                text-align: left;
             }
         }
 
@@ -223,7 +225,7 @@ section.books-speaking__hero {
     @include large {
         padding-top: 238px;
         padding-bottom: 238px;
-        background-image: url(../img/collaborate.png);
+        background-image: url(../img/collaborate3.png);
         background-repeat: no-repeat;
         background-position-x: right;
         background-size: contain;

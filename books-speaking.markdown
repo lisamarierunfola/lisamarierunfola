@@ -119,7 +119,7 @@ dark-header: true
 
 <section class="section books-speaking__books">
     <aside>
-        <img src="{{ site.baseurl }}/assets/img/3dbook.png" alt="">
+        <img src="{{ site.baseurl }}/assets/img/3dbook2.png" alt="">
     </aside>
 
     <main>
@@ -185,19 +185,19 @@ dark-header: true
     <main>
         <h1>
             <span class="shift">
-            Let's
+            Spark
             </span> <br>
-            Collaborate
+            Conversations
         </h1>
 
         <p>
             Lisa Marie Runfola is a dynamic, charismatic speaker that will light up your event with tips and techniques your audience can implement immediately. Her unique style combines inspirational storytelling, bold truths, and powerful messages to gift your audience with the opportunity to see new possibilities for their own lives.
         </p>
 
-        <a href="#" class="button">CTA</a>
+        <a href="#" class="button">Let&rsquo;s Collaborate</a>
     </main>
 </section>
 
 <div class="books-speaking__background">
-    <img src="{{ site.baseurl }}/assets/img/collaborate.png" alt="">
+    <img src="{{ site.baseurl }}/assets/img/collaborate3.png" alt="">
 </div>

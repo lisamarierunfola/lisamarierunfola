@@ -1,7 +1,7 @@
 .about__hero {
     background-image: url('../img/about-bg.png');
     align-items: end;
-
+    @extend %full-bg;
     background-position-x: 30% !important;
 
     @include large {
@@ -32,19 +32,32 @@
 }
 
 .about__intro {
-    background: $cream url('../img/whitewave.svg') center bottom no-repeat;
-    @extend %full-bg;
+    // background: $white url('../img/about-curve--mobile.svg') center top no-repeat;
+    background-color: white;
+    background-image: url('../img/about-curve--mobile.svg');
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: 115vw;
+
     padding-top: 60px;
 
     // background-position: 0% 90%;
 
-    @include max-large {
-        background-position: 0% 90%;
-    }
+    // @include max-large {
+    //     background-position: 0% 90%;
+    // }
 
     @include large {
         padding-top: 200px;
         padding-bottom: 145px;
+        // background: $cream url('../img/whitewave.svg') center bottom no-repeat;
+
+        background-color: $cream;
+        background-image: url('../img/whitewave.svg');
+        background-position-y: bottom;
+        // background-position-x: center;
+        background-size: contain;
+        // background-size: cover;
     }
 
     main {
@@ -172,6 +185,13 @@
         padding-bottom: 128px;
     }
 
+    &.home__cta {
+        @include large {
+            padding-top: 130px;
+            // padding-bottom: 128px;
+        }   
+    }
+
     &.about__cta {
         background: $peach;
     }
@@ -246,7 +266,7 @@
         p {
             margin-top: 26px;
             margin-bottom: 22px;
-            @include text--lead;
+            // @include text--lead;
 
             @include large {
                 width: 80%;

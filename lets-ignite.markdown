@@ -159,13 +159,13 @@ title: Let's Ignite
 <section class="section ignite__carousel">
     <div class="main-carousel">
         <div class="carousel-cell">
-            <img src="{{ site.baseurl }}/assets/img/about-bg.png" alt="">
+            <video controls src="{{ site.baseurl }}/assets/img/video1.mp4"></video>
         </div>
         <div class="carousel-cell">
-            <img src="{{ site.baseurl }}/assets/img/letsignite-bg.png" alt="">
+            <video controls src="{{ site.baseurl }}/assets/img/video2.mp4"></video>
         </div>
         <div class="carousel-cell">
-            <img src="{{ site.baseurl }}/assets/img/about-bg.png" alt="">
+            <video controls src="{{ site.baseurl }}/assets/img/video3.mp4"></video>
         </div>
       </div>
 </section>
@@ -212,7 +212,7 @@ title: Let's Ignite
             Sign Up Now
         </a>
     </header>
-    <img class="feature" src="{{ site.baseurl }}/assets/img/3.png" alt="">
+    <img class="feature" src="{{ site.baseurl }}/assets/img/2.png" alt="">
     <p class="description hide--desktop">
         Ignited By Boundaries is specifically designed to help over-giving, over-achieving people pleasers create lives that feel vibrant, energized, and alive. We’ll spend 12 sessions exploring what freedom means to you, designing a life with you at the center, and breaking through your fears and discomfort. Based on the work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week program will help you cultivate the confidence and courage you need to step into the life you desire!
     </p>
@@ -237,7 +237,7 @@ title: Let's Ignite
             Sign Up Now
         </a>
     </header>
-    <img class="feature" src="{{ site.baseurl }}/assets/img/2.png" alt="">
+    <img class="feature" src="{{ site.baseurl }}/assets/img/3.png" alt="">
     <p class="description hide--desktop">
         If you close your eyes and take a few long, slow breaths and tune into your inner world, do you feel as though you’re stuck or frustrated in some way with your life? Are you struggling to find your way forward? Since I’ve re-engaged in certain steps to release the “old” and embrace the “new”, I’ve been bowled over with much more positive energy. I achieved this through Reinvention Coaching – an eye-opening & empowering experience I gained from the wonderful Levin Life Coaching Academy.
     </p>
@@ -258,13 +258,47 @@ title: Let's Ignite
 
     <main>
         <div class="quote">&ldquo;</div>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        <div class="quote-carousel">
+            <div class="carousel-cell">
+              <p>
+                Lisa Marie Runfola changed my life. Literally.​ I feel like a whole new person. A person with boundaries and confidence to set boundaries.​ It was a truly transformational experience to be coached by Lisa Marie.
+              </p>
+              <cite>
+                  <p class="person">Christine</p>
+                  <p class="title">CLIENT</p>
+              </cite>
+            </div>  
+            <div class="carousel-cell">
+              <p>
+                Lisa Marie helped me with my biggest issue.​ Being comfortable with the discomfort of putting boundaries by visualizing the long term positive outcome will be one of the major learnings I got from Lisa​. I am so grateful to call her my coach and I am sure the universe sent me to her for a reason.
+              </p>
+              <cite>
+                  <p class="person">Laura</p>
+                  <p class="title">CLIENT</p>
+              </cite>
+            </div>  
+            <div class="carousel-cell">
+              <p>
+                Having completed Boundary Coaching with Lisa Marie Runfola, ​I can say this was one of the most inspiring and wonderful transformations for myself.​ Setting boundaries and keeping myself accountable is no longer an issue.
+              </p>
+              <cite>
+                  <p class="person">Iona</p>
+                  <p class="title">CLIENT</p>
+              </cite>
+            </div>  
+          </div>
+        <!-- <p>
+            Lisa Marie helped me with my biggest issue.​ Being comfortable with the discomfort of putting boundaries by visualizing the long term positive outcome will be one of the major learnings I got from Lisa​. I am so grateful to call her my coach and I am sure the universe sent me to her for a reason.
         </p>
         <cite>
-            <p class="person">Lauren Higgins</p>
+            <p class="person">Laura</p>
             <p class="title">CLIENT</p>
-        </cite>
-        <img src="{{ site.baseurl }}/assets/img/arrow-mobile.svg" alt="" class="arrow">
+        </cite> -->
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="242.737" height="27.49" viewBox="0 0 242.737 27.49">
+            <g id="Group_4" data-name="Group 4" transform="translate(-1106 -4887.248)">
+              <path id="Path_4" data-name="Path 4" d="M1106,4901.133h242" fill="none" stroke="#1D2C60" stroke-width="1"/>
+              <path id="Path_5" data-name="Path 5" d="M1497.531,4895.016l14.477,13.323-14.477,13.433" transform="translate(-164.009 -7.4)" fill="none" stroke="#1D2C60" stroke-width="1"/>
+            </g>
+          </svg>          
     </main>
 </section>

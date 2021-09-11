@@ -17,7 +17,7 @@ title: Contact
     </main>
 
     <div class="background">
-        <img src="{{ site.baseurl }}/assets/img/contact-hero-bg.png" alt="">
+        <img src="{{ site.baseurl }}/assets/img/contact-hero-bg2.png" alt="">
     </div>
 </section>
 

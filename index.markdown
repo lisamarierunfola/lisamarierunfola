@@ -97,7 +97,7 @@ dark-header: true
     </div>
 
     <div class="background">
-        <img src="{{ site.baseurl }}/assets/img/home-bg--mobile.png" alt="">
+        <img src="{{ site.baseurl }}/assets/img/home-bg--mobile2.png" alt="">
     </div>
 
     
@@ -144,9 +144,15 @@ dark-header: true
 
 <section class="section home__intro">
     <h1>
-        Have you been feeling
+        Have you been feeling&nbsp;&nbsp;
         <br class="hide--desktop">
-        <span class="cursive">overwhelmed?</span>
+
+        <div class="cursive slidingVertical">
+          <span>overwhelmed?</span>
+          <span>stuck?</span>
+          <span>uninspired?</span>
+          <span>exhausted?</span>
+        </div>
     </h1>
 
     <p class="caption">
@@ -297,13 +303,36 @@ dark-header: true
 
   <main>
       <div class="quote">&ldquo;</div>
-      <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      </p>
-      <cite>
-          <p class="person">Lauren Higgins</p>
-          <p class="title">CLIENT</p>
-      </cite>
+      <div class="quote-carousel">
+        <div class="carousel-cell">
+          <p>
+            Lisa Marie Runfola changed my life. Literally.​ I feel like a whole new person. A person with boundaries and confidence to set boundaries.​ It was a truly transformational experience to be coached by Lisa Marie.
+          </p>
+          <cite>
+              <p class="person">Christine</p>
+              <p class="title">CLIENT</p>
+          </cite>
+        </div>  
+        <div class="carousel-cell">
+          <p>
+            Lisa Marie helped me with my biggest issue.​ Being comfortable with the discomfort of putting boundaries by visualizing the long term positive outcome will be one of the major learnings I got from Lisa​. I am so grateful to call her my coach and I am sure the universe sent me to her for a reason.
+          </p>
+          <cite>
+              <p class="person">Laura</p>
+              <p class="title">CLIENT</p>
+          </cite>
+        </div>  
+        <div class="carousel-cell">
+          <p>
+            Having completed Boundary Coaching with Lisa Marie Runfola, ​I can say this was one of the most inspiring and wonderful transformations for myself.​ Setting boundaries and keeping myself accountable is no longer an issue.
+          </p>
+          <cite>
+              <p class="person">Iona</p>
+              <p class="title">CLIENT</p>
+          </cite>
+        </div>  
+      </div>
+      
       <img src="{{ site.baseurl }}/assets/img/arrow-mobile.svg" alt="" class="arrow">
   </main>
 </section>
@@ -340,7 +369,7 @@ dark-header: true
         Whether you need help setting up boundaries in your life or escaping the rut you’ve found yourself in, one-on-one coaching can provide a lot of insight.
       </p>
       <img src="{{ site.baseurl }}/assets/img/cta-face.png" alt="">
-      <a href="#" class="button">CTA</a>
+      <a href="#" class="button">Live LIfe Out Loud</a>
   </div>
   
   <h3 class="hide--desktop">Books &amp; Speaking</h3>
@@ -350,7 +379,7 @@ dark-header: true
         Hear more about my experiences, my point of view on breaking through life’s walls, and more in my books and past speaking engagements.
       </p>
       <img src="{{ site.baseurl }}/assets/img/cta-book.png" alt="">
-      <a href="#" class="button">CTA</a>
+      <a href="#" class="button">Learn More</a>
   </div>
   
 </section>
