@@ -19,7 +19,7 @@ title: About
         </figure>
     </main>
     <aside>
-        <p class="caption">Meet Your Life Igniter</p>
+        <p class="caption">Meet Your Life Ignitor</p>
 
         <h1>
             Lisa <br>
@@ -75,7 +75,7 @@ title: About
             Whether you need help setting up boundaries in your life or escaping the rut you’ve found yourself in, one-on-one coaching can provide a lot of insight.
         </p>
         <img src="{{ site.baseurl }}/assets/img/cta-face.png" alt="">
-        <a href="#" class="button">Live LIfe Out Loud</a>
+        <a href="/lets-ignite" class="button">Live LIfe Out Loud</a>
     </div>
     
     <h3 class="hide--desktop">Books &amp; Speaking</h3>
@@ -85,7 +85,7 @@ title: About
             Hear more about my experiences, my point of view on breaking through life’s walls, and more in my books and past speaking engagements.
         </p>
         <img src="{{ site.baseurl }}/assets/img/cta-book.png" alt="">
-        <a href="#" class="button">Learn More</a>
+        <a href="/books-speaking" class="button">Learn More</a>
     </div>
     
 </section>

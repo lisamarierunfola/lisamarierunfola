@@ -16,7 +16,7 @@ dark-header: true
     </main>
 
     <aside>
-        <img class="cover" src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="">
+        <img class="cover" src="{{ site.baseurl }}/assets/img/guestart.png" alt="">
     </aside>
 </section>
 
@@ -33,18 +33,27 @@ dark-header: true
             </span><br class="hide--mobile">
             Styled Like This. -->
 
-            &ldquo;Lorem Ipsum dolor sit&rdquo;
+            &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et&rdquo;
         </h3>
 
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus itaque cum quaerat deleniti mollitia vel ipsa vero reprehenderit sint officia esse maiores illo sunt ullam sed, nihil pariatur placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus itaque cum quaerat deleniti mollitia vel ipsa vero reprehenderit sint officia esse maiores illo sunt ullam sed, nihil pariatur placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus itaque cum quaerat deleniti mollitia vel ipsa vero reprehenderit sint officia esse maiores illo sunt ullam sed, nihil pariatur placeat.
         </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus itaque cum quaerat deleniti mollitia vel ipsa vero reprehenderit sint officia esse maiores illo sunt ullam sed, nihil pariatur placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus itaque cum quaerat deleniti mollitia vel ipsa vero reprehenderit sint officia esse maiores illo sunt ullam sed, nihil pariatur placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus itaque cum quaerat deleniti mollitia vel ipsa vero reprehenderit sint officia esse maiores illo sunt ullam sed, nihil pariatur placeat.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus itaque cum quaerat deleniti mollitia vel ipsa vero reprehenderit sint officia esse maiores illo sunt ullam sed, nihil pariatur placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus itaque cum quaerat deleniti mollitia vel ipsa vero reprehenderit sint officia esse maiores illo sunt ullam sed, nihil pariatur placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus itaque cum quaerat deleniti mollitia vel ipsa vero reprehenderit sint officia esse maiores illo sunt ullam sed, nihil pariatur placeat.
-        </p>
+        
+        <article class="guest">
+            <p class="caption">About Our Guest</p>
+
+            <p>
+                Angelica Rosas McDaniel is an Emmy award-winning entertainment executive, mentorship & equity advocate and public speaker. Making her start as a national radio host at 15, Angelica graduated to television at Telepictures/Warner Bros. as a development executive and director of new media for a lineup of shows that included The Tyra Banks Show, Extra and The Ellen DeGeneres Show before transitioning to CBS. As the EVP of Daytime Programs at the top-rated network, she had oversight of 11 shows, more than 1,200 original episodes every year and 34 million viewers weekly.
+            </p>
+
+            <p>
+                She’s credited with revitalizing CBS’s daytime lineup, which included beloved daytime dramas and game shows alike, from The Young and the Restless to The Price Is Right. Most notably, Angelica launched The Talk — CBS’s first daytime talk show and led the daypart in winning 116 Daytime Emmys.
+            </p>
+            <p>
+                Angelica has won seven Imagen Awards for creative achievements as a Latina in the entertainment industry, was named one of the “35 Women Under 35 Running Hollywood” in Glamour magazine and featured as one of the industry’s fastest-rising stars in The Hollywood Reporter’s Next Gen.
+            </p>
+        </article>
     </main>
 
     <aside>
@@ -101,16 +110,16 @@ dark-header: true
     <main>
         <div class="module">
             <figure>
-                <img src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="">
+                <img src="{{ site.baseurl }}/assets/img/guestart.png" alt="">
             </figure>
     
-            <h2>What’s not Being Said Topic of Discussion, Headline into Longer Sentences?</h2>
+            <h2>Creating Space and Opening Doors with Angelica Rosas McDaniel</h2>
     
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus quis quos sequi illo aliquam magnam architecto impedit fugit reiciendis tenetur corporis dolor, in accusantium. Similique aperiam dolorum explicabo corporis!
             </p>
             <p class="caption">
-                <a href="/blog">Learn More...</a>
+                <a href="/blog">Learn More</a>
             </p>
         </div>
         <div class="module">
@@ -118,13 +127,14 @@ dark-header: true
                 <img src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="">
             </figure>
     
-            <h2>What’s not Being Said Topic of Discussion, Headline into Longer Sentences?</h2>
+            <h2>Kindness is a revolution with Jaclyn Lindsey</h2>
     
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus quis quos sequi illo aliquam magnam architecto impedit fugit reiciendis tenetur corporis dolor, in accusantium. Similique aperiam dolorum explicabo corporis!
+                Coming Soon. <br>
+                September 27, 2021
             </p>
             <p class="caption">
-                <a href="/blog">Learn More...</a>
+                <a href="/blog">Learn More</a>
             </p>
         </div>
         <div class="module">
@@ -132,13 +142,14 @@ dark-header: true
                 <img src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="">
             </figure>
     
-            <h2>What’s not Being Said Topic of Discussion, Headline into Longer Sentences?</h2>
+            <h2>Creating Confidence WITH Kate Eckman</h2>
     
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus quis quos sequi illo aliquam magnam architecto impedit fugit reiciendis tenetur corporis dolor, in accusantium. Similique aperiam dolorum explicabo corporis!
+                Coming Soon. <br>
+                October 4, 2021
             </p>
             <p class="caption">
-                <a href="/blog">Learn More...</a>
+                <a href="/blog">Learn More</a>
             </p>
         </div>
     </main>

@@ -32,7 +32,6 @@
 }
 
 .about__intro {
-    // background: $white url('../img/about-curve--mobile.svg') center top no-repeat;
     background-color: white;
     background-image: url('../img/about-curve--mobile.svg');
     background-repeat: no-repeat;
@@ -40,12 +39,7 @@
     background-size: 115vw;
 
     padding-top: 60px;
-
-    // background-position: 0% 90%;
-
-    // @include max-large {
-    //     background-position: 0% 90%;
-    // }
+    padding-bottom: 72px;
 
     @include large {
         padding-top: 200px;
@@ -142,14 +136,21 @@
 
             @include large {
                 margin: 0;
+                margin-bottom: 66px;
             }
         }
 
         figure {
-            display: flex;
-            justify-content: space-evenly;
+            // display: flex !important;
+            // justify-content: space-around;
             @include large {
                 margin-top: 66px;
+            }
+
+            img:first-of-type {
+                @include large {
+                    margin-right: 80px;
+                }
             }
         }
     }

@@ -311,6 +311,7 @@ section.home__hero {
         }
 
         .shift {
+            display: inline-block;
             position: relative;
             left: 7.5%;
         }
@@ -457,16 +458,19 @@ section.home__quote {
     background-repeat: no-repeat;
 
     background-image: url('../img/home-podcast-curve-mobile.svg');
-        background-position-y: top;
-        background-size: contain;
-        position: relative;
-        top: -1px;
+    background-position-y: top;
+    background-size: 100%;
+    position: relative;
+    top: -1px;
+
+    @include small {
+        background-position-y: -150px;
+    }
 
     @include large {
     background-image: url('../img/home-podcast-curve.svg');
-        
-
-        padding-top: 270px;
+    background-position-y: top;
+    padding-top: 270px;
         
     }
 

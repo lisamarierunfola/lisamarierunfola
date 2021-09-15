@@ -208,7 +208,7 @@ title: Let's Ignite
         <p class="description hide--mobile">
             Ignited By Boundaries is specifically designed to help over-giving, over-achieving people pleasers create lives that feel vibrant, energized, and alive. We’ll spend 12 sessions exploring what freedom means to you, designing a life with you at the center, and breaking through your fears and discomfort. Based on the work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week program will help you cultivate the confidence and courage you need to step into the life you desire!
         </p>
-        <a href="#" class="button">
+        <a href="/contact" class="button">
             Sign Up Now
         </a>
     </header>
@@ -216,7 +216,7 @@ title: Let's Ignite
     <p class="description hide--desktop">
         Ignited By Boundaries is specifically designed to help over-giving, over-achieving people pleasers create lives that feel vibrant, energized, and alive. We’ll spend 12 sessions exploring what freedom means to you, designing a life with you at the center, and breaking through your fears and discomfort. Based on the work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week program will help you cultivate the confidence and courage you need to step into the life you desire!
     </p>
-    <a href="#" class="button hide--desktop">
+    <a href="/contact" class="button hide--desktop">
         Sign Up Now
     </a>
 </section>
@@ -233,7 +233,7 @@ title: Let's Ignite
         <p class="description hide--mobile">
             If you close your eyes and take a few long, slow breaths and tune into your inner world, do you feel as though you’re stuck or frustrated in some way with your life? Are you struggling to find your way forward? Since I’ve re-engaged in certain steps to release the “old” and embrace the “new”, I’ve been bowled over with much more positive energy. I achieved this through Reinvention Coaching – an eye-opening & empowering experience I gained from the wonderful Levin Life Coaching Academy.
         </p>
-        <a href="#" class="button">
+        <a href="/contact" class="button">
             Sign Up Now
         </a>
     </header>
@@ -241,7 +241,7 @@ title: Let's Ignite
     <p class="description hide--desktop">
         If you close your eyes and take a few long, slow breaths and tune into your inner world, do you feel as though you’re stuck or frustrated in some way with your life? Are you struggling to find your way forward? Since I’ve re-engaged in certain steps to release the “old” and embrace the “new”, I’ve been bowled over with much more positive energy. I achieved this through Reinvention Coaching – an eye-opening & empowering experience I gained from the wonderful Levin Life Coaching Academy.
     </p>
-    <a href="#" class="button hide--desktop">
+    <a href="/contact" class="button hide--desktop">
         Sign Up Now
     </a>
 </section>

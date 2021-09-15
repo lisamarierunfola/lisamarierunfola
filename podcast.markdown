@@ -58,11 +58,15 @@ title: Podcast
             <a href="/blog">
                 <h3>Creating Space and Opening Doors with Angelica Rosas McDaniel</h3>
             </a>
-            <time>07.29.2021</time>
+            <!-- <time>07.29.2021</time> -->
         </header>
         
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos atque repellat voluptates iusto ut recusandae, maxime obcaecati. Eaque, laborum? Ipsa vero dolorum alias, itaque optio obcaecati quibusdam nostrum ea adipisci?
+        </p>
+
+        <p class="caption">
+            <a href="/blog">Learn More</a>
         </p>
     </div>
 
@@ -81,10 +85,10 @@ title: Podcast
     <main>
         <div class="module">
             <figure>
-                <img src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="">
+                <img src="{{ site.baseurl }}/assets/img/guestart.png" alt="">
             </figure>
     
-            <h2>What’s not Being Said Topic of Discussion, Headline into Longer Sentences?</h2>
+            <h2>Creating Space and Opening Doors with Angelica Rosas McDaniel</h2>
     
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus quis quos sequi illo aliquam magnam architecto impedit fugit reiciendis tenetur corporis dolor, in accusantium. Similique aperiam dolorum explicabo corporis!
@@ -98,10 +102,11 @@ title: Podcast
                 <img src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="">
             </figure>
     
-            <h2>What’s not Being Said Topic of Discussion, Headline into Longer Sentences?</h2>
+            <h2>Kindness is a revolution with Jaclyn Lindsey</h2>
     
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus quis quos sequi illo aliquam magnam architecto impedit fugit reiciendis tenetur corporis dolor, in accusantium. Similique aperiam dolorum explicabo corporis!
+                Coming Soon. <br>
+                September 27, 2021
             </p>
             <p class="caption">
                 <a href="/blog">Learn More</a>
@@ -112,10 +117,11 @@ title: Podcast
                 <img src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="">
             </figure>
     
-            <h2>What’s not Being Said Topic of Discussion, Headline into Longer Sentences?</h2>
+            <h2>Creating Confidence WITH Kate Eckman</h2>
     
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus quis quos sequi illo aliquam magnam architecto impedit fugit reiciendis tenetur corporis dolor, in accusantium. Similique aperiam dolorum explicabo corporis!
+                Coming Soon. <br>
+                October 4, 2021
             </p>
             <p class="caption">
                 <a href="/blog">Learn More</a>

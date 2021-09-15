@@ -160,6 +160,10 @@ section.books-speaking__hero {
         @include large {
             grid-column: 2/6;
         }
+
+        img {
+            width: 100%;
+        }
     }
 
     main {
@@ -225,9 +229,10 @@ section.books-speaking__hero {
     @include large {
         padding-top: 238px;
         padding-bottom: 238px;
-        background-image: url(../img/collaborate3.png);
+        background-image: url(../img/collaborate4.png);
         background-repeat: no-repeat;
         background-position-x: right;
+        background-position-y: bottom;
         background-size: contain;
     }
 
@@ -264,8 +269,11 @@ section.books-speaking__hero {
 }
 
 .books-speaking__background {
+    overflow-y: hidden;
+
     img {
         width: 100%;
+        transform: translateY(10px)
     }
     
     @include large {

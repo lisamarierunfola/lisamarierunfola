@@ -97,7 +97,7 @@ dark-header: true
     </div>
 
     <div class="background">
-        <img src="{{ site.baseurl }}/assets/img/home-bg--mobile2.png" alt="">
+        <img src="{{ site.baseurl }}/assets/img/home-bg--mobile3.png" alt="">
     </div>
 
     
@@ -159,7 +159,7 @@ dark-header: true
         It's time to rediscover your spark
     </p>
 
-    <a href="#" class="button">
+    <a href="/lets-ignite" class="button">
         Light The Way
     </a>
 </section>
@@ -172,7 +172,7 @@ dark-header: true
         </figure>
     </main>
     <aside>
-        <p class="caption">Meet Your Life Igniter</p>
+        <p class="caption">Meet Your Life Ignitor</p>
 
         <h1>
             Lisa <br>
@@ -356,7 +356,7 @@ dark-header: true
       What’s Not Being Said is a podcast by Lisa Marie Runfola. As a certified coach, author, and self-described Life Ignitor, Lisa Marie will help you “Flip The Switch and Turn Your Life Back On” during this illuminating conversation series. Join her as she speaks with authors, healers, coaches, and brave souls as they explore ways to help people feel more alive in every area of their lives.
     </p>
 
-    <a href="#" class="button">Go the Latest Episode</a>
+    <a href="/podcast" class="button">Go the Latest Episode</a>
   </main> 
 </section>
 
@@ -369,7 +369,7 @@ dark-header: true
         Whether you need help setting up boundaries in your life or escaping the rut you’ve found yourself in, one-on-one coaching can provide a lot of insight.
       </p>
       <img src="{{ site.baseurl }}/assets/img/cta-face.png" alt="">
-      <a href="#" class="button">Live LIfe Out Loud</a>
+      <a href="/lets-ignite" class="button">Live LIfe Out Loud</a>
   </div>
   
   <h3 class="hide--desktop">Books &amp; Speaking</h3>
@@ -379,7 +379,7 @@ dark-header: true
         Hear more about my experiences, my point of view on breaking through life’s walls, and more in my books and past speaking engagements.
       </p>
       <img src="{{ site.baseurl }}/assets/img/cta-book.png" alt="">
-      <a href="#" class="button">Learn More</a>
+      <a href="/books-speaking" class="button">Learn More</a>
   </div>
   
 </section>
