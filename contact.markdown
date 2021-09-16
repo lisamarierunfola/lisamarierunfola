@@ -26,7 +26,7 @@ title: Contact
         <input name="Name" type="text" placeholder="Name" required>
         <input name="Email" type="email" placeholder="Email Address" required>
         <select name="Interest" id="">
-            <option value="">Interest</option>
+            <option disabled selected value="">Interest</option>
             <option value="coaching">Coaching</option>
             <option value="speaking">Speaking</option>
             <option value="writing">Writing</option>
