@@ -149,14 +149,13 @@ section.home__hero {
         .caption {
             font: {
                 size: 10px;
-                weight: normal;
+                weight: bold;
             }
             margin-right: 6px;
 
             @include large {
                 font: {
                     size: 30px;
-                    weight: bold;
                 }   
             }
         }
