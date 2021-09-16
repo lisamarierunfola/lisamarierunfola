@@ -23,18 +23,18 @@ title: Contact
 
 <section class="section contact__form" id="contact__form">
     <form name="contact" action="" netlify>
-        <input type="text" placeholder="Name" required>
-        <input type="email" placeholder="Email Address" required>
-        <select name="" id="">
+        <input name="Name" type="text" placeholder="Name" required>
+        <input name="Email" type="email" placeholder="Email Address" required>
+        <select name="Interest" id="">
             <option value="">Interest</option>
-            <option value="">Coaching</option>
-            <option value="">Speaking</option>
-            <option value="">Writing</option>
-            <option value="">General Inquiry</option>
-            <option value="">Other</option>
+            <option value="coaching">Coaching</option>
+            <option value="speaking">Speaking</option>
+            <option value="writing">Writing</option>
+            <option value="general-inquiry">General Inquiry</option>
+            <option value="other">Other</option>
         </select>
 
-        <textarea name="" id="" placeholder="Message"></textarea>
+        <textarea name="message" id="" placeholder="Message"></textarea>
 
         <input type="submit" class="button">
     </form>
