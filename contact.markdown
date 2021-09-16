@@ -22,7 +22,7 @@ title: Contact
 </section>
 
 <section class="section contact__form" id="contact__form">
-    <form action="">
+    <form name="contact" action="" netlify>
         <input type="text" placeholder="Name" required>
         <input type="email" placeholder="Email Address" required>
         <select name="" id="">
