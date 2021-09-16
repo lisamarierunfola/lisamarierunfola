@@ -91,8 +91,6 @@ text: |-
             Terms of Service
         </h1>
     
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat minus autem ullam laudantium delectus perferendis libero ipsam labore amet nesciunt, dignissimos voluptas non fuga ut, veritatis, eligendi nobis quas obcaecati!
-        </p>
+        {{ page.text | markdownify }}
     </article>
 </section>

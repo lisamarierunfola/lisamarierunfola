@@ -463,7 +463,7 @@ footer.footer {
 }
 
 .legal {
-	padding-top: 4rem;
+	padding-top: 6rem;
 	padding-bottom: 4rem;
 
 	@include large {
@@ -493,18 +493,16 @@ footer.footer {
 				font-size: 1.5625rem;
 				line-height: 38px;
 			}
+			margin-bottom: 1.5625rem;
+
 		}
 
 		h3 {
 			margin-top: 1.5625rem;
-			margin-bottom: 1.5625rem;
 			font-weight: bold;
 			color: $navy;
 		}
 
-		p {
-			margin-bottom: 1.5625rem;
-		}
 	
 	}
 
