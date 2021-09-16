@@ -251,10 +251,16 @@ footer.footer {
 	background: $navy;
 	color: $white;
 
+	padding-left: 0;
+	padding-right: 0;
+
 	padding-top: 64px;
 	padding-bottom: 54px;
 
 	@include large {
+		padding-left: 36px;
+		padding-right: 36px;
+
 		padding-top: 189px;
 		padding-bottom: 100px;
 	}
@@ -265,6 +271,9 @@ footer.footer {
 
 	// article.callout {
 		aside {
+			padding-left: 36px;
+			padding-right: 36px;
+
 			@include large {
 				grid-column: 2/5;
 			}
@@ -286,12 +295,12 @@ footer.footer {
 			.cursive {
 				text-align: center;
 				font-size: 20px;
-				margin-top: 1rem;
-				margin-bottom: 26px;
+				margin-top: 1.5rem;
+				margin-bottom: 3rem;
 
 				@include large {
 					text-align: left;
-					width: 150%;
+					width: 180%;
 					font-size: 45px;
 					margin-top: 3rem;
 					margin-bottom: 0;
@@ -300,13 +309,22 @@ footer.footer {
 		}
 
 		main {
+			padding-left: 36px;
+			padding-right: 36px;
+
 			@include large {
 				grid-column: 7/12;
 			}
 
 			.caption {
+				text-align: center;
+
 				&:nth-of-type(2) {
 					text-transform: capitalize;
+				}
+
+				@include large {
+					text-align: left;
 				}
 			}
 
@@ -318,9 +336,10 @@ footer.footer {
 		}
 
 		nav {
-			border-top: 1px solid $white;
 			margin-top: 64px;
 			padding-top: 0;
+			// padding-left: 36px;
+			// padding-right: 36px;
 
 			// display: grid;
 			// grid-template-columns: repeat(12, minmax(auto, 105px));
@@ -333,12 +352,25 @@ footer.footer {
 				padding-bottom: 70px;
 				display: flex;
 				justify-content: space-between;
-
+				border-top: 1px solid $white;
 				grid-column: 2/12;
 			}
 
 			ul {
 				list-style: none;
+				border-bottom: 1px solid $white;
+
+				&:not(:first-of-type) {
+					margin-top: 24px;
+
+					@include large {
+						margin-top: 0;
+					}
+				}
+
+				@include large {
+					border-bottom: 0;
+				}
 
 				&:nth-of-type(2) {
 					@include large {
@@ -357,26 +389,68 @@ footer.footer {
 					font-size: 22px;
 					margin-bottom: 19px;
 					display: none;
+					padding-left: 36px;
+					padding-right: 36px;
 
 					@include large {
 						display: block;
+						padding-left: 0;
+						padding-right: 0;
+					}
+
+					&.expanding {
+						&.show {
+							display: block;
+						}
 					}
 
 					&:first-of-type {
 						font-weight: bold;
 						text-transform: uppercase;
-						display: block;
+						display: flex;
+						justify-content: space-between;
+						// padding-bottom: 1rem;
+						cursor: pointer;
+
+						&:after {
+							content: '\002B';
+							font-weight: normal;
+							font-size: 2rem;
+						}
+
+						@include large {
+							cursor: auto;
+
+							&:after {
+								display: none;
+							}
+						}
+
+						&.expanded {
+							&:after {
+								content: '\2212';
+							}	
+						}
+						
+					}
+
+					&:last-of-type {
+						padding-bottom: 0.5rem;
 					}
 				}
 			}
 		}
 
 		footer {
-			border-top: 1px solid $white;
 			padding-top: 20px;
+			padding-left: 36px;
+			padding-right: 36px;
 
 			@include large {
+				border-top: 1px solid $white;
 				grid-column: 2/12;
+				padding-left: 0;
+				padding-right: 0;
 			}
 		}
 	// }
