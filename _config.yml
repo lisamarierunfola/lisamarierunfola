@@ -5,17 +5,11 @@ collections:
   blog:
     title: Blog
     output: true
-  news:
-    title: News
-    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
-    output: true
-  work:
-    title: Work
     output: true
 defaults:
 - scope:
