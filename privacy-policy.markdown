@@ -177,6 +177,6 @@ text: "### Who we are\n\nOur website address is: [https://lisamarierunfola.com](
         </h1>
 
         
-    
+        {{ page.text | markdownify }}
     </article>
 </section>

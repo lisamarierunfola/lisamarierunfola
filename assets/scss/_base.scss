@@ -487,6 +487,24 @@ footer.footer {
 				margin-bottom: 3rem;
 			}
 		}
+
+		h3, p, ul {
+			@include large {
+				font-size: 1.5625rem;
+				line-height: 38px;
+			}
+		}
+
+		h3 {
+			margin-top: 1.5625rem;
+			margin-bottom: 1.5625rem;
+			font-weight: bold;
+			color: $navy;
+		}
+
+		p {
+			margin-bottom: 1.5625rem;
+		}
 	
 	}
 
