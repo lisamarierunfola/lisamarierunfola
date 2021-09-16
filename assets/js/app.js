@@ -1,9 +1,11 @@
 var main = function() {
-	$('.nav-icon').click(function() {
+	$('.nav-toggle').click(function() {
 			console.log('icon clikced');
-			$('.nav-icon').toggleClass('turn');
-			$('nav ul').toggleClass('close');
-			$('nav ul').toggleClass('open');
+			$('nav.mobile').toggleClass('hidden');
+	});
+	$('img.cross').click(function() {
+			console.log('icon clikced');
+			$('nav.mobile').toggleClass('hidden');
 	});
 	
 	$(window).on("scroll", function() {

@@ -4,6 +4,7 @@ body {
 	}
 	@include text--body;
 	background: $cream;
+	overflow-x: hidden;
 }
 
 .section {
@@ -56,13 +57,19 @@ header[role="banner"] {
 		color: $navy;
 
 		svg * { fill: $navy !important; }
+
+		.nav-toggle {
+			svg * {
+				stroke: $navy;
+			}
+		}
 	}
 
 	&.scrolled {
 		background: white;
 		color: $teal;
 
-		svg * { fill: $teal !important; }
+		svg * { fill: $teal !important; stroke: $teal !important; }
 	}
 
 	.logo {
@@ -80,10 +87,11 @@ header[role="banner"] {
 		// }
 
 		svg {
-			margin-right: 12px;
+			margin-right: 3px;
 			width: 32px;
 
 			@include large {
+				margin-right: 12px;
 				width: 57px;
 			}
 
@@ -94,9 +102,21 @@ header[role="banner"] {
 
 		span.name {
 			font-family: $font--heading;
+			font-size: 9px;
+			line-height: 1;
+			display: inline-block;
 
 			@include large {
 				font-size: 2rem;
+			}
+
+			.shift {
+				position: relative;
+				left: 15%;
+				@include large {
+					position: static;
+					left: 0;
+				}
 			}
 		}
 	}
@@ -112,21 +132,94 @@ header[role="banner"] {
 		}
 
 		a {
+			&.nav-toggle {
+				svg * {
+					stroke: $white;
+				}
+			}
+
 			@include large {
+				margin-right: 1.25rem;
+			}
+			
+			@include x-large {
 				margin-right: 1.75rem;
 			}
-			// @include large {
-			// 	margin-right: 2.5rem;
-			// }
+			
 			@include xx-large {
 				margin-right: 2.25rem;
+			}
+
+			&.hide--mobile {
+				display: none !important;
+
+				@include x-large {
+				  display: initial !important;
+				}
+			}
+
+			&.hide--desktop.nav-toggle {
+
+				@include large {
+					display: initial !important;
+				}
+
+				@include x-large {
+					display: none !important;
+				}
 			}
 		}
 	}
 
 	.nav-toggle {
 		margin-right: 0;
+		cursor: pointer;
 	}
+}
+
+nav.mobile {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 80vw;
+	height: 100vh;
+	background: $navy;
+	z-index: 1000;
+	// position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 30px;
+
+	transition: 0.35s ease-in-out;
+
+	&.hidden {
+		transform: translateX(80vw);
+	}
+
+	img.cross {
+		position: absolute;
+		top: 19px;
+		right: 28px;
+		width: 25px;
+		cursor: pointer;
+	}
+
+	a {
+		@include text--caption;
+		font-size: 1.5625rem;
+		text-transform: none;
+		color: $pink;
+		margin-bottom: 30px;
+	}
+
+	a.button {
+		margin-top: 10px;
+		font-size: 14px;
+		border-color: $pink;
+		text-transform: uppercase;
+	}
+
 }
 
 section.hero {
@@ -292,5 +385,35 @@ footer.footer {
 
 	}
 
+
+}
+
+.legal {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+
+	@include large {
+		grid-column: 2/12;
+		padding-top: 273px;
+		padding-bottom: 134px;
+	}
+
+	article {
+		@include large {
+			grid-column: 2/12;
+		}	
+
+		h1 {
+			@include text--heading;
+			text-align: center;
+			margin-bottom: 2rem;
+	
+			@include large {
+				text-align: left;
+				margin-bottom: 3rem;
+			}
+		}
+	
+	}
 
 }

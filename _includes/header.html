@@ -79,7 +79,12 @@
         </a>
           
         <a href="/">
-            <span class="name">Lisa Marie Runfola</span>
+            <span class="name">Lisa <br class="hide--desktop">
+                <span class="shift">
+                    Marie <br class="hide--desktop">
+                </span>
+                Runfola
+            </span>
         </a>
     </div>
 
@@ -91,9 +96,29 @@
         <a class="hide--mobile" href="/about">About</a>
         <a class="hide--mobile" href="/contact">Contact</a>
         <a class="nav-toggle hide--desktop" href="#">
-            <img src="{{ site.baseurl }}/assets/img/hamburger.svg" alt="">
+            <!-- <img src="{{ site.baseurl }}/assets/img/hamburger.svg" alt=""> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="23.5" height="15" viewBox="0 0 23.5 15">
+                <g id="Group_463" data-name="Group 463" transform="translate(-315 -18)">
+                  <line id="Line_2" data-name="Line 2" x2="22.5" transform="translate(315.5 18.5)" fill="none" stroke="#263361" stroke-linecap="round" stroke-width="1"/>
+                  <line id="Line_3" data-name="Line 3" x2="22.5" transform="translate(315.5 25.5)" fill="none" stroke="#263361" stroke-linecap="round" stroke-width="1"/>
+                  <line id="Line_4" data-name="Line 4" x2="22.5" transform="translate(315.5 32.5)" fill="none" stroke="#263361" stroke-linecap="round" stroke-width="1"/>
+                </g>
+              </svg>              
         </a>
-    </nav>
-
-    
+    </nav>    
 </header>
+
+<nav class="mobile hidden">
+    <img class="cross" src="{{ site.baseurl }}/assets/img/cross.svg" alt="">
+
+    <a href="/">Home</a>
+    <a href="/lets-ignite">Let's Ignite</a>
+    <a href="/books-speaking">Books & Speaking</a>
+    <a href="/podcast">Podcast</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+
+    <a href="/contact#contact__form" class="button">
+        Book a Discovery call
+    </a>
+</nav>
