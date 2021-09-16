@@ -194,7 +194,7 @@ dark-header: true
             Lisa Marie Runfola is a dynamic, charismatic speaker that will light up your event with tips and techniques your audience can implement immediately. Her unique style combines inspirational storytelling, bold truths, and powerful messages to gift your audience with the opportunity to see new possibilities for their own lives.
         </p>
 
-        <a href="/contact" class="button">Let&rsquo;s Collaborate</a>
+        <a href="/contact#contact__form" class="button">Let&rsquo;s Collaborate</a>
     </main>
 </section>
 

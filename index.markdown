@@ -8,7 +8,9 @@ dark-header: true
         <h1>
             Bloom <br>
             <span class="shift">into</span> <br>
-            Yourself 
+            <span class="starword">
+              Yourself 
+            </span>
             <!-- <img class="star" src="{{ site.baseurl }}/assets/img/staricon.svg" alt=""> -->
         </h1>
 
@@ -144,16 +146,24 @@ dark-header: true
 
 <section class="section home__intro">
     <h1>
-        Have you been feeling&nbsp;&nbsp;
+        Have you been <br class="hide--mobile">
+        feeling&nbsp;&nbsp;
         <br class="hide--desktop">
 
-        <div class="cursive slidingVertical">
+        <div class="cursive slidingVertical hide--mobile">
           <span>overwhelmed?</span>
           <span>stuck?</span>
           <span>uninspired?</span>
           <span>exhausted?</span>
         </div>
     </h1>
+
+    <div class="cursive slidingVertical hide--desktop">
+      <span>overwhelmed?</span>
+      <span>stuck?</span>
+      <span>uninspired?</span>
+      <span>exhausted?</span>
+    </div>
 
     <p class="caption">
         It's time to rediscover your spark
@@ -245,7 +255,7 @@ dark-header: true
 
 <section class="section home__steps">
   <div class="module">
-    <img src="{{ site.baseurl }}/assets/img/step1.svg" alt="">
+    <img src="{{ site.baseurl }}/assets/img/step1.png" alt="">
     <article>
       <h3>Make a <br class="hide--mobile"> decision</h3>
       <p>
@@ -254,7 +264,7 @@ dark-header: true
     </article>
   </div>
   <div class="module">
-    <img src="{{ site.baseurl }}/assets/img/step2.svg" alt="">
+    <img src="{{ site.baseurl }}/assets/img/step2.png" alt="">
     <article>
       <h3>Schedule a <br class="hide--mobile">
         Discovery Call</h3>
@@ -264,7 +274,7 @@ dark-header: true
     </article>
   </div>
   <div class="module">
-    <img src="{{ site.baseurl }}/assets/img/step3.svg" alt="">
+    <img src="{{ site.baseurl }}/assets/img/step3.png" alt="">
     <article>
       <h3>Show <br class="hide--mobile"> Commitment</h3>
       <p>
@@ -273,7 +283,7 @@ dark-header: true
     </article>
   </div>
   <div class="module">
-    <img src="{{ site.baseurl }}/assets/img/step4.svg" alt="">
+    <img src="{{ site.baseurl }}/assets/img/step4.png" alt="">
     <article>
       <h3>Transformation <br class="hide--mobile"> Completed</h3>
       <p>
@@ -285,9 +295,11 @@ dark-header: true
 
 <section class="section home__call">
   <article>
-    <h1>Book a <br class=""> Discovery Call
-    </h1>
-    <img class="circle-arrow" src="{{ site.baseurl }}/assets/img/circle-arrow.svg" alt="">
+    <a href="/contact#contact__form">
+      <h1>Book a <br class=""> Discovery Call
+      </h1>
+      <img class="circle-arrow" src="{{ site.baseurl }}/assets/img/circle-arrow.svg" alt="">
+    </a>
 
   </article>
 </section>
@@ -333,7 +345,7 @@ dark-header: true
         </div>  
       </div>
       
-      <img src="{{ site.baseurl }}/assets/img/arrow-mobile.svg" alt="" class="arrow">
+      <!-- <img src="{{ site.baseurl }}/assets/img/arrow-mobile.svg" alt="" class="arrow"> -->
   </main>
 </section>
 

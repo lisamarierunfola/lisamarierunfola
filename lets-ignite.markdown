@@ -4,8 +4,10 @@ title: Let's Ignite
 
 <section class="section hero ignite__hero">
     <h1>
-        Amplify Your Life. Set Clear Goals.
-        <!-- <br><br> -->
+        Amplify Your Life. <br class="hide--mobile">
+        Set Clear Goals.
+        <br class="hide--desktop"><br class="hide--desktop">
+
         <span>
             Create Strong Boundaries.
         </span>
@@ -159,13 +161,13 @@ title: Let's Ignite
 <section class="section ignite__carousel">
     <div class="main-carousel">
         <div class="carousel-cell">
-            <video controls src="{{ site.baseurl }}/assets/img/video1.mp4"></video>
+            <video controls src="{{ site.baseurl }}/assets/img/video_1.mp4"></video>
         </div>
         <div class="carousel-cell">
-            <video controls src="{{ site.baseurl }}/assets/img/video2.mp4"></video>
+            <video controls src="{{ site.baseurl }}/assets/img/video_2.mp4"></video>
         </div>
         <div class="carousel-cell">
-            <video controls src="{{ site.baseurl }}/assets/img/video3.mp4"></video>
+            <video controls src="{{ site.baseurl }}/assets/img/video_3.mp4"></video>
         </div>
       </div>
 </section>
@@ -183,7 +185,7 @@ title: Let's Ignite
             <br>
             You’d be surprised to find out just how much we can change your life in 45 minutes. During this complementary call, we’ll look at some of the factors in your life that have you feeling stuck and tapped out. We’ll get clear on your desires and goals. Then we’ll create an achievable plan so that you can take action immediately.
         </p>
-        <a href="#" class="button">
+        <a href="/contact#contact__form" class="button">
             Book Your Free Call Now
         </a>
     </header>
@@ -193,7 +195,7 @@ title: Let's Ignite
         <br>
         You’d be surprised to find out just how much we can change your life in 45 minutes. During this complementary call, we’ll look at some of the factors in your life that have you feeling stuck and tapped out. We’ll get clear on your desires and goals. Then we’ll create an achievable plan so that you can take action immediately.
     </p>
-    <a href="#" class="button hide--desktop">
+    <a href="/contact#contact__form" class="button hide--desktop">
         Book Your Free Call Now
     </a>
 </section>
@@ -208,7 +210,7 @@ title: Let's Ignite
         <p class="description hide--mobile">
             Ignited By Boundaries is specifically designed to help over-giving, over-achieving people pleasers create lives that feel vibrant, energized, and alive. We’ll spend 12 sessions exploring what freedom means to you, designing a life with you at the center, and breaking through your fears and discomfort. Based on the work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week program will help you cultivate the confidence and courage you need to step into the life you desire!
         </p>
-        <a href="/contact" class="button">
+        <a href="/contact#contact__form" class="button">
             Sign Up Now
         </a>
     </header>
@@ -216,7 +218,7 @@ title: Let's Ignite
     <p class="description hide--desktop">
         Ignited By Boundaries is specifically designed to help over-giving, over-achieving people pleasers create lives that feel vibrant, energized, and alive. We’ll spend 12 sessions exploring what freedom means to you, designing a life with you at the center, and breaking through your fears and discomfort. Based on the work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week program will help you cultivate the confidence and courage you need to step into the life you desire!
     </p>
-    <a href="/contact" class="button hide--desktop">
+    <a href="/contact#contact__form" class="button hide--desktop">
         Sign Up Now
     </a>
 </section>
@@ -233,7 +235,7 @@ title: Let's Ignite
         <p class="description hide--mobile">
             If you close your eyes and take a few long, slow breaths and tune into your inner world, do you feel as though you’re stuck or frustrated in some way with your life? Are you struggling to find your way forward? Since I’ve re-engaged in certain steps to release the “old” and embrace the “new”, I’ve been bowled over with much more positive energy. I achieved this through Reinvention Coaching – an eye-opening & empowering experience I gained from the wonderful Levin Life Coaching Academy.
         </p>
-        <a href="/contact" class="button">
+        <a href="/contact#contact__form" class="button">
             Sign Up Now
         </a>
     </header>
@@ -241,7 +243,7 @@ title: Let's Ignite
     <p class="description hide--desktop">
         If you close your eyes and take a few long, slow breaths and tune into your inner world, do you feel as though you’re stuck or frustrated in some way with your life? Are you struggling to find your way forward? Since I’ve re-engaged in certain steps to release the “old” and embrace the “new”, I’ve been bowled over with much more positive energy. I achieved this through Reinvention Coaching – an eye-opening & empowering experience I gained from the wonderful Levin Life Coaching Academy.
     </p>
-    <a href="/contact" class="button hide--desktop">
+    <a href="/contact#contact__form" class="button hide--desktop">
         Sign Up Now
     </a>
 </section>
@@ -294,11 +296,11 @@ title: Let's Ignite
             <p class="person">Laura</p>
             <p class="title">CLIENT</p>
         </cite> -->
-        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="242.737" height="27.49" viewBox="0 0 242.737 27.49">
+        <!-- <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="242.737" height="27.49" viewBox="0 0 242.737 27.49">
             <g id="Group_4" data-name="Group 4" transform="translate(-1106 -4887.248)">
               <path id="Path_4" data-name="Path 4" d="M1106,4901.133h242" fill="none" stroke="#1D2C60" stroke-width="1"/>
               <path id="Path_5" data-name="Path 5" d="M1497.531,4895.016l14.477,13.323-14.477,13.433" transform="translate(-164.009 -7.4)" fill="none" stroke="#1D2C60" stroke-width="1"/>
             </g>
-          </svg>          
+        </svg>        -->
     </main>
 </section>
