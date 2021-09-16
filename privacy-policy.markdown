@@ -9,10 +9,7 @@ dark-header: true
             Privacy Policy
         </h1>
 
-        {{ content }}
-    
         
-
-
+    
     </article>
 </section>
