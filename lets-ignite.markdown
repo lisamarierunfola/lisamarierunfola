@@ -153,7 +153,7 @@ title: Let's Ignite
         </p>
 
         <p>
-            <a href="#" class="button">Flip The Switch</a>
+            <a href="/contact#contact__form" class="button">Flip The Switch</a>
         </p>
     </main>
 </section>
