@@ -81,8 +81,18 @@ section.contact__hero {
     padding-bottom: 85px;
 
     @include large {
-        padding-top: 128px;
+        // padding-top: 128px;
+        padding-top: 5rem;
         padding-bottom: 140px;
+    }
+
+    .caption {
+        text-align: center;
+        margin-bottom: 2rem;
+
+        @include large {
+            margin-bottom: 3rem;
+        }
     }
 
     form {

@@ -22,6 +22,10 @@ title: Contact
 </section>
 
 <section class="section contact__form" id="contact__form">
+    <p class="caption">
+        Let's Talk
+    </p>
+
     <form name="contact" action="" netlify>
         <input name="Name" type="text" placeholder="Name" required>
         <input name="Email" type="email" placeholder="Email Address" required>
