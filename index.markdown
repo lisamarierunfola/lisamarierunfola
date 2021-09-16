@@ -6,7 +6,7 @@ dark-header: true
 <section class="section hero home__hero">
     <div class="text">
         <h1>
-            Bloomm <br>
+            Bloom <br>
             <span class="shift">into</span> <br>
             <span class="starword">
               Yourself 
