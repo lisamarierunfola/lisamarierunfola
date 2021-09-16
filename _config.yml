@@ -2,6 +2,9 @@
 title: Lisa Marie Runfola
 timezone: Asia/Kolkata
 collections:
+  blog:
+    title: Blog
+    output: true
   news:
     title: News
     output: true
@@ -13,9 +16,6 @@ collections:
     output: true
   work:
     title: Work
-    output: true
-  blog:
-    title: Blog
     output: true
 defaults:
 - scope:
