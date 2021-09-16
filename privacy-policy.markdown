@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 dark-header: true
-text: "### Who we are\n\nOur website address is: [https://lisamarierunfola.com](https://lisamarierunfola.com/).\nLisa
+text: "### Who we are\n\nOur website address is: [https://lisamarierunfola.com](https://lisamarierunfola.com/).\n\nLisa
   Marie Runfola Updated Privacy Policy: December 17th 2020\n\n### ACKNOWLEDGEMENT
   AND ACCEPTANCE OF TERMS\n\nLisa Marie Runfola, LLC doing business as Lisa Marie
   Runfola (“Company”) is committed to protecting your privacy. This Privacy Statement
@@ -176,7 +176,7 @@ text: "### Who we are\n\nOur website address is: [https://lisamarierunfola.com](
             Privacy Policy
         </h1>
 
-        
+        {{ page.text | markdownify }}
     
     </article>
 </section>
