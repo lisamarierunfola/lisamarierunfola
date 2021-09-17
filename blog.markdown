@@ -1,5 +1,5 @@
 ---
-title: Podcast Episode
+title: Creating Space and Opening Doors with Angelica Rosas McDaniel
 dark-header: true
 ---
 
@@ -72,7 +72,14 @@ dark-header: true
         <div class="links">
             <a href="#" class="button">Next</a>
             <a href="#" class="button">Previous</a>
-            <a href="#" class="button">Share</a>
+            <a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" class="button">
+                Share on Facebook
+            </a>
+            <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=authorLMrunfola" class="button">
+                Share on Twitter
+            </a>
+
+
         </div>
     </aside>
 </section>
