@@ -477,6 +477,7 @@ footer.footer {
 	}
 
 	article {
+		word-break: break-word;
 		@include large {
 			grid-column: 2/12;
 		}	
@@ -494,11 +495,14 @@ footer.footer {
 
 		h3, p, ul {
 			@include large {
-				font-size: 1.5625rem;
-				line-height: 38px;
+				font-size: 1.25rem;
+				line-height: 2rem;
 			}
 			margin-bottom: 1.5625rem;
+		}
 
+		ul {
+			padding-left: 20px;
 		}
 
 		h3 {
