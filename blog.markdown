@@ -21,7 +21,8 @@ dark-header: true
 </section>
 
 <section class="section blog__embed">
-    <iframe src="https://open.spotify.com/embed/episode/3aoeqplXeUzDO1Zq9lJacZ?theme=0" width="100%" height="152" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/episode/2pUYmyZNmDvMRBGnaFHw4e" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <!-- <iframe src="https://open.spotify.com/embed/episode/3aoeqplXeUzDO1Zq9lJacZ?theme=0" width="100%" height="152" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
 </section>
 
 <section class="section blog__content">
