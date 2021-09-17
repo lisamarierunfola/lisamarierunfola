@@ -21,7 +21,8 @@ title: Contact
     </div>
 </section>
 
-<section class="section contact__form" id="contact__form">
+<section class="section contact__form">
+    <a class="anchor" id="contact__form"></a> 
     <p class="caption">
         Let's Talk
     </p>
