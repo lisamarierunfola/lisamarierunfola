@@ -107,10 +107,12 @@
             background-image: url('../img/tri.svg');
             background-repeat: no-repeat;
             background-position-y: bottom;
-            background-size: 100%;
-
+            background-position-x: center;
+            background-size: 101%;
+            text-align: center;
             padding: 70px 1rem 127px;
             margin-bottom: 37px;
+            box-shadow: inset 0px -2px $cream;
 
             @include large {
                 padding: 78px 45px 145px;
@@ -124,6 +126,8 @@
             img {
                 margin-bottom: 31px;
                 filter: grayscale(1);
+                margin-left: auto;
+                margin-right: auto;
 
                 @include large {
                     margin-bottom: 34px;
@@ -137,6 +141,17 @@
 
                 @include large {
                     font-size: 25px;
+                }
+            }
+
+            p:not(.caption) {
+                text-align: left;
+
+                @include small {
+                    padding-bottom: 4rem;
+                }
+                @include large {
+                    padding-bottom: 0;
                 }
             }
 

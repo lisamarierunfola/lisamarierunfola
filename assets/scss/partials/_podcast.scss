@@ -278,6 +278,10 @@ section.podcast__hero {
                 @include large {
                     margin-bottom: 1rem;
                 }
+
+                img {
+                    width: 100%;
+                }
             }
 
             h2 {
