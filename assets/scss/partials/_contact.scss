@@ -89,8 +89,12 @@ section.contact__hero {
     #contact__form {
         display: block;
         position: relative;
-        top: -175px;
+        top: -75px;
         visibility: hidden;
+
+        @include large {
+            top: -175px;
+        }
     }
 
     .caption {
