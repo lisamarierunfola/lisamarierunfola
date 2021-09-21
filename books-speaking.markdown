@@ -111,8 +111,8 @@ dark-header: true
         </p>
 
         <div class="links">
-            <a href="#">Buy from Amazon</a>
-            <a href="#">Buy from Barnes &amp; Noble</a>
+            <a target="_blank" href="https://www.amazon.com/Limitless-Life-Powerless-World/dp/1982219599/ref=sr_1_2?dchild=1&keywords=lisa+marie+runfola&qid=1632250207&sr=8-2">Buy from Amazon</a>
+            <a target="_blank" href="https://www.barnesandnoble.com/w/a-limitless-life-in-a-powerless-world-lisa-marie-runfola/1130543206;jsessionid=DC4558E21558460A554828B2AA8DEA17.prodny_store02-atgap17?ean=9781982219598">Buy from Barnes &amp; Noble</a>
         </div>
     </main>
 </section>
@@ -136,8 +136,8 @@ dark-header: true
         </p>
 
         <div class="links">
-            <a href="#">Buy from Amazon</a>
-            <a href="#">Buy from Barnes &amp; Noble</a>
+            <a target="_blank" href="https://www.amazon.com/Women-Empower-Lisa-Marie-Runfola/dp/1952725437/ref=sr_1_3?dchild=1&keywords=lisa+marie+runfola&qid=1632250207&sr=8-3">Buy from Amazon</a>
+            <a target="_blank" href="https://www.barnesandnoble.com/w/women-who-empower-kate-butler/1138446010">Buy from Barnes &amp; Noble</a>
         </div>
     </main>
 </section>

@@ -85,11 +85,6 @@ header[role="banner"] {
 			grid-column: 2/6;
 		}
 
-		// img {
-		// 	width: 58px;
-		// 	margin-right: 12px;
-		// }
-
 		svg {
 			margin-right: 3px;
 			width: 32px;
@@ -136,6 +131,11 @@ header[role="banner"] {
 		}
 
 		a {
+
+			&:hover, &:focus {
+				border-bottom: 1px solid $navy;
+			}
+
 			&.nav-toggle {
 				svg * {
 					stroke: $white;
@@ -189,7 +189,6 @@ nav.mobile {
 	height: 100vh;
 	background: $navy;
 	z-index: 1000;
-	// position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -228,7 +227,6 @@ nav.mobile {
 
 section.hero {
 	height: 100vh;
-	// @extend %full-bg;
 }
 
 .button {
