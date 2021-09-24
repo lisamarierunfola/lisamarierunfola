@@ -9,7 +9,7 @@
 
     main {
         @include large {
-            grid-column: 7/11;
+            grid-column: 7/12;
         }
 
         .caption {
@@ -37,7 +37,7 @@
         margin-top: 50px;
 
         @include large {
-            grid-column: 2/6;
+            grid-column: 1/6;
             grid-row: 1;
             margin-top: 0;
         }
@@ -53,9 +53,9 @@
 
     iframe {
         
-        @include large {
-            grid-column: 2/12;
-        }
+        // @include large {
+        //     grid-column: span 12;
+        // }
     }
 }
 
@@ -68,15 +68,18 @@
 
     main {
         @include large {
-            grid-column: 2/8;
+            grid-column: 1/8;
         }
 
         h3 {
             @include text--lead-heading;
             color: $navy;
+            margin-top: 46px;
             margin-bottom: 46px;
 
             @include large {
+                margin-top: 3.75rem;
+                margin-bottom: 4.75rem;
                 .shift {
                     position: relative;
                     left: 7.5%;
@@ -98,8 +101,11 @@
     }
 
     aside {
+        margin-top: 3.25rem;
+
         @include large {
-            grid-column: 9/12;
+            grid-column: 9/13;
+            margin-top: 0;
         }
 
         .profile {
@@ -222,6 +228,14 @@
 
         a {
 
+        }
+    }
+}
+
+section.blog__featured {
+    @include large {
+        h1, main {
+            grid-column: span 12;
         }
     }
 }

@@ -5,18 +5,14 @@ dark-header: true
 
 <section class="section blog__intro">
     <main>
-        <p class="caption">Podcast Episode 1</p>
+        <p class="caption">Podcast Episode 2</p>
         <h2>
-            Creating Space and Opening Doors with Angelica Rosas McDaniel
+            Kindness is a Revolution with Jaclyn Lindsey
         </h2>
-
-        <!-- <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta iure explicabo numquam sunt nisi? Placeat repudiandae cupiditate esse, iusto saepe ex rerum velit eveniet soluta pariatur nisi quibusdam voluptas vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta iure explicabo numquam sunt nisi? Placeat repudiandae cupiditate esse, iusto saepe ex rerum velit eveniet soluta pariatur nisi quibusdam voluptas vel.
-        </p> -->
     </main>
 
     <aside>
-        <img class="cover" src="{{ site.baseurl }}/assets/img/guestart.png" alt="">
+        <img class="cover" src="{{ site.baseurl }}/assets/img/LMRA_JaclynLinsdey.png" alt="">
     </aside>
 </section>
 
@@ -32,34 +28,29 @@ dark-header: true
         </p>
 
         <p>
-            Emmy award-winning entertainment executive and mentor, Angelica Rosas McDaniel knows what it’s like to be the only woman and only person of color in the room. She joins Lisa Marie to share her courageous story on the first episode of What’s Not Being Said.
+            Jaclyn Lindsey is co-founder and CEO of kindness.org. She believes that kindness is humanity’s greatest asset. She launched kindness.org, a global non-profit building evidence-based programs for kinder classrooms, communities and workplaces. 
         </p>
 
         <h3>
-            &ldquo;Don’t ever allow that darkness to dim your light.&rdquo;
+            &ldquo;It's not about the heroic acts&rdquo;
             <br><br>
-            &mdash;Angelica Rosas McDaniel
+            &mdash;Jaclyn Lindsey
         </h3>
 
         <p>
-            Emmy award-winning entertainment executive and mentor, Angelica Rosas McDaniel knows what it’s like to be the only woman and only person of color in the room.  Now she’s on a mission to help other ambitious Women of Color from humble beginnings get a seat at the table or create their own. 
+            Jaclyn Lindsey is co-founder and CEO of kindness.org. She believes that kindness is humanity’s greatest asset. She launched kindness.org, a global non-profit building evidence-based programs for kinder classrooms, communities and workplaces. 
             <br><br>
-            She joins Lisa Marie to share her courageous story on the first episode of What’s Not Being Said.
+            She is an author & keynote speaker and recently released the book “Be Kind: A Year of Kindness, One Week at a Time”. In this impactful episode Jaclyn shares with Lisa the global impact that kindness can have and the changes she is making in the world.
         </p>
         
         <article class="guest">
             <p class="caption">About My Guest</p>
 
-            <p>
-                Angelica Rosas McDaniel is an Emmy award-winning entertainment executive, mentorship & equity advocate and public speaker. Making her start as a national radio host at 15, Angelica graduated to television at Telepictures/Warner Bros. as a development executive and director of new media for a lineup of shows that included The Tyra Banks Show, Extra and The Ellen DeGeneres Show before transitioning to CBS. As the EVP of Daytime Programs at the top-rated network, she had oversight of 11 shows, more than 1,200 original episodes every year and 34 million viewers weekly.
-            </p>
+            <p>Jaclyn Lindsey, co-founder and CEO of kindness.org, believes that kindness is humanity’s greatest asset. It was this ethos that inspired her to launch kindness.org, a global non-profit building evidence-based programs for kinder classrooms, communities and workplaces.</p>
 
-            <p>
-                She’s credited with revitalizing CBS’s daytime lineup, which included beloved daytime dramas and game shows alike, from The Young and the Restless to The Price Is Right. Most notably, Angelica launched The Talk — CBS’s first daytime talk show and led the daypart in winning 116 Daytime Emmys.
-            </p>
-            <p>
-                Angelica has won seven Imagen Awards for creative achievements as a Latina in the entertainment industry, was named one of the “35 Women Under 35 Running Hollywood” in Glamour magazine and featured as one of the industry’s fastest-rising stars in The Hollywood Reporter’s Next Gen.
-            </p>
+            <p>Jaclyn has spent over fifteen years in the nonprofit space, where she’s helped raise more than $100M for domestic and international missions.</p>
+
+            <p>An author & keynote speaker, she sits on the board of Children in Conflict and is an advisor to Expectful. When she’s not in the middle of a pandemic, Jaclyn loves adventuring around with her husband, Mancel, and their two boys, Abel and River, and spending time with family, friends or strangers around a dinner table.</p>
         </article>
     </main>
 

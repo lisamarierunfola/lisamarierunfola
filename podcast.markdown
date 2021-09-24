@@ -43,7 +43,7 @@ title: Podcast
     </header>
     <main>
         <p class="lead">
-            <strong>What’s Not Being Said</strong> is a podcast hosted by Lisa Marie Runfola. As a certified coach, author, and self-described Life Ignitor, Lisa Marie will help you “Flip The Switch and Turn Your Life Back On” during this illuminating conversation series. Join her as she speaks with authors, healers, coaches, and brave souls as they explore ways to help people feel more alive in every area of their life.
+            There are always two parts to a conversation. The part that is said, and the part that’s left unsaid. So many of us live in silence and are unable to speak our truth. In order to heal, grow, and create the lives that we desire, we must share how we honestly feel. My name is Lisa Marie Runfola, and as a life coach, author, and Life Ignitor, I’m here to “Flip The Switch and Turn Your Life Back On” weekly on What’s Not Being Said.
         </p>
     </main>
 </section>
@@ -62,7 +62,7 @@ title: Podcast
         </header>
         
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos atque repellat voluptates iusto ut recusandae, maxime obcaecati. Eaque, laborum? Ipsa vero dolorum alias, itaque optio obcaecati quibusdam nostrum ea adipisci?
+            Emmy award-winning entertainment executive and mentor, Angelica Rosas McDaniel knows what it’s like to be the only woman and only person of color in the room. She joins Lisa Marie to share her courageous story on the first episode of What’s Not Being Said.
         </p>
 
         <p class="caption">
@@ -92,7 +92,7 @@ title: Podcast
             <h2>Creating Space and Opening Doors with Angelica Rosas McDaniel</h2>
     
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus quis quos sequi illo aliquam magnam architecto impedit fugit reiciendis tenetur corporis dolor, in accusantium. Similique aperiam dolorum explicabo corporis!
+                Emmy award-winning entertainment executive and mentor, Angelica Rosas McDaniel knows what it’s like to be the only woman and only person of color in the room.
             </p>
             <p class="caption">
                 <a href="/blog">Learn More</a>
@@ -100,14 +100,13 @@ title: Podcast
         </div>
         <div class="module">
             <figure>
-                <img src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="">
+                <img src="{{ site.baseurl }}/assets/img/LMRA_JaclynLinsdey.png" alt="">
             </figure>
     
             <h2>Kindness is a revolution with Jaclyn Lindsey</h2>
     
             <p>
-                Coming Soon. <br>
-                September 27, 2021
+                Jaclyn Lindsey is co-founder and CEO of kindness.org, and believes that kindness is humanity’s greatest asset.
             </p>
             <p class="caption">
                 <a href="/blog">Learn More</a>
