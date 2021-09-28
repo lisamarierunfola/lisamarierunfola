@@ -2,11 +2,16 @@
 title: Creating Space and Opening Doors with Angelica Rosas McDaniel
 date: 2019-11-28 11:59:00 +05:30
 intro: Intro to the post.
-episode_number: '1'
+episode_number: 1
 image: "/assets/img/guestart.png"
 podcast_embed_code: <iframe src="https://open.spotify.com/embed/episode/2pUYmyZNmDvMRBGnaFHw4e"
   width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-guest_bio_text: ''
+guest_bio_text: |-
+  Angelica Rosas McDaniel is an Emmy award-winning entertainment executive, mentorship & equity advocate and public speaker. Making her start as a national radio host at 15, Angelica graduated to television at Telepictures/Warner Bros. as a development executive and director of new media for a lineup of shows that included The Tyra Banks Show, Extra and The Ellen DeGeneres Show before transitioning to CBS. As the EVP of Daytime Programs at the top-rated network, she had oversight of 11 shows, more than 1,200 original episodes every year and 34 million viewers weekly.
+
+  She’s credited with revitalizing CBS’s daytime lineup, which included beloved daytime dramas and game shows alike, from The Young and the Restless to The Price Is Right. Most notably, Angelica launched The Talk — CBS’s first daytime talk show and led the daypart in winning 116 Daytime Emmys.
+
+  Angelica has won seven Imagen Awards for creative achievements as a Latina in the entertainment industry, was named one of the “35 Women Under 35 Running Hollywood” in Glamour magazine and featured as one of the industry’s fastest-rising stars in The Hollywood Reporter’s Next Gen.
 dark-header: true
 layout: post
 ---
