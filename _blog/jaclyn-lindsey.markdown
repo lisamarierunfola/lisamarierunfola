@@ -1,10 +1,13 @@
 ---
 title: Kindness is a Revolution with Jaclyn Lindsey
-date: 2021-09-27 11:59:00 +05:30
-intro_text: Jaclyn Lindsey is co-founder and CEO of kindness.org, and believes that kindness is humanity’s greatest asset.
+date: 2021-09-27 02:29:00 -04:00
+intro_text: Jaclyn Lindsey is co-founder and CEO of kindness.org, and believes that
+  kindness is humanity’s greatest asset.
 episode_number: 2
 image: "/assets/img/LMRA_JaclynLinsdey.png"
-podcast_embed_code: <iframe src="https://open.spotify.com/embed/episode/5SZt3pTNJADVtn2SdWpPJ3" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+podcast_embed_code: <iframe src="https://open.spotify.com/embed/episode/5SZt3pTNJADVtn2SdWpPJ3"
+  width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write;
+  encrypted-media; fullscreen; picture-in-picture"></iframe>
 guest_bio_text: |-
   Jaclyn Lindsey, co-founder and CEO of kindness.org, believes that kindness is humanity’s greatest asset. It was this ethos that inspired her to launch kindness.org, a global non-profit building evidence-based programs for kinder classrooms, communities and workplaces.
 
