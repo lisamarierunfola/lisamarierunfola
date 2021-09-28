@@ -3,7 +3,7 @@ title: Lisa Marie Runfola
 timezone: Asia/Kolkata
 collections:
   blog:
-    title: Blog
+    title: Podcasts
     output: true
   posts:
     title: Posts
@@ -19,11 +19,11 @@ defaults:
     layout: default
     permalink: "/:title/"
 - scope:
-    path: work
+    path: "blog"
     type: posts
   values:
-    layout: layout--work
-    permalink: "/:title/"
+    layout: "post"
+    permalink: "/podcast/:title/"
 - scope:
     path: ''
     type: pages

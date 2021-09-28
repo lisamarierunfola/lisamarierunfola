@@ -35,6 +35,14 @@ title: Podcast
     </aside>
 </section>
 
+<section class="section">
+    {% for post in site.blog %}
+    <a href="{{ post.url }}">
+        <h1>{{ post.title }}</h1>
+    </a>
+    {% endfor %}
+</section>
+
 <section class="section podcast__intro">
     <header>
         <h3>
