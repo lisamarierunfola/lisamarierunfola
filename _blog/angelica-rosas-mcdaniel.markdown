@@ -1,11 +1,12 @@
 ---
-title: "Creating Space and Opening Doors with Angelica Rosas McDaniel"
+title: Creating Space and Opening Doors with Angelica Rosas McDaniel
 date: 2019-11-28 11:59:00 +05:30
 intro: Intro to the post.
-episode_number: "1"
+episode_number: '1'
 image: "/assets/img/guestart.png"
-podcast_embed_code: <iframe src="https://open.spotify.com/embed/episode/2pUYmyZNmDvMRBGnaFHw4e" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-guest_bio_text: ""
+podcast_embed_code: <iframe src="https://open.spotify.com/embed/episode/2pUYmyZNmDvMRBGnaFHw4e"
+  width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+guest_bio_text: ''
 dark-header: true
 layout: post
 ---
