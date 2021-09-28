@@ -115,7 +115,7 @@ dark-header: true
         <a target="_blank" href="http://open.spotify.com/show/5pTb7oeq8l4wVDvKdjV37K?si=EgCLmkPZTRqHxfZHdiZNbg&dl_branch=1">
             <img src="{{ site.baseurl }}/assets/img/icon-spotify.svg" alt="">
         </a>
-        <a target="_blank" href="http://podcasts.apple.com/us/podcast/whats-not-being-said/id1585501408">
+        <a target="_blank" href="https://podcasts.apple.com/us/podcast/whats-not-being-said/id1585501408">
             <img src="{{ site.baseurl }}/assets/img/icon-podcast.svg" alt="">
         </a>
         <a target="_blank" href="http://music.amazon.com/podcasts/4b7f2943-cfbb-4036-9e70-f4c392924d57/whats-not-being-said">
