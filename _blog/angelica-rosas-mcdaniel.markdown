@@ -1,7 +1,7 @@
 ---
 title: Creating Space and Opening Doors with Angelica Rosas McDaniel
-date: 2019-11-28 11:59:00 +05:30
-intro: Intro to the post.
+date: 2021-09-11 11:59:00 +05:30
+intro_text: Emmy award-winning entertainment executive and mentor, Angelica Rosas McDaniel knows what it’s like to be the only woman and only person of color in the room.
 episode_number: 1
 image: "/assets/img/guestart.png"
 podcast_embed_code: <iframe src="https://open.spotify.com/embed/episode/2pUYmyZNmDvMRBGnaFHw4e"

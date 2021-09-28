@@ -111,21 +111,11 @@ layout: default
 
 <section class="section blog__platforms">
     <div>
-        <a target="_blank" href="http://open.spotify.com/show/5pTb7oeq8l4wVDvKdjV37K?si=EgCLmkPZTRqHxfZHdiZNbg&dl_branch=1">
-            <img src="{{ site.baseurl }}/assets/img/icon-spotify.svg" alt="">
-        </a>
-        <a target="_blank" href="https://podcasts.apple.com/us/podcast/whats-not-being-said/id1585501408">
-            <img src="{{ site.baseurl }}/assets/img/icon-podcast.svg" alt="">
-        </a>
-        <a target="_blank" href="http://music.amazon.com/podcasts/4b7f2943-cfbb-4036-9e70-f4c392924d57/whats-not-being-said">
-            <img src="{{ site.baseurl }}/assets/img/icon-audible.svg" alt="">
-        </a>
-        <a target="_blank" href="http://www.stitcher.com/podcast/voice-for-possibility/whats-not-being-said">
-            <img src="{{ site.baseurl }}/assets/img/icon-stitcher.svg" alt="">
-        </a>
-        <a target="_blank" href="http://iheart.com/podcast/86823733/">
-            <img src="{{ site.baseurl }}/assets/img/icon-heart.svg" alt="">
-        </a>
+        {% for item in site.podcast_platforms %}
+            <a target="_blank" href="{{ item.link }}">
+                <img src="{{ item.icon_image }}" alt="Podcast platform icon">
+            </a>    
+        {% endfor %}
     </div>
 </section>
 
@@ -137,51 +127,8 @@ layout: default
     </h1>
 
     <main>
-        <div class="module">
-            <figure>
-                <img src="{{ site.baseurl }}/assets/img/guestart.png" alt="">
-            </figure>
-    
-            <h2>Creating Space and Opening Doors with Angelica Rosas McDaniel</h2>
-    
-            <p>
-                Emmy award-winning entertainment executive and mentor, Angelica Rosas McDaniel knows what it’s like to be the only woman and only person of color in the room.
-            </p>
-            <p class="caption">
-                <a href="/blog">Learn More</a>
-            </p>
-        </div>
-        <div class="module">
-            <figure>
-                <img src="{{ site.baseurl }}/assets/img/LMRA_JaclynLinsdey.png" alt="">
-            </figure>
-    
-            <h2>Kindness is a revolution with Jaclyn Lindsey</h2>
-    
-            <p>
-                Jaclyn Lindsey is co-founder and CEO of kindness.org, and believes that kindness is humanity’s greatest asset.
-            </p>
-            <p class="caption">
-                <a href="/blog2">Learn More</a>
-            </p>
-        </div>
-        <div class="module">
-            <figure>
-                <img src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="">
-            </figure>
-    
-            <h2>Creating Confidence WITH Kate Eckman</h2>
-    
-            <p>
-                Coming Soon. <br>
-                October 4, 2021
-            </p>
-            <p class="caption">
-                <a href="/blog">Learn More</a>
-            </p>
-        </div>
+        {% include featured_episodes.html %}
     </main>
-
     
     <div class="button-wrapper">
         <a class="button" href="#">See More</a>
