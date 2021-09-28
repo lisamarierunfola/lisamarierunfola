@@ -1,5 +1,5 @@
 ---
-title: Creating Space and Opening Doors with Angelica Rosas McDaniel
+title: Kindness is a Revolution with Jaclyn Lindsey
 dark-header: true
 ---
 
