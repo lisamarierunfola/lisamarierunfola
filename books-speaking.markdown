@@ -1,68 +1,74 @@
 ---
 title: Books & Speaking
+hero_headline_first: Writing &amp;
+hero_headline_second: Speaking
+hero_headline_cursive: By Yours Truly
+hero_headshot_image: "/assets/img/books-speaking-hero-bg.png"
+hero_badge_image: "/assets/img/badge-lmr.png"
+hero_marquee_copy: Time to Bloom into Yourself
+intro_headline_first: Explore
+intro_headline_second: More with
+intro_headline_third: Lisa Marie
+intro_headline_cursive: Writing &amp; Speaking
+intro_copy: You were born to feel and live alive! These uplifting books will take you from grief to happiness through every feeling in between with profound truths and bold clarity. Lisa Marie Runfola gently guides you through what you need to know to live and love a life that radiates joy.
 dark-header: true
 ---
 
 <section class="section hero books-speaking__hero">
     <main>
-      <h1>Writing &amp; <br class="">
+      <h1>{{ page.hero_headline_first }} <br class="">
         <span class="shift">
-            Speaking
+          {{ page.hero_headline_second }}
         </span>
       </h1>  
-      
-
       <div class="cursive">
-          By Yours Truly
+        {{ page.hero_headline_cursive }}
       </div>
     </main>
 
     <aside>
         <figure>
-            <img class="arch" src="{{ site.baseurl }}/assets/img/books-speaking-hero-bg.png" alt="Lisa Marie's portrait">
-            <img class="badge" src="{{ site.baseurl }}/assets/img/badge-lmr.png" alt="badge">
+            <img class="arch" src="{{ page.hero_headshot_image }}" alt="Lisa Marie's portrait">
+            <img class="badge" src="{{ page.hero_badge_image }}" alt="badge">
         </figure>
     </aside>
-
 </section>
-
-
 
 <div class="marquee-container">
     <span class="marquee__item scrolling">
-      Time to Bloom into Yourself
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Time to Bloom into Yourself
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Time to Bloom into Yourself
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Time to Bloom into Yourself
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.hero_marquee_copy }}
       </span>
     
 </div>
@@ -72,22 +78,20 @@ dark-header: true
 </section>
 
 <section class="section books-speaking__intro">
-    
-
     <main>
-        <h2>Explore <br class="hide--mobile">
+        <h2>{{ page.intro_headline_first }} <br class="hide--mobile">
             <span class="shift">
-                More with 
+              {{ page.intro_headline_second }}
             </span> <br class="hide--mobile">
-            Lisa Marie
+            {{ page.intro_headline_third }}
         </h2>
 
         <div class="cursive">
-            Writing &amp; Speaking
+          {{ page.intro_headline_cursive }}
         </div>
 
         <p>
-            You were born to feel and live alive! These uplifting books will take you from grief to happiness through every feeling in between with profound truths and bold clarity. Lisa Marie Runfola gently guides you through what you need to know to live and love a life that radiates joy.
+            {{ page.intro_copy }}
         </p>
     </main>
 </section>
