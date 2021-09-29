@@ -42,6 +42,12 @@ books:
     link: https://www.amazon.com/Women-Empower-Lisa-Marie-Runfola/dp/1952725437/ref=sr_1_3?dchild=1&keywords=lisa+marie+runfola&qid=1632250207&sr=8-3
   - copy: Buy from Barnes &amp; Noble
     link: https://www.barnesandnoble.com/w/women-who-empower-kate-butler/1138446010
+collaborate_marquee_copy: Reignite Your Life
+collaborate_headline_first: Spark
+collaborate_headline_second: Conversations
+collaborate_text: Lisa Marie Runfola is a dynamic, charismatic speaker that will light up your event with tips and techniques your audience can implement immediately. Her unique style combines inspirational storytelling, bold truths, and powerful messages to gift your audience with the opportunity to see new possibilities for their own lives.
+collaborate_button_copy: Let&rsquo;s Collaborate
+collaborate_button_link: "/contact#contact__form"
 dark-header: true
 ---
 
@@ -127,91 +133,69 @@ dark-header: true
     </main>
 </section>
 
-<section class="section books-speaking__books">
+{% for book in page.books %}
+  <section class="section books-speaking__books">
     <aside>
-        <img src="{{ site.baseurl }}/assets/img/3dbook.png" alt="">
+        <img src="{{ book.image }}" alt="Book Cover Image">
     </aside>
 
     <main>
         <h2>
-            A Limitless Life in a Powerless World
+            {{ book.title }}
         </h2>
 
         <div class="cursive">
-            A Memoir
+            {{ book.subtitle }}
         </div>
 
         <p>
-            A Limitless Life in a Powerless World provides a safe place for those looking for healing and spiritual guidance in the wake of trauma. With integration exercises at the end of each chapter, it teaches readers how to practice self-care in moments of weakness and encourages them to find strength in their individuality so they can thrive through even the greatest of adversities.
+            {{ book.text | markdownify }}
         </p>
 
         <div class="links">
-            <a target="_blank" href="https://www.amazon.com/Limitless-Life-Powerless-World/dp/1982219599/ref=sr_1_2?dchild=1&keywords=lisa+marie+runfola&qid=1632250207&sr=8-2">Buy from Amazon</a>
-            <a target="_blank" href="https://www.barnesandnoble.com/w/a-limitless-life-in-a-powerless-world-lisa-marie-runfola/1130543206;jsessionid=DC4558E21558460A554828B2AA8DEA17.prodny_store02-atgap17?ean=9781982219598">Buy from Barnes &amp; Noble</a>
+          {% for link in book.links %}
+            <a target="_blank" href="{{ link.link }}">{{ link.copy }}</a>
+          {% endfor %}
         </div>
     </main>
-</section>
-
-<section class="section books-speaking__books">
-    <aside>
-        <img src="{{ site.baseurl }}/assets/img/3dbook2.png" alt="">
-    </aside>
-
-    <main>
-        <h2>
-            Women Who Empower
-        </h2>
-
-        <div class="cursive">
-            A Collection
-        </div>
-
-        <p>
-            Immerse yourself in stories of perseverance, resilience, courage, grace, and forgiveness from 30 women who have faced hardship and come out stronger. Lisa Marie Runfola joins 29 others as co-author in this uplifting and heart-warming collection. Lisa Marie’s contribution, 28 Suitcases, captures a moment of faith, loss, connection, and hope as she finds her way through uncertainty. Explore this incredible collection of inspirational and empowering short stories.
-        </p>
-
-        <div class="links">
-            <a target="_blank" href="https://www.amazon.com/Women-Empower-Lisa-Marie-Runfola/dp/1952725437/ref=sr_1_3?dchild=1&keywords=lisa+marie+runfola&qid=1632250207&sr=8-3">Buy from Amazon</a>
-            <a target="_blank" href="https://www.barnesandnoble.com/w/women-who-empower-kate-butler/1138446010">Buy from Barnes &amp; Noble</a>
-        </div>
-    </main>
-</section>
+  </section>
+{% endfor %}
 
 <div class="marquee-container">
     <span class="marquee__item scrolling">
-      Reignite Your Life
+      {{ page.collaborate_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Reignite Your Life
+      {{ page.collaborate_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Reignite Your Life
+      {{ page.collaborate_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Reignite Your Life
+      {{ page.collaborate_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.collaborate_marquee_copy }}
       </span>
     
 </div>
@@ -220,16 +204,16 @@ dark-header: true
     <main>
         <h1>
             <span class="shift">
-            Spark
+            {{ page.collaborate_headline_first }}
             </span> <br>
-            Conversations
+            {{ page.collaborate_headline_second }}
         </h1>
 
         <p>
-            Lisa Marie Runfola is a dynamic, charismatic speaker that will light up your event with tips and techniques your audience can implement immediately. Her unique style combines inspirational storytelling, bold truths, and powerful messages to gift your audience with the opportunity to see new possibilities for their own lives.
+          {{ page.collaborate_text | markdownify }}
         </p>
 
-        <a href="/contact#contact__form" class="button">Let&rsquo;s Collaborate</a>
+        <a href="{{ page.collaborate_button_link }}" class="button">{{ page.collaborate_button_copy }}</a>
     </main>
 </section>
 
