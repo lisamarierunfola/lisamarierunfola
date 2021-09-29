@@ -1,18 +1,22 @@
 ---
 title: Contact
+hero_headline_first: Get in
+hero_headline_second: Touch
+hero_copy: What isn’t being said is that you have the power inside to light up your life again. It’s time. Let me show you how.
+form_headline: Let&rsquo;s Talk
 ---
 
 <section class="section hero contact__hero">
     <main>
-        <h1>Get in
+        <h1>{{ page.hero_headline_first }}
             <br class="hide--mobile">
             <span class="shift">
-                Touch
+                {{ page.hero_headline_second }}
             </span>
         </h1>
 
         <p class="lead">
-            What isn’t being said is that you have the power inside to light up your life again. It’s time. Let me show you how.
+            {{ page.hero_copy }}
         </p>
     </main>
 
@@ -24,7 +28,7 @@ title: Contact
 <section class="section contact__form">
     <a class="anchor" id="contact__form"></a> 
     <p class="caption">
-        Let's Talk
+        {{ page.form_headline }}
     </p>
 
     <form name="contact" action="" netlify>

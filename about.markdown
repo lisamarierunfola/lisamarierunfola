@@ -77,21 +77,10 @@ cta_two_button_link: "/books-speaking"
 
     <div class="info">
         {{ page.feature_first_text | markdownify }}
-        <!-- <p>I came to coaching because my life experiences showed me I needed new tools, or else I would suffocate under the pressure of life. Once I pulled myself out, I realized that others needed the same tools. My coaching style reflects these experiences. I know the darkness…and I absolutely know the light.
-            <br><br>
-            As a Certified Levin Life Coach, many of the resources I bring to our sessions are inspired by Nancy Levin’s boundary coaching methodology, developed by a best-selling author and master life coach. 
-        </p> -->
     </div>
     
     <div class="info">
         {{ page.feature_second_text | markdownify }}
-        <!-- <p>
-            This style of coaching will give you a whole new definition of what life can offer. It will give you a whole new understanding of how you respond, react, and recharge. It will show you a whole new paradigm of who you can become.
-            <br><br>
-            Our work together starts wherever you’re feeling stuck, overwhelmed, frustrated, or empty. We then dive deep into your fears and blocks. Part of this work is facing our story; part is getting unstuck; the rest is clear and healthy boundaries.
-            <br><br>
-            And I know, it is possible to feel more alive than you do right now.  Life can be more expansive and joyful than you could ever imagine.
-        </p> -->
 
         <figure class="hide--desktop">
             <img src="{{ page.feature_badge_one_image }}" alt="Certification badge image">
