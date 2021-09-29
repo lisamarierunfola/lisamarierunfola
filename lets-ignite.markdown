@@ -1,143 +1,73 @@
 ---
 title: Let's Ignite
+hero_headline_first: Amplify Your Life.
+hero_headline_second: Set Clear Goals.
+hero_headline_third: Create Strong Boundaries.
+hero_marquee_copy: Reignite Your Life
+intro_headline_first: Are You
+intro_headline_second: Ready To
+intro_headline_cursive: Ignite?
 ---
 
 <section class="section hero ignite__hero">
     <h1>
-        Amplify Your Life. <br class="hide--mobile">
-        Set Clear Goals.
+        {{ page.hero_headline_first }} <br class="hide--mobile">
+        {{ page.hero_headline_second }}
         <br class="hide--desktop"><br class="hide--desktop">
 
         <span>
-            Create Strong Boundaries.
+          {{ page.hero_headline_third }}
         </span>
     </h1>
 </section>
 
 <div class="marquee-container">
     <span class="marquee__item scrolling">
-      Reignite Your Life
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Reignite Your Life
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Reignite Your Life
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Reignite Your Life
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}
       </span>
     
 </div>
 
-<!-- <div id="maindiv">
-    <div id="div1">
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>      
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>      
-    </div>
-    <div id="div2">
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>      
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>
-        <span class="marquee__item">Reignite Your Life</span>      
-    </div>
-  </div> -->
-
-<!-- <div class="marquee">
-    <div>
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>      
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>      
-    </div>
-  </div> -->
-
-  <!-- <div class="marquee">
-    <div class="marqueeone">
-        <span>Reignite Your Life</span>
-        <span>Reignite Your Life</span>
-        <span>Reignite Your Life</span>
-        <span>Reignite Your Life</span>
-        <span>Reignite Your Life</span> 
-    </div>
-    <div class="marqueetwo">
-        <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span>
-      <span>Reignite Your Life</span> 
-            </div>
-         <div class="marqueethree">
-            <span>Reignite Your Life</span>
-            <span>Reignite Your Life</span>
-            <span>Reignite Your Life</span>
-            <span>Reignite Your Life</span>
-            <span>Reignite Your Life</span>      
-        </div>
-        <div class="marqueefour">
-            <span>Reignite Your Life</span>
-            <span>Reignite Your Life</span>
-            <span>Reignite Your Life</span>
-            <span>Reignite Your Life</span>
-            <span>Reignite Your Life</span> 
-      </div>
-    </div> -->
-
-
 <section class="section ignite__intro">
     <header>
-        <h1>Are You <br class="hide--mobile">
+        <h1>{{ page.intro_headline_first }} <br class="hide--mobile">
             <span class="shift">
-                <i class="">
-                    <!-- &nbsp; -->
-                </i>
-                Ready To
+              {{ page.intro_headline_second }}
             </span>
             <span class="cursive">
-                Ignite?
+              {{ page.intro_headline_cursive }}
             </span>
         </h1>
         
