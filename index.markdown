@@ -35,6 +35,44 @@ callout_headline_second: to the fullest.
 callout_caption: even during the most trying times.
 callout_copy_first: I have learned how to keep my mindset ignited,
 callout_copy_second: and now I am here to do the same for you.
+steps:
+- ribbon_image: "/assets/img/step1.png"
+  headline_first: Make a
+  headline_second: decision
+  copy: You don’t have to wait for exactly the right moment to transform your life.
+    Your moment is now!
+- ribbon_image: "/assets/img/step2.png"
+  headline_first: Schedule a
+  headline_second: Discovery Call
+  copy: Jump into action with a FREE 45-minute Kindling Call that will have you motivated
+    and excited about life!
+- ribbon_image: "/assets/img/step3.png"
+  headline_first: Show
+  headline_second: Commitment
+  copy: Honor your whole self by creating the healthy boundaries that will help you
+    live the life you’re waiting for.
+- ribbon_image: "/assets/img/step4.png"
+  headline_first: Transformation
+  headline_second: Completed
+  copy: By learning how to break through your blocks, face your fears, and set clear
+    and loving boundaries, you’ll end up finding your happiness.
+testimonials:
+- quote: Lisa Marie Runfola changed my life. Literally.​ I feel like a whole new person.
+    A person with boundaries and confidence to set boundaries.​ It was a truly transformational
+    experience to be coached by Lisa Marie.
+  name: Christine
+  title: CLIENT
+- quote: Lisa Marie helped me with my biggest issue.​ Being comfortable with the discomfort
+    of putting boundaries by visualizing the long term positive outcome will be one
+    of the major learnings I got from Lisa​. I am so grateful to call her my coach
+    and I am sure the universe sent me to her for a reason.
+  name: Laura
+  title: CLIENT
+- quote: Having completed Boundary Coaching with Lisa Marie Runfola, ​I can say this
+    was one of the most inspiring and wonderful transformations for myself.​ Setting
+    boundaries and keeping myself accountable is no longer an issue.
+  name: Iona
+  title: CLIENT
 dark-header: true
 ---
 
