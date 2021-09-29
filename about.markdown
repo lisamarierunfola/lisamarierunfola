@@ -12,13 +12,17 @@ intro_text: |-
   I live my life to the fullest, even during the most trying times. I have learned how to keep my mindset ignited, and now I am here to do the same for you. If you’ve ever felt like you were an adventurous soul just waiting for the right opportunity, here’s your sign.
 intro_headshot_image: "/assets/img/lmr-arch2.png"
 intro_badge_image: "/assets/img/badge-lmr.png"
-feature_headline: I’m not your ordinary coach… in fact, for a long time I shuddered at the word!
-feature_badge_one_image: /assets/img/certbadge1.png
-feature_badge_two_image: /assets/img/certbadge2.png
-feature_first_text: |-
-  I came to coaching because my life experiences showed me I needed new tools, or else I would suffocate under the pressure of life. Once I pulled myself out, I realized that others needed the same tools. My coaching style reflects these experiences. I know the darkness…and I absolutely know the light.
-
-  As a Certified Levin Life Coach, many of the resources I bring to our sessions are inspired by Nancy Levin’s boundary coaching methodology, developed by a best-selling author and master life coach. 
+feature_headline: I’m not your ordinary coach… in fact, for a long time I shuddered
+  at the word!
+feature_badge_one_image: "/assets/img/certbadge1.png"
+feature_badge_two_image: "/assets/img/certbadge2.png"
+feature_first_text: "I came to coaching because my life experiences showed me I needed
+  new tools, or else I would suffocate under the pressure of life. Once I pulled myself
+  out, I realized that others needed the same tools. My coaching style reflects these
+  experiences. I know the darkness…and I absolutely know the light.\n\nAs a Certified
+  Levin Life Coach, many of the resources I bring to our sessions are inspired by
+  Nancy Levin’s boundary coaching methodology, developed by a best-selling author
+  and master life coach. "
 feature_second_text: |-
   This style of coaching will give you a whole new definition of what life can offer. It will give you a whole new understanding of how you respond, react, and recharge. It will show you a whole new paradigm of who you can become.
 
@@ -26,12 +30,14 @@ feature_second_text: |-
 
   And I know, it is possible to feel more alive than you do right now.  Life can be more expansive and joyful than you could ever imagine.
 cta_one_headline: Work with Me
-cta_one_text: Whether you need help setting up boundaries in your life or escaping the rut you’ve found yourself in, one-on-one coaching can provide a lot of insight.
+cta_one_text: Whether you need help setting up boundaries in your life or escaping
+  the rut you’ve found yourself in, one-on-one coaching can provide a lot of insight.
 cta_one_image: "/assets/img/cta-face.png"
 cta_one_button_copy: Live Life Out Loud
 cta_one_button_link: "/lets-ignite"
 cta_two_headline: Books &amp; Speaking
-cta_two_text: Hear more about my experiences, my point of view on breaking through life’s walls, and more in my books and past speaking engagements.
+cta_two_text: Hear more about my experiences, my point of view on breaking through
+  life’s walls, and more in my books and past speaking engagements.
 cta_two_image: "/assets/img/cta-book.png"
 cta_two_button_copy: Learn More
 cta_two_button_link: "/books-speaking"
