@@ -4,6 +4,12 @@ hero_headline_first: Get in
 hero_headline_second: Touch
 hero_copy: What isn’t being said is that you have the power inside to light up your life again. It’s time. Let me show you how.
 form_headline: Let&rsquo;s Talk
+form_interests:
+- "Coaching"
+- "Speaking"
+- "Writing"
+- "General Inquiry"
+- "Other"
 ---
 
 <section class="section hero contact__hero">
@@ -36,11 +42,9 @@ form_headline: Let&rsquo;s Talk
         <input name="Email" type="email" placeholder="Email Address" required>
         <select name="Interest" id="" required>
             <option disabled selected value="">Interest</option>
-            <option value="coaching">Coaching</option>
-            <option value="speaking">Speaking</option>
-            <option value="writing">Writing</option>
-            <option value="general-inquiry">General Inquiry</option>
-            <option value="other">Other</option>
+            {% for item in page.form_interests %}
+                <option value="{{ item | slugify }}">{{ item }}</option>
+            {% endfor %}
         </select>
 
         <textarea name="message" id="" placeholder="Message"></textarea>
