@@ -83,16 +83,22 @@ testimonials:
 podcast_image: "/assets/img/podcastcover.png"
 podcast_caption: Take a Listen
 podcast_headline: What’s Not Being Said Podcast
-podcast_text: What’s Not Being Said is a podcast by Lisa Marie Runfola. As a certified coach, author, and self-described Life Ignitor, Lisa Marie will help you “Flip The Switch and Turn Your Life Back On” during this illuminating conversation series. Join her as she speaks with authors, healers, coaches, and brave souls as they explore ways to help people feel more alive in every area of their lives.
+podcast_text: What’s Not Being Said is a podcast by Lisa Marie Runfola. As a certified
+  coach, author, and self-described Life Ignitor, Lisa Marie will help you “Flip The
+  Switch and Turn Your Life Back On” during this illuminating conversation series.
+  Join her as she speaks with authors, healers, coaches, and brave souls as they explore
+  ways to help people feel more alive in every area of their lives.
 podcast_button_copy: Go To The Latest Episode
 podcast_button_link: "/podcast"
 cta_one_headline: Work with Me
-cta_one_text: Whether you need help setting up boundaries in your life or escaping the rut you’ve found yourself in, one-on-one coaching can provide a lot of insight.
+cta_one_text: Whether you need help setting up boundaries in your life or escaping
+  the rut you’ve found yourself in, one-on-one coaching can provide a lot of insight.
 cta_one_image: "/assets/img/cta-face.png"
 cta_one_button_copy: Live Life Out Loud
 cta_one_button_link: "/lets-ignite"
 cta_two_headline: Books &amp; Speaking
-cta_two_text: Hear more about my experiences, my point of view on breaking through life’s walls, and more in my books and past speaking engagements.
+cta_two_text: Hear more about my experiences, my point of view on breaking through
+  life’s walls, and more in my books and past speaking engagements.
 cta_two_image: "/assets/img/cta-book.png"
 cta_two_button_copy: Learn More
 cta_two_button_link: "/books-speaking"
