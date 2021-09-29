@@ -119,6 +119,14 @@
                 margin-bottom: 0;
             }
         }
+
+        p:not(:last-of-type) {
+            margin-bottom: 1rem;
+
+            @include large {
+                margin-bottom: 1.25rem;
+            }
+        }
     }
 
     .feature {
@@ -159,6 +167,14 @@
         @include large {
             grid-column: span 3;
             margin-top: 122px;
+        }
+
+        p:not(:last-of-type) {
+            margin-bottom: 1rem;
+
+            @include large {
+                margin-bottom: 1.25rem;
+            }
         }
 
         figure.hide--desktop {
