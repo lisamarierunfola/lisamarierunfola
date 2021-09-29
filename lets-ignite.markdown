@@ -15,6 +15,10 @@ intro_text: |-
   As a Life Ignitor & Certified Levin Life Coach, I’ll walk you through proven methodologies you can easily integrate into your busy life that will help you get clear, unstuck, and living life out loud.
 intro_button_copy: Flip The Switch
 intro_button_link: "/contact#contact__form"
+testimonial_video_files:
+- "/assets/img/video_1.mp4"
+- "/assets/img/video_2.mp4"
+- "/assets/img/video_3.mp4"
 ---
 
 <section class="section hero ignite__hero">
