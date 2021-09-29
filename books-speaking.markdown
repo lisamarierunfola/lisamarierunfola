@@ -45,7 +45,11 @@ books:
 collaborate_marquee_copy: Reignite Your Life
 collaborate_headline_first: Spark
 collaborate_headline_second: Conversations
-collaborate_text: Lisa Marie Runfola is a dynamic, charismatic speaker that will light up your event with tips and techniques your audience can implement immediately. Her unique style combines inspirational storytelling, bold truths, and powerful messages to gift your audience with the opportunity to see new possibilities for their own lives.
+collaborate_text: Lisa Marie Runfola is a dynamic, charismatic speaker that will light
+  up your event with tips and techniques your audience can implement immediately.
+  Her unique style combines inspirational storytelling, bold truths, and powerful
+  messages to gift your audience with the opportunity to see new possibilities for
+  their own lives.
 collaborate_button_copy: Let&rsquo;s Collaborate
 collaborate_button_link: "/contact#contact__form"
 dark-header: true
