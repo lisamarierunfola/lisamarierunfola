@@ -2,7 +2,8 @@
 title: Contact
 hero_headline_first: Get in
 hero_headline_second: Touch
-hero_copy: What isn’t being said is that you have the power inside to light up your life again. It’s time. Let me show you how.
+hero_copy: What isn’t being said is that you have the power inside to light up your
+  life again. It’s time. Let me show you how.
 form_headline: Let&rsquo;s Talk
 ---
 
