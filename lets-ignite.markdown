@@ -33,7 +33,13 @@ offering_one_image: "/assets/img/1.png"
 offering_two_badge_image: "/assets/img/badge3.png"
 offering_two_caption: 12 Week Session
 offering_two_headline: Ignited By Boundaries
-offering_two_text: Ignited By Boundaries is specifically designed to help over-giving, over-achieving people pleasers create lives that feel vibrant, energized, and alive. We’ll spend 12 sessions exploring what freedom means to you, designing a life with you at the center, and breaking through your fears and discomfort. Based on the work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week program will help you cultivate the confidence and courage you need to step into the life you desire!
+offering_two_text: Ignited By Boundaries is specifically designed to help over-giving,
+  over-achieving people pleasers create lives that feel vibrant, energized, and alive.
+  We’ll spend 12 sessions exploring what freedom means to you, designing a life with
+  you at the center, and breaking through your fears and discomfort. Based on the
+  work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week
+  program will help you cultivate the confidence and courage you need to step into
+  the life you desire!
 offering_two_button_copy: Sign Up Now
 offering_two_button_link: "/contact#contact__form"
 offering_two_image: "/assets/img/2.png"
@@ -41,7 +47,13 @@ offering_three_badge_image: "/assets/img/badge2.png"
 offering_three_caption: 8 Week Session
 offering_three_headline_first: Reinvention
 offering_three_headline_second: Coaching
-offering_three_text: If you close your eyes and take a few long, slow breaths and tune into your inner world, do you feel as though you’re stuck or frustrated in some way with your life? Are you struggling to find your way forward? Since I’ve re-engaged in certain steps to release the “old” and embrace the “new”, I’ve been bowled over with much more positive energy. I achieved this through Reinvention Coaching – an eye-opening & empowering experience I gained from the wonderful Levin Life Coaching Academy.
+offering_three_text: If you close your eyes and take a few long, slow breaths and
+  tune into your inner world, do you feel as though you’re stuck or frustrated in
+  some way with your life? Are you struggling to find your way forward? Since I’ve
+  re-engaged in certain steps to release the “old” and embrace the “new”, I’ve been
+  bowled over with much more positive energy. I achieved this through Reinvention
+  Coaching – an eye-opening & empowering experience I gained from the wonderful Levin
+  Life Coaching Academy.
 offering_three_button_copy: Sign Up Now
 offering_three_button_link: "/contact#contact__form"
 offering_three_image: "/assets/img/3.png"
