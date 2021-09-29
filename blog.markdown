@@ -1,7 +1,7 @@
 ---
 title: Creating Space and Opening Doors with Angelica Rosas McDaniel
-dark-header: true
 published: false
+dark-header: true
 ---
 
 <section class="section blog__intro">

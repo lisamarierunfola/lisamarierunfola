@@ -1,7 +1,7 @@
 ---
 title: Kindness is a Revolution with Jaclyn Lindsey
-dark-header: true
 published: false
+dark-header: true
 ---
 
 <section class="section blog__intro">
