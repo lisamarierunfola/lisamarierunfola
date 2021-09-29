@@ -7,6 +7,12 @@ hero_marquee_copy: Reignite Your Life
 intro_headline_first: Are You
 intro_headline_second: Ready To
 intro_headline_cursive: Ignite?
+intro_text: |-
+  Everyone occasionally feels stuck, overwhelmed, or tapped out. It’s no wonder you do too, with all that you juggle. Work, life, parenting, partnering: some days, it can feel like the responsibilities are endless.
+
+  I get it. I’ve been there, too.
+
+  As a Life Ignitor & Certified Levin Life Coach, I’ll walk you through proven methodologies you can easily integrate into your busy life that will help you get clear, unstuck, and living life out loud.
 ---
 
 <section class="section hero ignite__hero">
