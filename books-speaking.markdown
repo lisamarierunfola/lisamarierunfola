@@ -10,7 +10,10 @@ intro_headline_first: Explore
 intro_headline_second: More with
 intro_headline_third: Lisa Marie
 intro_headline_cursive: Writing &amp; Speaking
-intro_copy: You were born to feel and live alive! These uplifting books will take you from grief to happiness through every feeling in between with profound truths and bold clarity. Lisa Marie Runfola gently guides you through what you need to know to live and love a life that radiates joy.
+intro_copy: You were born to feel and live alive! These uplifting books will take
+  you from grief to happiness through every feeling in between with profound truths
+  and bold clarity. Lisa Marie Runfola gently guides you through what you need to
+  know to live and love a life that radiates joy.
 dark-header: true
 ---
 
