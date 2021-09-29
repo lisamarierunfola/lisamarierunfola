@@ -7,7 +7,12 @@ hero_podcast_image: "/assets/img/podcastcover.png"
 intro_headline_first: Are you
 intro_headline_second: ready to hear
 intro_headline_cursive: What&rsquo;s not being said
-intro_text: There are always two parts to a conversation. The part that is said, and the part that’s left unsaid. So many of us live in silence and are unable to speak our truth. In order to heal, grow, and create the lives that we desire, we must share how we honestly feel. My name is Lisa Marie Runfola, and as a life coach, author, and Life Ignitor, I’m here to “Flip The Switch and Turn Your Life Back On” weekly on What’s Not Being Said.
+intro_text: There are always two parts to a conversation. The part that is said, and
+  the part that’s left unsaid. So many of us live in silence and are unable to speak
+  our truth. In order to heal, grow, and create the lives that we desire, we must
+  share how we honestly feel. My name is Lisa Marie Runfola, and as a life coach,
+  author, and Life Ignitor, I’m here to “Flip The Switch and Turn Your Life Back On”
+  weekly on What’s Not Being Said.
 ---
 
 <section class="section hero podcast__hero">
