@@ -21,7 +21,14 @@ about_caption: Meet Your Life Ignitor
 about_headline_first: Lisa
 about_headline_second: Marie
 about_headline_third: Runfola
-about_text: Throughout my life, there have been many twists, turns & grand leaps of faiths. I have made decisions and choices that others have deemed courageous and adventurous, and have gone through heartbreak, chaos and grief, with my feet on the ground and my eyes towards what’s next. Feeling stuck is exhausting — the dimness and disconnection every day, all while the to-do list is piling up — and the discontent it creates is pervasive. Moments like this have had an immeasurable impact on me not because of how low I felt, but because of how I turned hardships into triumphs that continue to enrich my life.
+about_text: Throughout my life, there have been many twists, turns & grand leaps of
+  faiths. I have made decisions and choices that others have deemed courageous and
+  adventurous, and have gone through heartbreak, chaos and grief, with my feet on
+  the ground and my eyes towards what’s next. Feeling stuck is exhausting — the dimness
+  and disconnection every day, all while the to-do list is piling up — and the discontent
+  it creates is pervasive. Moments like this have had an immeasurable impact on me
+  not because of how low I felt, but because of how I turned hardships into triumphs
+  that continue to enrich my life.
 about_marquee_copy: Time to Bloom into Yourself
 callout_headline_first: I live my life
 callout_headline_second: to the fullest.
