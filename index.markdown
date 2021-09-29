@@ -1,22 +1,49 @@
 ---
 title: Home
+hero_headline_first: Bloom
+hero_headline_second: into
+hero_headline_third: Yourself
+hero_subtitle_text: Turn Your Life
+hero_subtitle_cursive: Back On
+hero_marquee_copy: Reignite Your Life
+intro_headline_first: Have you been
+intro_headline_second: feeling
+intro_fliptext_one: overwhelmed?
+intro_fliptext_two: stuck?
+intro_fliptext_three: uninspired?
+intro_fliptext_four: exhausted?
+intro_copy: It's time to rediscover your spark
+intro_button_copy: Light The Way
+intro_button_link: "/lets-ignite"
+about_headshot_image: "/assets/img/lmr-arch2.png"
+about_badge_image: "/assets/img/badge-lmr.png"
+about_caption: Meet Your Life Ignitor
+about_headline_first: Lisa
+about_headline_second: Marie
+about_headline_third: Runfola
+about_text: Throughout my life, there have been many twists, turns & grand leaps of faiths. I have made decisions and choices that others have deemed courageous and adventurous, and have gone through heartbreak, chaos and grief, with my feet on the ground and my eyes towards what’s next. Feeling stuck is exhausting — the dimness and disconnection every day, all while the to-do list is piling up — and the discontent it creates is pervasive. Moments like this have had an immeasurable impact on me not because of how low I felt, but because of how I turned hardships into triumphs that continue to enrich my life.
+about_marquee_copy: Time to Bloom into Yourself
+callout_headline_first: I live my life
+callout_headline_second: to the fullest.
+callout_caption: even during the most trying times.
+callout_copy_first: I have learned how to keep my mindset ignited,
+callout_copy_second: and now I am here to do the same for you.
 dark-header: true
 ---
 
 <section class="section hero home__hero">
     <div class="text">
         <h1>
-            Bloom <br>
-            <span class="shift">into</span> <br>
+            {{ page.hero_headline_first }} <br>
+            <span class="shift">{{ page.hero_headline_second }}</span> <br>
             <span class="starword">
-              Yourself 
+              {{ page.hero_headline_third }} 
             </span>
-            <!-- <img class="star" src="{{ site.baseurl }}/assets/img/staricon.svg" alt=""> -->
         </h1>
 
         <div class="subtext">
-            <span class="caption">Turn Your Life</span>
-            <span class="cursive">Back On</span>
+            <span class="caption">{{ page.hero_subtitle_text }}</span>
+            <span class="cursive">{{ page.hero_subtitle_cursive }}</span>
         </div>
 
         <div class="sunicon">
@@ -107,130 +134,130 @@ dark-header: true
 
 <div class="marquee-container">
     <span class="marquee__item scrolling">
-      Reignite Your Life
+      {{ page.hero_marquee_copy }}}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Reignite Your Life
+      {{ page.hero_marquee_copy }}}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Reignite Your Life
+      {{ page.hero_marquee_copy }}}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Reignite Your Life
+      {{ page.hero_marquee_copy }}}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Reignite Your Life
+        {{ page.hero_marquee_copy }}}
       </span>
     
 </div>
 
 <section class="section home__intro">
     <h1>
-        Have you been <br class="hide--mobile">
-        feeling&nbsp;&nbsp;
+        {{ page.intro_headline_first }} <br class="hide--mobile">
+        {{ page.intro_headline_second }}&nbsp;&nbsp;
         <br class="hide--desktop">
 
         <div class="cursive slidingVertical hide--mobile">
-          <span>overwhelmed?</span>
-          <span>stuck?</span>
-          <span>uninspired?</span>
-          <span>exhausted?</span>
+          <span>{{ page.intro_fliptext_one }}</span>
+          <span>{{ page.intro_fliptext_two }}</span>
+          <span>{{ page.intro_fliptext_three }}</span>
+          <span>{{ page.intro_fliptext_four }}</span>
         </div>
     </h1>
 
     <div class="cursive slidingVertical hide--desktop">
-      <span>overwhelmed?</span>
-      <span>stuck?</span>
-      <span>uninspired?</span>
-      <span>exhausted?</span>
+      <span>{{ page.intro_fliptext_one }}</span>
+      <span>{{ page.intro_fliptext_two }}</span>
+      <span>{{ page.intro_fliptext_three }}</span>
+      <span>{{ page.intro_fliptext_four }}</span>
     </div>
 
     <p class="caption">
-        It's time to rediscover your spark
+        {{ page.intro_copy }}
     </p>
 
-    <a href="/lets-ignite" class="button">
-        Light The Way
+    <a href="{{ page.intro_button_link }}" class="button">
+        {{ page.intro_button_copy }}
     </a>
 </section>
 
 <section class="section home__about">
     <main>
         <figure>
-            <img class="photo" src="{{ site.baseurl }}/assets/img/lmr-arch2.png" alt="">
-            <img class="badge" src="{{ site.baseurl }}/assets/img/badge-lmr.png" alt="">
+            <img class="photo" src="{{ page.about_headshot_image }}" alt="">
+            <img class="badge" src="{{ page.about_badge_image }}" alt="">
         </figure>
     </main>
     <aside>
         <p class="caption">Meet Your Life Ignitor</p>
 
         <h1>
-            Lisa <br>
-            <span class="shift">Marie</span> <br>
-            Runfola
+            {{ page.about_headline_first }} <br>
+            <span class="shift">{{ page.about_headline_second }}</span> <br>
+            {{ page.about_headline_third }}
         </h1>
 
         <p>
-            Throughout my life, there have been many twists, turns & grand leaps of faiths. I have made decisions and choices that others have deemed courageous and adventurous, and have gone through heartbreak, chaos and grief, with my feet on the ground and my eyes towards what’s next. Feeling stuck is exhausting — the dimness and disconnection every day, all while the to-do list is piling up — and the discontent it creates is pervasive. Moments like this have had an immeasurable impact on me not because of how low I felt, but because of how I turned hardships into triumphs that continue to enrich my life.
+            {{ page.about_text }}
         </p>
     </aside>
 </section>
 
 <div class="marquee-container">
     <span class="marquee__item scrolling">
-      Time to Bloom into Yourself
+      {{ page.about_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Time to Bloom into Yourself
+      {{ page.about_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Time to Bloom into Yourself
+      {{ page.about_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      Time to Bloom into Yourself
+      {{ page.about_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        Time to Bloom into Yourself
+        {{ page.about_marquee_copy }}
       </span>
     
 </div>
@@ -238,17 +265,17 @@ dark-header: true
 <section class="section home__callout">
     <main>
         <h3>
-            I live my life <br>
+            {{ page.callout_headline_first }} <br>
             <div class="shift">
-                to the fullest,
+                {{ page.callout_headline_second }}
             </div>
         </h3>
         <p class="caption">
-            even during the most trying times.
+            {{ page.callout_caption }}
         </p>
         <br>
         <p>
-            I have learned how to keep my mindset ignited, <br class="hide--mobile"> and now I am here to do the same for you.
+            {{ page.callout_copy_first }} <br class="hide--mobile"> {{ page.callout_copy_second }}
         </p>
     </main>
 </section>
