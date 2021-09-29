@@ -13,6 +13,8 @@ intro_text: |-
   I get it. I’ve been there, too.
 
   As a Life Ignitor & Certified Levin Life Coach, I’ll walk you through proven methodologies you can easily integrate into your busy life that will help you get clear, unstuck, and living life out loud.
+intro_button_copy: Flip The Switch
+intro_button_link: "/contact#contact__form"
 ---
 
 <section class="section hero ignite__hero">
@@ -81,15 +83,11 @@ intro_text: |-
 
     <main>
         <p class="lead">
-            Everyone occasionally feels stuck, overwhelmed, or tapped out. It’s no wonder you do too, with all that you juggle. Work, life, parenting, partnering: some days, it can feel like the responsibilities are endless.
-            <br><br>
-            I get it. I’ve been there, too.
-            <br><br>
-            As a Life Ignitor & Certified Levin Life Coach, I’ll walk you through proven methodologies you can easily integrate into your busy life that will help you get clear, unstuck, and living life out loud.
+            {{ page.intro_text | markdownify }}
         </p>
 
         <p>
-            <a href="/contact#contact__form" class="button">Flip The Switch</a>
+            <a href="{{ page.intro_button_link }}" class="button">{{ page.intro_button_copy }}</a>
         </p>
     </main>
 </section>

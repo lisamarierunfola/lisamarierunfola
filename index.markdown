@@ -292,7 +292,7 @@ dark-header: true
         </h1>
 
         <p>
-            {{ page.about_text }}
+            {{ page.about_text | markdownify }}
         </p>
     </aside>
 </section>
@@ -419,7 +419,7 @@ dark-header: true
     </h3>
 
     <p>
-      {{ page.podcast_text }}
+      {{ page.podcast_text | markdownify }}
     </p>
 
     <a href="{{ page.podcast_button_link }}" class="button">{{ page.podcast_button_copy }}</a>
@@ -431,7 +431,7 @@ dark-header: true
   <div class="module">
       <h3 class="hide--mobile">{{ page.cta_one_headline }}</h3>
       <p>
-        {{ page.cta_one_text }}
+        {{ page.cta_one_text | markdownify }}
       </p>
       <img src="{{ page.cta_one_image }}" alt="">
       <a href="{{ page.cta_one_button_link }}" class="button">{{ page.cta_one_button_copy }}</a>
@@ -441,7 +441,7 @@ dark-header: true
   <div class="module">
       <h3 class="hide--mobile">{{ page.cta_two_headline }}</h3>
       <p>
-        {{ page.cta_two_text }}
+        {{ page.cta_two_text | markdownify }}
       </p>
       <img src="{{ page.cta_two_image }}" alt="">
       <a href="{{ page.cta_two_button_link }}" class="button">{{ page.cta_two_button_copy }}</a>
