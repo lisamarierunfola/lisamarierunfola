@@ -14,6 +14,34 @@ intro_copy: You were born to feel and live alive! These uplifting books will tak
   you from grief to happiness through every feeling in between with profound truths
   and bold clarity. Lisa Marie Runfola gently guides you through what you need to
   know to live and love a life that radiates joy.
+books:
+- image: "/assets/img/3dbook.png"
+  title: A Limitless Life in a Powerless World
+  subtitle: A Memoir
+  text: A Limitless Life in a Powerless World provides a safe place for those looking
+    for healing and spiritual guidance in the wake of trauma. With integration exercises
+    at the end of each chapter, it teaches readers how to practice self-care in moments
+    of weakness and encourages them to find strength in their individuality so they
+    can thrive through even the greatest of adversities.
+  links:
+  - copy: Buy from Amazon
+    link: https://www.amazon.com/Limitless-Life-Powerless-World/dp/1982219599/ref=sr_1_2?dchild=1&keywords=lisa+marie+runfola&qid=1632250207&sr=8-2
+  - copy: Buy from Barnes &amp; Noble
+    link: https://www.barnesandnoble.com/w/a-limitless-life-in-a-powerless-world-lisa-marie-runfola/1130543206;jsessionid=DC4558E21558460A554828B2AA8DEA17.prodny_store02-atgap17?ean=9781982219598
+- image: "/assets/img/3dbook2.png"
+  title: Women Who Empower
+  subtitle: A Collection
+  text: Immerse yourself in stories of perseverance, resilience, courage, grace, and
+    forgiveness from 30 women who have faced hardship and come out stronger. Lisa
+    Marie Runfola joins 29 others as co-author in this uplifting and heart-warming
+    collection. Lisa Marie’s contribution, 28 Suitcases, captures a moment of faith,
+    loss, connection, and hope as she finds her way through uncertainty. Explore this
+    incredible collection of inspirational and empowering short stories.
+  links:
+  - copy: Buy from Amazon
+    link: https://www.amazon.com/Women-Empower-Lisa-Marie-Runfola/dp/1952725437/ref=sr_1_3?dchild=1&keywords=lisa+marie+runfola&qid=1632250207&sr=8-3
+  - copy: Buy from Barnes &amp; Noble
+    link: https://www.barnesandnoble.com/w/women-who-empower-kate-butler/1138446010
 dark-header: true
 ---
 
