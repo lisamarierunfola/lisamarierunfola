@@ -56,6 +56,13 @@ steps:
   headline_second: Completed
   copy: By learning how to break through your blocks, face your fears, and set clear
     and loving boundaries, you’ll end up finding your happiness.
+call_cta_first: Book a
+call_cta_second: Discovery Call
+call_cta_link: "/contact#contact__form"
+quote_headline_first: Some
+quote_headline_second: Good
+quote_headline_third: Words
+quote_headline_cursive: From the Reignited
 testimonials:
 - quote: Lisa Marie Runfola changed my life. Literally.​ I feel like a whole new person.
     A person with boundaries and confidence to set boundaries.​ It was a truly transformational
@@ -73,6 +80,22 @@ testimonials:
     boundaries and keeping myself accountable is no longer an issue.
   name: Iona
   title: CLIENT
+podcast_image: "/assets/img/podcastcover.png"
+podcast_caption: Take a Listen
+podcast_headline: What’s Not Being Said Podcast
+podcast_text: What’s Not Being Said is a podcast by Lisa Marie Runfola. As a certified coach, author, and self-described Life Ignitor, Lisa Marie will help you “Flip The Switch and Turn Your Life Back On” during this illuminating conversation series. Join her as she speaks with authors, healers, coaches, and brave souls as they explore ways to help people feel more alive in every area of their lives.
+podcast_button_copy: Go To The Latest Episode
+podcast_button_link: "/podcast"
+cta_one_headline: Work with Me
+cta_one_text: Whether you need help setting up boundaries in your life or escaping the rut you’ve found yourself in, one-on-one coaching can provide a lot of insight.
+cta_one_image: "/assets/img/cta-face.png"
+cta_one_button_copy: Live Life Out Loud
+cta_one_button_link: "/lets-ignite"
+cta_two_headline: Books &amp; Speaking
+cta_two_text: Hear more about my experiences, my point of view on breaking through life’s walls, and more in my books and past speaking engagements.
+cta_two_image: "/assets/img/cta-book.png"
+cta_two_button_copy: Learn More
+cta_two_button_link: "/books-speaking"
 dark-header: true
 ---
 
@@ -326,144 +349,95 @@ dark-header: true
 </section>
 
 <section class="section home__steps">
-  <div class="module">
-    <img src="{{ site.baseurl }}/assets/img/step1.png" alt="">
-    <article>
-      <h3>Make a <br class="hide--mobile"> decision</h3>
-      <p>
-        You don’t have to wait for exactly the right moment to transform your life. Your moment is now!
-      </p>
-    </article>
-  </div>
-  <div class="module">
-    <img src="{{ site.baseurl }}/assets/img/step2.png" alt="">
-    <article>
-      <h3>Schedule a <br class="hide--mobile">
-        Discovery Call</h3>
-      <p>
-        Jump into action with a FREE 45-minute Kindling Call that will have you motivated and excited about life!
-      </p>
-    </article>
-  </div>
-  <div class="module">
-    <img src="{{ site.baseurl }}/assets/img/step3.png" alt="">
-    <article>
-      <h3>Show <br class="hide--mobile"> Commitment</h3>
-      <p>
-        Honor your whole self by creating the healthy boundaries that will help you live the life you’re waiting for.
-      </p>
-    </article>
-  </div>
-  <div class="module">
-    <img src="{{ site.baseurl }}/assets/img/step4.png" alt="">
-    <article>
-      <h3>Transformation <br class="hide--mobile"> Completed</h3>
-      <p>
-        By learning how to break through your blocks, face your fears, and set clear and loving boundaries, you’ll end up finding your happiness.
-      </p>
-    </article>
-  </div>
+  {% for step in page.steps %}
+    <div class="module">
+      <img src="{{ step.ribbon_image }}" alt="">
+      <article>
+        <h3>{{ step.headline_first }} <br class="hide--mobile"> {{ step.headline_second }}</h3>
+        <p>
+          {{ step.copy }}
+        </p>
+      </article>
+    </div>
+  {% endfor %}
 </section>
 
 <section class="section home__call">
   <article>
-    <a href="/contact#contact__form">
-      <h1>Book a <br class=""> Discovery Call
-      </h1>
+    <a href="{{ page.call_cta_link }}">
+      <h1>{{ page.call_cta_first }} <br class=""> {{ page.call_cta_second }}</h1>
       <img class="circle-arrow" src="{{ site.baseurl }}/assets/img/circle-arrow.svg" alt="">
     </a>
-
   </article>
 </section>
 
 <section class="section quote home__quote">
   <header>
-      <h1>Some <br class="hide--mobile">
-          <span class="shift">Good</span><br class="hide--mobile">
-          Words
+      <h1>{{ page.quote_headline_first }} <br class="hide--mobile">
+          <span class="shift">{{ page.quote_headline_second }}</span><br class="hide--mobile">
+          {{ page.quote_headline_third }}
       </h1>
-      <div class="cursive">From the Reignited</div>
+      <div class="cursive">{{ page.quote_headline_cursive }}</div>
   </header>
 
   <main>
       <div class="quote">&ldquo;</div>
       <div class="quote-carousel">
-        <div class="carousel-cell">
-          <p>
-            Lisa Marie Runfola changed my life. Literally.​ I feel like a whole new person. A person with boundaries and confidence to set boundaries.​ It was a truly transformational experience to be coached by Lisa Marie.
-          </p>
-          <cite>
-              <p class="person">Christine</p>
-              <p class="title">CLIENT</p>
-          </cite>
-        </div>  
-        <div class="carousel-cell">
-          <p>
-            Lisa Marie helped me with my biggest issue.​ Being comfortable with the discomfort of putting boundaries by visualizing the long term positive outcome will be one of the major learnings I got from Lisa​. I am so grateful to call her my coach and I am sure the universe sent me to her for a reason.
-          </p>
-          <cite>
-              <p class="person">Laura</p>
-              <p class="title">CLIENT</p>
-          </cite>
-        </div>  
-        <div class="carousel-cell">
-          <p>
-            Having completed Boundary Coaching with Lisa Marie Runfola, ​I can say this was one of the most inspiring and wonderful transformations for myself.​ Setting boundaries and keeping myself accountable is no longer an issue.
-          </p>
-          <cite>
-              <p class="person">Iona</p>
-              <p class="title">CLIENT</p>
-          </cite>
-        </div>  
+        {% for testimonial in page.testimonials %}
+          <div class="carousel-cell">
+            <p>
+              {{ testimonial.quote }}
+            </p>
+            <cite>
+                <p class="person">{{ testimonial.name }}</p>
+                <p class="title">{{ testimonial.title }}</p>
+            </cite>
+          </div>  
+        {% endfor %}
       </div>
-      
-      <!-- <img src="{{ site.baseurl }}/assets/img/arrow-mobile.svg" alt="" class="arrow"> -->
   </main>
 </section>
 
 <section class="section home__podcast">
   <aside>
-    <img src="{{ site.baseurl }}/assets/img/podcastcover.png" alt="Podcast cover art">
+    <img src="{{ page.podcast_image }}" alt="Podcast cover art">
   </aside>
 
   <main>
     <p class="caption">
-      Take a Listen
+      {{ page.podcast_caption }}
     </p>
 
     <h3>
-      What’s Not Being 
-      Said Podcast
+      {{ page.podcast_headline }}
     </h3>
 
     <p>
-      What’s Not Being Said is a podcast by Lisa Marie Runfola. As a certified coach, author, and self-described Life Ignitor, Lisa Marie will help you “Flip The Switch and Turn Your Life Back On” during this illuminating conversation series. Join her as she speaks with authors, healers, coaches, and brave souls as they explore ways to help people feel more alive in every area of their lives.
+      {{ page.podcast_text }}
     </p>
 
-    <a href="/podcast" class="button">Go the Latest Episode</a>
+    <a href="{{ page.podcast_button_link }}" class="button">{{ page.podcast_button_copy }}</a>
   </main> 
 </section>
 
 <section class="section cta home__cta">
-  <h3 class="hide--desktop">Work with Me</h3>
-
+  <h3 class="hide--desktop">{{ page.cta_one_headline }}</h3>
   <div class="module">
-      <h3 class="hide--mobile">Work with Me</h3>
+      <h3 class="hide--mobile">{{ page.cta_one_headline }}</h3>
       <p>
-        Whether you need help setting up boundaries in your life or escaping the rut you’ve found yourself in, one-on-one coaching can provide a lot of insight.
+        {{ page.cta_one_text }}
       </p>
-      <img src="{{ site.baseurl }}/assets/img/cta-face.png" alt="">
-      <a href="/lets-ignite" class="button">Live LIfe Out Loud</a>
+      <img src="{{ page.cta_one_image }}" alt="">
+      <a href="{{ page.cta_one_button_link }}" class="button">{{ page.cta_one_button_copy }}</a>
   </div>
   
-  <h3 class="hide--desktop">Books &amp; Speaking</h3>
+  <h3 class="hide--desktop">{{ page.cta_two_headline }}</h3>
   <div class="module">
-      <h3 class="hide--mobile">Books &amp; Speaking</h3>
+      <h3 class="hide--mobile">{{ page.cta_two_headline }}</h3>
       <p>
-        Hear more about my experiences, my point of view on breaking through life’s walls, and more in my books and past speaking engagements.
+        {{ page.cta_two_text }}
       </p>
-      <img src="{{ site.baseurl }}/assets/img/cta-book.png" alt="">
-      <a href="/books-speaking" class="button">Learn More</a>
+      <img src="{{ page.cta_two_image }}" alt="">
+      <a href="{{ page.cta_two_button_link }}" class="button">{{ page.cta_two_button_copy }}</a>
   </div>
-  
 </section>

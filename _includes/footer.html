@@ -1,27 +1,27 @@
 <footer class="section footer">
     <aside>
         <h3>
-            Are <br class="hide--mobile">
+            {{ site.footer_headline_first }} <br class="hide--mobile">
             <span class="shift">
-                You
+                {{ site.footer_headline_second }}
             </span> <br class="hide--mobile">
-            Ready
+            {{ site.footer_headline_third }}
         </h3>
         <div class="cursive">
-            to flip the switch?
+            {{ site.footer_headline_cursive }}
         </div>
     </aside>
 
     <main>
-        <p class="caption">Be Big. Be Vibrant. Be Energized.</p>
-        <p class="caption">Let’s Recharge And Ignite The Road Ahead.</p>
+        <p class="caption">{{ site.footer_caption_uppercase }}</p>
+        <p class="caption">{{ site.footer_caption_regular }}</p>
         <br>
         <p>
-            Enter your email address below to download the FREE How Leaky Are Your Boundaries Checklist and discover if your ability to set boundaries is full of holes or stronger than ever.  Every month, you will also receive resources and tips to ignite your life today and tend to your Boundary Flame.
+            {{ site.footer_text }}
         </p>
 
-        <a target="_blank" href="http://eepurl.com/hlm4yD" class="button">
-            Get Your Free Checklist
+        <a target="_blank" href="{{ site.footer_button_link }}" class="button">
+            {{ site.footer_button_copy }}
         </a>
     </main>
 
@@ -49,6 +49,6 @@
     </nav>
 
     <footer>
-        © 2021 Lisa Marie Runfola, LLC | All Rights Reserved 
+        {{ site.footer_copyright_copy }}
     </footer>
 </footer>
