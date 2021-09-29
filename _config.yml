@@ -65,6 +65,27 @@ podcast_platforms:
   link: http://www.stitcher.com/podcast/voice-for-possibility/whats-not-being-said
 - icon_image: "/assets/img/icon-heart.svg"
   link: http://iheart.com/podcast/86823733/
+quote_headline_first: Some
+quote_headline_second: Good
+quote_headline_third: Words
+quote_headline_cursive: From the Reignited
+testimonials:
+- quote: Lisa Marie Runfola changed my life. Literally.​ I feel like a whole new person.
+    A person with boundaries and confidence to set boundaries.​ It was a truly transformational
+    experience to be coached by Lisa Marie.
+  name: Christine
+  title: CLIENT
+- quote: Lisa Marie helped me with my biggest issue.​ Being comfortable with the discomfort
+    of putting boundaries by visualizing the long term positive outcome will be one
+    of the major learnings I got from Lisa​. I am so grateful to call her my coach
+    and I am sure the universe sent me to her for a reason.
+  name: Laura
+  title: CLIENT
+- quote: Having completed Boundary Coaching with Lisa Marie Runfola, ​I can say this
+    was one of the most inspiring and wonderful transformations for myself.​ Setting
+    boundaries and keeping myself accountable is no longer an issue.
+  name: Iona
+  title: CLIENT
 footer_headline_first: Are
 footer_headline_second: You
 footer_headline_third: Ready

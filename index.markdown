@@ -59,27 +59,6 @@ steps:
 call_cta_first: Book a
 call_cta_second: Discovery Call
 call_cta_link: "/contact#contact__form"
-quote_headline_first: Some
-quote_headline_second: Good
-quote_headline_third: Words
-quote_headline_cursive: From the Reignited
-testimonials:
-- quote: Lisa Marie Runfola changed my life. Literally.​ I feel like a whole new person.
-    A person with boundaries and confidence to set boundaries.​ It was a truly transformational
-    experience to be coached by Lisa Marie.
-  name: Christine
-  title: CLIENT
-- quote: Lisa Marie helped me with my biggest issue.​ Being comfortable with the discomfort
-    of putting boundaries by visualizing the long term positive outcome will be one
-    of the major learnings I got from Lisa​. I am so grateful to call her my coach
-    and I am sure the universe sent me to her for a reason.
-  name: Laura
-  title: CLIENT
-- quote: Having completed Boundary Coaching with Lisa Marie Runfola, ​I can say this
-    was one of the most inspiring and wonderful transformations for myself.​ Setting
-    boundaries and keeping myself accountable is no longer an issue.
-  name: Iona
-  title: CLIENT
 podcast_image: "/assets/img/podcastcover.png"
 podcast_caption: Take a Listen
 podcast_headline: What’s Not Being Said Podcast
@@ -379,17 +358,17 @@ dark-header: true
 
 <section class="section quote home__quote">
   <header>
-      <h1>{{ page.quote_headline_first }} <br class="hide--mobile">
-          <span class="shift">{{ page.quote_headline_second }}</span><br class="hide--mobile">
-          {{ page.quote_headline_third }}
+      <h1>{{ site.quote_headline_first }} <br class="hide--mobile">
+          <span class="shift">{{ site.quote_headline_second }}</span><br class="hide--mobile">
+          {{ site.quote_headline_third }}
       </h1>
-      <div class="cursive">{{ page.quote_headline_cursive }}</div>
+      <div class="cursive">{{ site.quote_headline_cursive }}</div>
   </header>
 
   <main>
       <div class="quote">&ldquo;</div>
       <div class="quote-carousel">
-        {% for testimonial in page.testimonials %}
+        {% for testimonial in site.testimonials %}
           <div class="carousel-cell">
             <p>
               {{ testimonial.quote }}
