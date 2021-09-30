@@ -217,6 +217,12 @@ section.books-speaking__hero {
                 &:after {
                     content: url(../img/carat-right.svg);
                 }
+
+                &:hover, &:focus {
+                    transition: 0.25s;
+                    // border-color: $pink;
+                    color: $pink;
+                }
             }
         }
     }

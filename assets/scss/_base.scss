@@ -251,6 +251,11 @@ section.hero {
 		width: 400px;
 		height: 80px;
 	}
+
+	&:hover, &:focus {
+		background: $navy;
+		color: $white;
+	}
 }
 
 footer.footer {
@@ -338,6 +343,11 @@ footer.footer {
 				margin-top: 44px;
 				width: 100%;
 				border-color: $white;
+
+				&:hover, &:focus {
+					background: $white;
+					color: $navy;
+				}
 			}
 		}
 
@@ -403,6 +413,14 @@ footer.footer {
 						padding-left: 0;
 						padding-right: 0;
 					}
+
+					> a {
+						&:hover, &:focus {
+							border-bottom: 1px solid $white;
+						}
+					}
+
+					
 
 					&.expanding {
 						&.show {

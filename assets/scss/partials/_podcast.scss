@@ -92,6 +92,10 @@ section.podcast__hero {
             img {
                 width: 50px;
                 margin: 0 1rem;
+                &:hover, &:focus {
+                    transform: translateY(-2px);
+                    opacity: 0.85;
+                }
             }
         }
     }
@@ -221,6 +225,12 @@ section.podcast__hero {
             @include large {
                 font-size: 1.25rem
             }
+
+            > a {
+                &:hover, &:focus {
+                    color: $pink;
+                }
+            }
         }
     }
 
@@ -307,6 +317,12 @@ section.podcast__hero {
                 @include large {
                     font-size: 1.25rem
                 }
+
+                > a {
+                    &:hover, &:focus {
+                        color: $white;
+                    }
+                }
             }
         }
     }
@@ -324,6 +340,11 @@ section.podcast__hero {
         .button {
             background: $navy;
             color: $white;
+
+            &:hover, &:focus {
+                background: $white;
+                color: $navy;
+            }
         }
     }
 

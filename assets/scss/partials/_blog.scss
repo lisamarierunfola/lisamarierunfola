@@ -184,6 +184,12 @@
             button.share {
                 width: 100%;
                 border: 0;
+                cursor: auto;
+
+                &:hover, &:focus {
+                    background: none;
+                    color: $navy;
+                }
 
                 svg {
                     width: 1rem;
@@ -231,7 +237,10 @@
         }
 
         a {
-
+            &:hover, &:focus {
+                transform: translateY(-2px);
+                opacity: 0.85;
+            }
         }
     }
 }
