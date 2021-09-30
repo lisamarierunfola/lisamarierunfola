@@ -6,11 +6,11 @@ hero_copy: What isn’t being said is that you have the power inside to light up
   life again. It’s time. Let me show you how.
 form_headline: Let&rsquo;s Talk
 form_interests:
-- "Coaching"
-- "Speaking"
-- "Writing"
-- "General Inquiry"
-- "Other"
+- Coaching
+- Speaking
+- Writing
+- General Inquiry
+- Other
 ---
 
 <section class="section hero contact__hero">
