@@ -187,39 +187,39 @@ dark-header: true
 
 <div class="marquee-container">
     <span class="marquee__item scrolling">
-      {{ page.hero_marquee_copy }}}
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      {{ page.hero_marquee_copy }}}
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      {{ page.hero_marquee_copy }}}
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-      {{ page.hero_marquee_copy }}}
+      {{ page.hero_marquee_copy }}
     </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span><span class="marquee__item scrolling" aria-hidden="true">
-        {{ page.hero_marquee_copy }}}
+        {{ page.hero_marquee_copy }}
       </span>
     
 </div>
