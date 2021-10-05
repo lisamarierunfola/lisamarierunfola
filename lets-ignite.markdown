@@ -155,7 +155,7 @@ offering_three_image: "/assets/img/3.png"
         <div class="description hide--mobile">
             {{ page.offering_one_text | markdownify }}
         </div>
-        <a href="{{ page.offering_one_button_link }}" class="button">
+        <a target="_blank" href="{{ page.offering_one_button_link }}" class="button">
             {{ page.offering_one_button_copy }}
         </a>
     </header>
@@ -163,7 +163,7 @@ offering_three_image: "/assets/img/3.png"
     <div class="description hide--desktop">
       {{ page.offering_one_text | markdownify }}
     </div>
-    <a href="{{ page.offering_one_button_link }}" class="button hide--desktop">
+    <a target="_blank" href="{{ page.offering_one_button_link }}" class="button hide--desktop">
       {{ page.offering_one_button_copy }}
     </a>
 </section>
