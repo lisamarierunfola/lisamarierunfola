@@ -44,7 +44,7 @@ steps:
 - ribbon_image: "/assets/img/step2.png"
   headline_first: Schedule a
   headline_second: Discovery Call
-  copy: Jump into action with a FREE 45-minute Kindling Call that will have you motivated
+  copy: Jump into action with a FREE 45-minute Discovery Call that will have you motivated
     and excited about life!
 - ribbon_image: "/assets/img/step3.png"
   headline_first: Show
