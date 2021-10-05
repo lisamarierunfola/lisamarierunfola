@@ -28,7 +28,7 @@ offering_one_text: |-
 
   You’d be surprised to find out just how much we can change your life in 45 minutes. During this complementary call, we’ll look at some of the factors in your life that have you feeling stuck and tapped out. We’ll get clear on your desires and goals. Then we’ll create an achievable plan so that you can take action immediately.
 offering_one_button_copy: Book Your Free Call Now
-offering_one_button_link: "/contact#contact__form"
+offering_one_button_link: https://keap.app/booking/lisamarierunfola/45-60-min-intro-session
 offering_one_image: "/assets/img/1.png"
 offering_two_badge_image: "/assets/img/badge3.png"
 offering_two_caption: 12 Week Session
@@ -41,7 +41,7 @@ offering_two_text: Ignited By Boundaries is specifically designed to help over-g
   program will help you cultivate the confidence and courage you need to step into
   the life you desire!
 offering_two_button_copy: Sign Up Now
-offering_two_button_link: "/contact#contact__form"
+offering_two_button_link: https://keap.app/booking/lisamarierunfola/45-60-min-intro-session
 offering_two_image: "/assets/img/2.png"
 offering_three_badge_image: "/assets/img/badge2.png"
 offering_three_caption: 8 Week Session
@@ -55,7 +55,7 @@ offering_three_text: If you close your eyes and take a few long, slow breaths an
   Coaching – an eye-opening & empowering experience I gained from the wonderful Levin
   Life Coaching Academy.
 offering_three_button_copy: Sign Up Now
-offering_three_button_link: "/contact#contact__form"
+offering_three_button_link: https://keap.app/booking/lisamarierunfola/45-60-min-intro-session
 offering_three_image: "/assets/img/3.png"
 ---
 
