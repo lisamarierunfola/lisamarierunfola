@@ -76,8 +76,12 @@ layout: default
         </div>
 
         <div class="links">
-            <a href="#" class="button">Next</a>
-            <a href="#" class="button">Previous</a>
+            {% if page.next.url %}
+                <a href="{{ page.next.url }}" class="button">Next</a>
+            {% endif %}
+            {% if page.previous.url %}
+                <a href="{{ page.previous.url }}" class="button">Previous</a>
+            {% endif %}
             <button class="button share">Share On
                 <a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}">
                     <svg width="" height="" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
