@@ -58,7 +58,7 @@ steps:
     and loving boundaries, you’ll end up finding your happiness.
 call_cta_first: Book a
 call_cta_second: Discovery Call
-call_cta_link: "/contact#contact__form"
+call_cta_link: https://keap.app/booking/lisamarierunfola/45-60-min-intro-session
 podcast_image: "/assets/img/podcastcover.png"
 podcast_caption: Take a Listen
 podcast_headline: What’s Not Being Said Podcast
