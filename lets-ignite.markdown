@@ -40,7 +40,7 @@ offering_two_text: Ignited By Boundaries is specifically designed to help over-g
   work of Nancy Levin and her book, Setting Boundaries Will Set You Free, this 12-week
   program will help you cultivate the confidence and courage you need to step into
   the life you desire!
-offering_two_button_copy: Sign Up Now
+offering_two_button_copy: Book Your Free Call Now
 offering_two_button_link: https://keap.app/booking/lisamarierunfola/45-60-min-intro-session
 offering_two_image: "/assets/img/2.png"
 offering_three_badge_image: "/assets/img/badge2.png"
@@ -54,7 +54,7 @@ offering_three_text: If you close your eyes and take a few long, slow breaths an
   bowled over with much more positive energy. I achieved this through Reinvention
   Coaching – an eye-opening & empowering experience I gained from the wonderful Levin
   Life Coaching Academy.
-offering_three_button_copy: Sign Up Now
+offering_three_button_copy: Book Your Free Call Now
 offering_three_button_link: https://keap.app/booking/lisamarierunfola/45-60-min-intro-session
 offering_three_image: "/assets/img/3.png"
 ---
