@@ -245,13 +245,13 @@ p, ul, ol, dl {
 }
 
 ::selection {
-  background: rgba(black, 0.7);
-	color: white;
+  background: $navy;
+	color: $white;
 }
 
 ::-moz-selection {
-  background: rgba(black, 0.7);
-	color: white;
+  background: $navy;
+	color: $white;
 }
 
 html, body {

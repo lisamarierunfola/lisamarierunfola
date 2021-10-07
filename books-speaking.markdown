@@ -222,5 +222,5 @@ dark-header: true
 </section>
 
 <div class="books-speaking__background">
-    <img src="{{ site.baseurl }}/assets/img/collaborate3.png" alt="">
+    <img src="{{ site.baseurl }}/assets/img/collaborate4.png" alt="">
 </div>
