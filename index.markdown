@@ -349,7 +349,7 @@ dark-header: true
 
 <section class="section home__call">
   <article>
-    <a href="{{ page.call_cta_link }}">
+    <a href="{{ page.call_cta_link }}" target="_blank">
       <h1>{{ page.call_cta_first }} <br class=""> {{ page.call_cta_second }}</h1>
       <img class="circle-arrow" src="{{ site.baseurl }}/assets/img/circle-arrow.svg" alt="">
     </a>
