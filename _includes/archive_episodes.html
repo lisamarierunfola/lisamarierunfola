@@ -1,5 +1,4 @@
-{% assign sorted = site.blog | sort: 'date' | reverse %}
-{% for post in sorted limit:3 %}
+{% for post in site.blog reversed %}
     <div class="module">
         <figure>
             <img src="{{ post.image }}" alt="Podcast Cover Image">
