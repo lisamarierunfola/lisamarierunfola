@@ -19,9 +19,9 @@ defaults:
     layout: default
 - scope:
     path: ''
-    type: "posts"
+    type: posts
   values:
-    layout: "post"
+    layout: post
     podcast_embed_code: 
 description: My name is Lisa-Marie Runfola, and welcome to the *What's Not Being Said*
   Podcast. I'm a life coach, author, and a Life Ignitor. My goal is to help you “Flip
