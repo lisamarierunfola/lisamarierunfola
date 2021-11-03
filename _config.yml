@@ -19,11 +19,12 @@ defaults:
     layout: default
     permalink: "/:title/"
 - scope:
-    path: blog
+    path: "blog"
     type: posts
   values:
     layout: post
     permalink: "/podcast/:title/"
+    podcast_embed_code: 
 - scope:
     path: ''
     type: pages
