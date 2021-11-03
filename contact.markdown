@@ -1,5 +1,6 @@
 ---
 title: Contact
+hero_background_image: "/assets/img/contact-hero-bg3.png"
 hero_headline_first: Get in
 hero_headline_second: Touch
 hero_copy: What isn’t being said is that you have the power inside to light up your
@@ -13,7 +14,7 @@ form_interests:
 - Other
 ---
 
-<section class="section hero contact__hero">
+<section class="section hero contact__hero" style="background-image: url('{{ page.hero_background_image }}')">
     <main>
         <h1>{{ page.hero_headline_first }}
             <br class="hide--mobile">
@@ -28,7 +29,7 @@ form_interests:
     </main>
 
     <div class="background">
-        <img src="{{ site.baseurl }}/assets/img/contact-hero-bg3.png" alt="">
+        <img src="{{ page.hero_background_image }}" alt="">
     </div>
 </section>
 

@@ -1,15 +1,15 @@
 section.contact__hero {
     background-color: $yellow;
-    // background-image: url('../img/contact-hero-bg.png');
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-position-x: center;
     background-size: contain;
     height: initial;
     overflow-y: hidden;
+    background-size: 0px;
 
     @include large {
-        background-image: url('../img/contact-hero-bg3.png');
+        // background-image: url('../img/contact-hero-bg3.png');
         background-position-x: right;
         background-position-y: bottom;
         background-size: 55.5%;
