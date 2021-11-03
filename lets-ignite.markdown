@@ -1,5 +1,6 @@
 ---
 title: Let's Ignite
+hero_background_image: "/assets/img/letsignite-bg.png"
 hero_headline_first: Amplify Your Life.
 hero_headline_second: Set Clear Goals.
 hero_headline_third: Create Strong Boundaries.
@@ -59,7 +60,7 @@ offering_three_button_link: https://keap.app/booking/lisamarierunfola/45-60-min-
 offering_three_image: "/assets/img/3.png"
 ---
 
-<section class="section hero ignite__hero">
+<section class="section hero ignite__hero" style="background-image: url('{{ page.hero_background_image }}'); ">
     <h1>
         {{ page.hero_headline_first }} <br class="hide--mobile">
         {{ page.hero_headline_second }}
