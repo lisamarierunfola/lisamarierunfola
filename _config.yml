@@ -12,28 +12,20 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: posts
-    type: posts
-  values:
-    layout: default
-    permalink: "/:title/"
-- scope:
-    path: "blog"
-    type: posts
-  values:
-    layout: post
-    permalink: "/podcast/:title/"
-    podcast_embed_code: 
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: default
-- scope:
-    path: ''
-  values:
-    layout: default
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "blog"
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/podast/:title"
+      podcast_embed_code: 
 description: My name is Lisa-Marie Runfola, and welcome to the *What's Not Being Said*
   Podcast. I'm a life coach, author, and a Life Ignitor. My goal is to help you “Flip
   The Switch and Turn Your Life Back On”. Join me for this weekly conversation series
