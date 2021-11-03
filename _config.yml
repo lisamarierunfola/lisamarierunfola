@@ -19,7 +19,7 @@ defaults:
     layout: default
 - scope:
     path: ''
-    type: "blog"
+    type: blog
   values:
     layout: post
     intro_text:
