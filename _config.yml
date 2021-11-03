@@ -7,7 +7,7 @@ collections:
     output: true
   posts:
     title: Posts
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -20,11 +20,11 @@ defaults:
       layout: "default"
   -
     scope:
-      path: "blog"
+      path: ""
       type: "posts"
     values:
       layout: "post"
-      permalink: "/podast/:title"
+      permalink: "/podcast/:title"
       podcast_embed_code: 
 description: My name is Lisa-Marie Runfola, and welcome to the *What's Not Being Said*
   Podcast. I'm a life coach, author, and a Life Ignitor. My goal is to help you “Flip
