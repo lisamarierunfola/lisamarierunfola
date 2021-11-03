@@ -2,7 +2,7 @@
 title: Lisa Marie Runfola
 timezone: America/New_York
 collections:
-  blog:
+  podcast:
     title: Blog
     output: true
   posts:
