@@ -19,7 +19,7 @@ defaults:
     layout: default
     permalink: "/:title/"
 - scope:
-    path: "blog"
+    path: blog
     type: posts
   values:
     layout: post
