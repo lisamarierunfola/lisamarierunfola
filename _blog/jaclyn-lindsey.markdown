@@ -14,7 +14,7 @@ guest_bio_text: |-
   Jaclyn has spent over fifteen years in the nonprofit space, where she’s helped raise more than $100M for domestic and international missions.
 
   An author & keynote speaker, she sits on the board of Children in Conflict and is an advisor to Expectful. When she’s not in the middle of a pandemic, Jaclyn loves adventuring around with her husband, Mancel, and their two boys, Abel and River, and spending time with family, friends or strangers around a dinner table.
-featured: true
+is_featured: true
 dark-header: true
 layout: post
 ---

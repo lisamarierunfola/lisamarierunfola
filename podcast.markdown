@@ -65,7 +65,7 @@ intro_text: There are always two parts to a conversation. The part that is said,
     <div class="episode">
 
         {% for post in site.blog %}
-            {% if post.featured %}
+            {% if post.is_featured %}
                 <header>
                     <a href="{{ post.url }}">
                         <h3>{{ post.title }}</h3>
@@ -85,7 +85,7 @@ intro_text: There are always two parts to a conversation. The part that is said,
 
     <div class="embed">
         {% for post in site.blog %}
-            {% if post.featured %}
+            {% if post.is_featured %}
                 {{ post.podcast_embed_code }}
             {% endif %}
         {% endfor %}
