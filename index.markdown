@@ -12,7 +12,7 @@ intro_fliptext_one: overwhelmed?
 intro_fliptext_two: stuck?
 intro_fliptext_three: uninspired?
 intro_fliptext_four: exhausted?
-intro_copy: It's time to rediscover your sparks
+intro_copy: It's time to rediscover your spark
 intro_button_copy: Light The Way
 intro_button_link: "/lets-ignite"
 about_headshot_image: "/assets/img/lmr-arch2.png"
